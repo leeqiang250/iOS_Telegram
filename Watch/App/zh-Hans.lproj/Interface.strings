@@ -1,0 +1,273 @@
+
+/* Class = "WKInterfaceLabel"; text = "Name"; ObjectID = "0Za-Qu-4HB"; */
+"0Za-Qu-4HB.text" = "Name";
+
+/* Class = "WKInterfaceLabel"; text = "Sticker Packs"; ObjectID = "0rk-Bk-LCR"; */
+"0rk-Bk-LCR.text" = "Sticker Packs";
+
+/* Class = "WKInterfaceLabel"; text = "Current Location"; ObjectID = "1hk-X0-a8q"; */
+"1hk-X0-a8q.text" = "Current Location";
+
+/* Class = "WKInterfaceButton"; title = "Reply"; ObjectID = "2iG-T9-riG"; */
+"2iG-T9-riG.title" = "Reply";
+
+/* Class = "WKInterfaceLabel"; text = "Name"; ObjectID = "3Z9-Rd-bAn"; */
+"3Z9-Rd-bAn.text" = "Name";
+
+/* Class = "WKInterfaceLabel"; text = "File Name"; ObjectID = "4kg-td-4gi"; */
+"4kg-td-4gi.text" = "File Name";
+
+/* Class = "WKInterfaceLabel"; text = "Button"; ObjectID = "5Kj-Bq-KbZ"; */
+"5Kj-Bq-KbZ.text" = "Button";
+
+/* Class = "WKInterfaceLabel"; text = "Name"; ObjectID = "6Hx-UP-mou"; */
+"6Hx-UP-mou.text" = "Name";
+
+/* Class = "WKInterfaceLabel"; text = "Text"; ObjectID = "6VU-Wo-3DB"; */
+"6VU-Wo-3DB.text" = "Text";
+
+/* Class = "WKInterfaceLabel"; text = "Address"; ObjectID = "6uB-mu-QSZ"; */
+"6uB-mu-QSZ.text" = "Address";
+
+/* Class = "WKInterfaceLabel"; text = "Text"; ObjectID = "7DV-4a-9iO"; */
+"7DV-4a-9iO.text" = "Text";
+
+/* Class = "WKInterfaceLabel"; text = "Name"; ObjectID = "7s1-eh-fbh"; */
+"7s1-eh-fbh.text" = "Name";
+
+/* Class = "WKInterfaceLabel"; text = "O"; ObjectID = "9dN-wn-ef3"; */
+"9dN-wn-ef3.text" = "O";
+
+/* Class = "WKInterfaceLabel"; text = "Site"; ObjectID = "A6g-LX-5ni"; */
+"A6g-LX-5ni.text" = "Site";
+
+/* Class = "WKInterfaceLabel"; text = "2:34"; ObjectID = "ASd-0Y-EQf"; */
+"ASd-0Y-EQf.text" = "2:34";
+
+/* Class = "WKInterfaceLabel"; text = "type"; ObjectID = "Adg-Kx-nm3"; */
+"Adg-Kx-nm3.text" = "type";
+
+/* Class = "WKInterfaceLabel"; text = "active handle"; ObjectID = "Alz-bn-Eqt"; */
+"Alz-bn-Eqt.text" = "active handle";
+
+/* Class = "WKInterfaceLabel"; text = "Time"; ObjectID = "BDV-2m-YlU"; */
+"BDV-2m-YlU.text" = "Time";
+
+/* Class = "WKInterfaceLabel"; text = "Time"; ObjectID = "Bg8-7r-Qar"; */
+"Bg8-7r-Qar.text" = "Time";
+
+/* Class = "WKInterfaceLabel"; text = "Size"; ObjectID = "Cuu-hD-s5V"; */
+"Cuu-hD-s5V.text" = "Size";
+
+/* Class = "WKInterfaceLabel"; text = "Text"; ObjectID = "D1w-ZG-PyH"; */
+"D1w-ZG-PyH.text" = "Text";
+
+/* Class = "WKInterfaceLabel"; text = "Caption"; ObjectID = "DFG-U5-QhE"; */
+"DFG-U5-QhE.text" = "Caption";
+
+/* Class = "WKInterfaceLabel"; text = "2:34"; ObjectID = "DT6-b5-gtK"; */
+"DT6-b5-gtK.text" = "2:34";
+
+/* Class = "WKInterfaceLabel"; text = "O"; ObjectID = "Ddv-cq-oiQ"; */
+"Ddv-cq-oiQ.text" = "O";
+
+/* Class = "WKInterfaceLabel"; text = "No matching\ncontacts found."; ObjectID = "FlC-BH-MFG"; */
+"FlC-BH-MFG.text" = "No matching\ncontacts found.";
+
+/* Class = "WKInterfaceLabel"; text = "last seen"; ObjectID = "GIZ-vh-BWi"; */
+"GIZ-vh-BWi.text" = "last seen";
+
+/* Class = "WKInterfaceLabel"; text = "Your most recent and frequent stickers will appear here"; ObjectID = "I8h-57-ntV"; */
+"I8h-57-ntV.text" = "Your most recent and frequent stickers will appear here";
+
+/* Class = "WKInterfaceLabel"; text = "View on phone"; ObjectID = "J8D-Ro-XwE"; */
+"J8D-Ro-XwE.text" = "View on phone";
+
+/* Class = "WKInterfaceLabel"; text = "Name"; ObjectID = "NcR-BI-vWb"; */
+"NcR-BI-vWb.text" = "Name";
+
+/* Class = "WKInterfaceLabel"; text = "Date"; ObjectID = "Nxu-ES-aFB"; */
+"Nxu-ES-aFB.text" = "Date";
+
+/* Class = "WKInterfaceLabel"; text = "UN:"; ObjectID = "ODF-M0-uHm"; */
+"ODF-M0-uHm.text" = "UN:";
+
+/* Class = "WKInterfaceLabel"; text = "Forwarded from"; ObjectID = "OLg-bD-2cG"; */
+"OLg-bD-2cG.text" = "Forwarded from";
+
+/* Class = "WKInterfaceLabel"; text = "Alert"; ObjectID = "Owx-AP-NfS"; */
+"Owx-AP-NfS.text" = "Alert";
+
+/* Class = "WKInterfaceLabel"; text = "Name"; ObjectID = "Ptx-Pg-MXb"; */
+"Ptx-Pg-MXb.text" = "Name";
+
+/* Class = "WKInterfaceLabel"; text = "Name"; ObjectID = "Q5w-ti-hUD"; */
+"Q5w-ti-hUD.text" = "Name";
+
+/* Class = "WKInterfaceLabel"; text = "Phone"; ObjectID = "R1e-dx-sbf"; */
+"R1e-dx-sbf.text" = "Phone";
+
+/* Class = "WKInterfaceLabel"; text = "Timestamp"; ObjectID = "TLa-17-wWa"; */
+"TLa-17-wWa.text" = "Timestamp";
+
+/* Class = "WKInterfaceLabel"; text = "type"; ObjectID = "Tkq-bb-Ggr"; */
+"Tkq-bb-Ggr.text" = "type";
+
+/* Class = "WKInterfaceLabel"; text = "Desc"; ObjectID = "Tvl-XX-zzg"; */
+"Tvl-XX-zzg.text" = "Desc";
+
+/* Class = "WKInterfaceLabel"; text = "2:34"; ObjectID = "UEz-AF-a5J"; */
+"UEz-AF-a5J.text" = "2:34";
+
+/* Class = "WKInterfaceLabel"; text = "Article Title"; ObjectID = "VPN-dp-dRi"; */
+"VPN-dp-dRi.text" = "Article Title";
+
+/* Class = "WKInterfaceLabel"; text = "O"; ObjectID = "W4l-Wh-OcP"; */
+"W4l-Wh-OcP.text" = "O";
+
+/* Class = "WKInterfaceLabel"; text = "Name"; ObjectID = "W56-AY-6jy"; */
+"W56-AY-6jy.text" = "Name";
+
+/* Class = "WKInterfaceLabel"; text = "description"; ObjectID = "WuA-Ct-cpr"; */
+"WuA-Ct-cpr.text" = "description";
+
+/* Class = "WKInterfaceLabel"; text = "TITLE"; ObjectID = "XM4-Tm-Tot"; */
+"XM4-Tm-Tot.text" = "TITLE";
+
+/* Class = "WKInterfaceLabel"; text = "Alert"; ObjectID = "aKc-bd-iJw"; */
+"aKc-bd-iJw.text" = "Alert";
+
+/* Class = "WKInterfaceLabel"; text = "handle"; ObjectID = "bCD-bF-QjI"; */
+"bCD-bF-QjI.text" = "handle";
+
+/* Class = "WKInterfaceLabel"; text = "File Name"; ObjectID = "bUK-Dx-Liq"; */
+"bUK-Dx-Liq.text" = "File Name";
+
+/* Class = "WKInterfaceLabel"; text = "Text"; ObjectID = "bud-Nf-P9v"; */
+"bud-Nf-P9v.text" = "Text";
+
+/* Class = "WKInterfaceLabel"; text = "2:34"; ObjectID = "d4e-qi-dHW"; */
+"d4e-qi-dHW.text" = "2:34";
+
+/* Class = "WKInterfaceLabel"; text = "Text"; ObjectID = "e0G-l6-VwZ"; */
+"e0G-l6-VwZ.text" = "Text";
+
+/* Class = "WKInterfaceLabel"; text = "members,"; ObjectID = "e6a-wt-Pr3"; */
+"e6a-wt-Pr3.text" = "members,";
+
+/* Class = "WKInterfaceLabel"; text = "Size"; ObjectID = "eca-TA-utp"; */
+"eca-TA-utp.text" = "Size";
+
+/* Class = "WKInterfaceLabel"; text = "last seen"; ObjectID = "gPu-uK-Rmu"; */
+"gPu-uK-Rmu.text" = "last seen";
+
+/* Class = "WKInterfaceLabel"; text = "Forward"; ObjectID = "gmz-9g-lxa"; */
+"gmz-9g-lxa.text" = "Forward";
+
+/* Class = "WKInterfaceLabel"; text = "Name"; ObjectID = "h0t-5m-YPd"; */
+"h0t-5m-YPd.text" = "Name";
+
+/* Class = "WKInterfaceLabel"; text = "O"; ObjectID = "hD9-Rb-Ne1"; */
+"hD9-Rb-Ne1.text" = "O";
+
+/* Class = "WKInterfaceLabel"; text = "Name"; ObjectID = "hZA-Ux-hB3"; */
+"hZA-Ux-hB3.text" = "Name";
+
+/* Class = "WKInterfaceLabel"; text = "Name"; ObjectID = "j04-aR-KSI"; */
+"j04-aR-KSI.text" = "Name";
+
+/* Class = "WKInterfaceLabel"; text = "Name"; ObjectID = "jbu-Oz-V8L"; */
+"jbu-Oz-V8L.text" = "Name";
+
+/* Class = "WKInterfaceLabel"; text = "Name"; ObjectID = "jhO-ox-IcI"; */
+"jhO-ox-IcI.text" = "Name";
+
+/* Class = "WKInterfaceLabel"; text = "Caption"; ObjectID = "kaM-1v-3k6"; */
+"kaM-1v-3k6.text" = "Caption";
+
+/* Class = "WKInterfaceLabel"; text = "Text"; ObjectID = "kk0-zw-fCl"; */
+"kk0-zw-fCl.text" = "Text";
+
+/* Class = "WKInterfaceLabel"; text = "Count"; ObjectID = "lcf-QF-oNn"; */
+"lcf-QF-oNn.text" = "Count";
+
+/* Class = "WKInterfaceLabel"; text = "Alert"; ObjectID = "mrs-fq-a0d"; */
+"mrs-fq-a0d.text" = "Alert";
+
+/* Class = "WKInterfaceLabel"; text = "Text"; ObjectID = "nQW-fB-pYI"; */
+"nQW-fB-pYI.text" = "Text";
+
+/* Class = "WKInterfaceLabel"; text = "Chat Title"; ObjectID = "nY4-PY-ouY"; */
+"nY4-PY-ouY.text" = "Chat Title";
+
+/* Class = "WKInterfaceLabel"; text = "Chat Title"; ObjectID = "nxH-Wj-uqy"; */
+"nxH-Wj-uqy.text" = "Chat Title";
+
+/* Class = "WKInterfaceLabel"; text = "O"; ObjectID = "oCf-V0-DPW"; */
+"oCf-V0-DPW.text" = "O";
+
+/* Class = "WKInterfaceLabel"; text = "Text"; ObjectID = "obt-pK-Aw0"; */
+"obt-pK-Aw0.text" = "Text";
+
+/* Class = "WKInterfaceLabel"; text = "Name"; ObjectID = "pwy-nS-BKU"; */
+"pwy-nS-BKU.text" = "Name";
+
+/* Class = "WKInterfaceLabel"; text = "online"; ObjectID = "qwN-xb-MCa"; */
+"qwN-xb-MCa.text" = "online";
+
+/* Class = "WKInterfaceLabel"; text = "O"; ObjectID = "rfr-WW-22d"; */
+"rfr-WW-22d.text" = "O";
+
+/* Class = "WKInterfaceLabel"; text = "Forwarded from"; ObjectID = "skX-7L-Ch5"; */
+"skX-7L-Ch5.text" = "Forwarded from";
+
+/* Class = "WKInterfaceLabel"; text = "/command"; ObjectID = "ssL-SP-H9R"; */
+"ssL-SP-H9R.text" = "/command";
+
+/* Class = "WKInterfaceLabel"; text = "Name"; ObjectID = "t2S-5n-2vv"; */
+"t2S-5n-2vv.text" = "Name";
+
+/* Class = "WKInterfaceLabel"; text = "O"; ObjectID = "t2X-jq-3OE"; */
+"t2X-jq-3OE.text" = "O";
+
+/* Class = "WKInterfaceLabel"; text = "Forwarded from"; ObjectID = "ugR-GT-tRD"; */
+"ugR-GT-tRD.text" = "Forwarded from";
+
+/* Class = "WKInterfaceController"; title = "Telegram"; ObjectID = "umr-Wa-jBL"; */
+"umr-Wa-jBL.title" = "Telegram";
+
+/* Class = "WKInterfaceLabel"; text = "last seen"; ObjectID = "v3K-g8-bwK"; */
+"v3K-g8-bwK.text" = "last seen";
+
+/* Class = "WKInterfaceLabel"; text = "O"; ObjectID = "vXj-Oa-3wL"; */
+"vXj-Oa-3wL.text" = "O";
+
+/* Class = "WKInterfaceLabel"; text = "File Name"; ObjectID = "vYh-VG-Kbb"; */
+"vYh-VG-Kbb.text" = "File Name";
+
+/* Class = "WKInterfaceLabel"; text = "Reply"; ObjectID = "vrf-Wa-mes"; */
+"vrf-Wa-mes.text" = "Reply";
+
+/* Class = "WKInterfaceLabel"; text = "0"; ObjectID = "w4b-XD-siz"; */
+"w4b-XD-siz.text" = "0";
+
+/* Class = "WKInterfaceLabel"; text = "O"; ObjectID = "wvx-ky-HMv"; */
+"wvx-ky-HMv.text" = "O";
+
+/* Class = "WKInterfaceLabel"; text = "Name"; ObjectID = "x5q-EG-ayD"; */
+"x5q-EG-ayD.text" = "Name";
+
+/* Class = "WKInterfaceLabel"; text = "Name"; ObjectID = "xo7-Bw-tBc"; */
+"xo7-Bw-tBc.text" = "Name";
+
+/* Class = "WKInterfaceLabel"; text = "O"; ObjectID = "yMk-0t-IGt"; */
+"yMk-0t-IGt.text" = "O";
+
+/* Class = "WKInterfaceLabel"; text = "Text"; ObjectID = "yZh-D1-dhw"; */
+"yZh-D1-dhw.text" = "Text";
+
+/* Class = "WKInterfaceLabel"; text = "Size"; ObjectID = "yfu-XJ-oXa"; */
+"yfu-XJ-oXa.text" = "Size";
+
+/* Class = "WKInterfaceLabel"; text = "Text"; ObjectID = "zqg-to-DmT"; */
+"zqg-to-DmT.text" = "Text";

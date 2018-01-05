@@ -1,0 +1,2957 @@
+// Notifications
+"MESSAGE_TEXT" = "%1$@: %2$@";
+"MESSAGE_NOTEXT" = "%1$@ 给您发送了一条消息";
+"MESSAGE_PHOTO" = "%1$@ 给您发送了一张图片";
+"MESSAGE_PHOTO_SECRET" = "%1$@ 给您发送了一张自毁图片";
+"MESSAGE_VIDEO" = "%1$@ 给您发送了一个视频";
+"MESSAGE_VIDEO_SECRET" = "%1$@ 给您发送了一张自毁视频";
+"MESSAGE_ROUND" = "%1$@ 给您发送了一条视频消息";
+"MESSAGE_CONTACT" = "%1$@ 给您分享了联系信息";
+"MESSAGE_GEO" = "%1$@ 给您发送了一个位置";
+"MESSAGE_DOC" = "%1$@ 给您发送了一个文件";
+"MESSAGE_AUDIO" = "%1$@ 给您发送了一条语音消息";
+"MESSAGE_GIF" = "%1$@ 给您发送了一个 GIF";
+"ENCRYPTED_MESSAGE" = "您收到了一条新消息 %1$@";
+"LOCKED_MESSAGE" = "您收到了一条新消息 %1$@";
+"MESSAGE_SCREENSHOT" = "%1$@ 截屏了!";
+"ENCRYPTION_REQUEST" = "新私密对话请求 %1$@";
+"ENCRYPTION_ACCEPT" = "您的私密对话请求已被接受 %1$@";
+"DC_UPDATE" = "打开此通知以更新应用程序";
+
+"CHAT_JOINED" = "%1$@ 加入了这个群组 %2$@";
+
+"CHAT_MESSAGE_TEXT" = "%1$@@%2$@: %3$@";
+"CHAT_MESSAGE_NOTEXT" = "%1$@ 发送了一条消息到群组 %2$@";
+"CHAT_MESSAGE_PHOTO" = "%1$@ 发送了一张图片到群组 %2$@";
+"CHAT_MESSAGE_VIDEO" = "%1$@ 发送了一段视频到群组 %2$@";
+"CHAT_MESSAGE_ROUND" = "%1$@ 向群组 %2$@ 发送了视频消息";
+"CHAT_MESSAGE_CONTACT" = "%1$@ 向群组 %2$@ 分享了联系信息";
+"CHAT_MESSAGE_GEO" = "%1$@ 向群组 %2$@ 分享了地理位置";
+"CHAT_MESSAGE_DOC" = "%1$@ 向群组 %2$@ 分享了文件";
+"CHAT_MESSAGE_AUDIO" = "%1$@ 向群组 %2$@ 发送了语音消息";
+"CHAT_MESSAGE_GIF" = "%1$@ 向群组 %2$@ 分享了 GIF";
+"CHAT_CREATED" = "%1$@ 邀请您加入群组 %2$@";
+"CHAT_TITLE_EDITED" = "%1$@ 编辑了群组 %2$@ 的名字";
+"CHAT_PHOTO_EDITED" = "%1$@ 编辑了群组 %2$@ 的图片";
+"CHAT_ADD_MEMBER" = "%1$@ 邀请了 %3$@ 加入群组 %2$@";
+"CHAT_ADD_YOU" = "%1$@ 邀请您加入群组 %2$@";
+"CHAT_DELETE_YOU" = "%1$@ 已将您从群组 %2$@ 中移除";
+"CHAT_DELETE_MEMBER" = "%1$@ 已将 %3$@ 从群组 %2$@ 中移除";
+"CHAT_LEFT" = "%1$@ 退出了群组 %2$@";
+"CHAT_RETURNED" = "%1$@ 回到了群组 %2$@";
+
+"MESSAGE_STICKER" = "%1$@ 向您发送了 %2$@ 贴纸";
+"CHAT_MESSAGE_STICKER" = "%1$@ 发送了 %3$@ 贴纸到群组 %2$@";
+
+"CONTACT_JOINED" = "%1$@ 加入了币用！";
+"CONTACT_ACTIVATED" = "%1$@ 帮助你激活你的账号!";
+
+"AUTH_UNKNOWN" = "在新设备上登录 %1$@";
+"AUTH_REGION" = "在新设备上登录 %1$@， 位置： %2$@";
+
+"MESSAGE_FWDS" = "%1$@ 向你转发了 %2$@ 条消息";
+"CHAT_MESSAGE_FWDS" = "%1$@ 转发了 %3$@ 条消息到群组 %2$@";
+
+"CHANNEL_MESSAGE_TEXT" = "%1$@：%2$@";
+"CHANNEL_MESSAGE_NOTEXT" = "%1$@ 发布了一段文字";
+"CHANNEL_MESSAGE_PHOTO" = "%1$@ 发布了一张图片";
+"CHANNEL_MESSAGE_VIDEO" = "%1$@ 发布了一个视频";
+"CHANNEL_MESSAGE_ROUND" = "%1$@ 发了一条视频消息";
+"CHANNEL_MESSAGE_DOC" = "%1$@ 发布了一个文件";
+"CHANNEL_MESSAGE_STICKER" = "%1$@ 发送了一个贴纸 (%2$@)";
+"CHANNEL_MESSAGE_AUDIO" = "%1$@ 发布了一条语音消息";
+"CHANNEL_MESSAGE_CONTACT" = "%1$@ 发布了一个联系信息";
+"CHANNEL_MESSAGE_GEO" = "%1$@ 发布了一个位置";
+"CHANNEL_MESSAGE_FWDS" = "%1$@ 转发了 %2$@ 一个邮件";
+"CHANNEL_MESSAGE_GIF" = "%1$@ 发布了一个 GIF";
+
+"PINNED_TEXT" = "%1$@ 已置顶 \"%2$@\"";
+"PINNED_NOTEXT" = "%1$@ 已置顶  1  条消息";
+"PINNED_PHOTO" = "%1$@ 已置顶 1 张图片";
+"PINNED_VIDEO" = "%1$@ 已置顶 1 个视频";
+"PINNED_ROUND" = "%1$@ 已置顶 1 条视频消息";
+"PINNED_DOC" = "%1$@ 已置顶 1 个文件";
+"PINNED_STICKER" = "%1$@ 已置顶 1 个贴纸 (%2$@)";
+"PINNED_AUDIO" = "%1$@ 已置顶 1 条语音消息";
+"PINNED_CONTACT" = "%1$@ 已置顶 1 个联系人信息";
+"PINNED_GEO" = "%1$@ 已置顶 1 个位置";
+"PINNED_GIF" = "%1$@ 已置顶 1 个 GIF";
+
+"MESSAGE_GAME" = "%1$@ 邀请您玩 %2$@";
+"CHANNEL_MESSAGE_GAME" = "%1$@ 邀请您玩 %2$@";
+"CHAT_MESSAGE_GAME" = "%1$@ 邀请您加入群组 %2$@  来玩 %3$@";
+"PINNED_GAME" = "%1$@ 已置顶 1 个游戏";
+
+"PHONE_CALL_REQUEST" = "%1$@ 正在呼叫...";
+"PHONE_CALL_MISSED" = "你错过了来自 %1$@ 的呼叫";
+
+// Common
+"Common.OK" = "好";
+"Common.Cancel" = "取消";
+"Common.Edit" = "编辑";
+"Common.edit" = "编辑";
+"Common.Done" = "完成";
+"Common.Next" = "下一步";
+"Common.Delete" = "删除";
+"Common.Create" = "创建";
+"Common.Back" = "返回";
+"Common.Forward" = "前往";
+"Common.Close" = "关闭";
+"Common.Yes" = "是";
+"Common.No" = "否";
+"Common.TakePhotoOrVideo" = "拍摄";
+"Common.TakePhoto" = "拍照";
+"Common.ChoosePhoto" = "选择照片";
+"Common.ChooseVideo" = "选择视频";
+"Common.of" = "/";
+"Common.Search" = "搜索";
+"Common.More" = "更多";
+"Common.Select" = "选择";
+
+// State
+"State.connecting" = "连接中";
+"State.updating" = "更新中...";
+"State.Connecting" = "连接中...";
+"State.ConnectingToProxy" = "正在连接代理...";
+"State.ConnectingToProxyInfo" = "点击设置";
+"State.Updating" = "收取中...";
+"State.WaitingForNetwork" = "等待网络连接";
+
+// Presence
+"Presence.online" = "当前在线";
+"Presence.offline" = "离线";
+"Presence.invisible" = "隐身";
+
+// Date
+"Month.GenJanuary" = "1 月";
+"Month.GenFebruary" = "2 月";
+"Month.GenMarch" = "3 月";
+"Month.GenApril" = "4 月";
+"Month.GenMay" = "5 月";
+"Month.GenJune" = "6 月";
+"Month.GenJuly" = "7 月";
+"Month.GenAugust" = "8 月";
+"Month.GenSeptember" = "9 月";
+"Month.GenOctober" = "10 月";
+"Month.GenNovember" = "11 月";
+"Month.GenDecember" = "12 月";
+"Month.ShortJanuary" = "1 月";
+"Month.ShortFebruary" = "2 月";
+"Month.ShortMarch" = "3 月";
+"Month.ShortApril" = "4 月";
+"Month.ShortMay" = "5 月";
+"Month.ShortJune" = "6 月";
+"Month.ShortJuly" = "7 月";
+"Month.ShortAugust" = "8 月";
+"Month.ShortSeptember" = "9 月";
+"Month.ShortOctober" = "10 月";
+"Month.ShortNovember" = "11 月";
+"Month.ShortDecember" = "12 月";
+"Weekday.ShortMonday" = "周一";
+"Weekday.ShortTuesday" = "周二";
+"Weekday.ShortWednesday" = "周三";
+"Weekday.ShortThursday" = "周四";
+"Weekday.ShortFriday" = "周五";
+"Weekday.ShortSaturday" = "周六";
+"Weekday.ShortSunday" = "周日";
+"Weekday.Monday" = "星期一";
+"Weekday.Tuesday" = "星期二";
+"Weekday.Wednesday" = "星期三";
+"Weekday.Thursday" = "星期四";
+"Weekday.Friday" = "星期五";
+"Weekday.Saturday" = "星期六";
+"Weekday.Sunday" = "星期日";
+"Weekday.Today" = "今天";
+"Weekday.Yesterday" = "昨天";
+
+"Time.TodayAt" = "今天 %@";
+"Time.YesterdayAt" = "昨天 %@";
+
+"LastSeen.JustNow" = "刚刚在线";
+"LastSeen.MinutesAgo_0" = "%@ 分钟前在线";
+"LastSeen.MinutesAgo_1" = "1 分钟前在线"; //one
+"LastSeen.MinutesAgo_2" = "%@ 分钟前在线"; //two
+"LastSeen.MinutesAgo_3_10" = "%@ 分钟前在线"; //three to ten
+"LastSeen.MinutesAgo_many" = "%@ 分钟前在线";
+"LastSeen.MinutesAgo_any" = "%@ 分钟前在线"; // more than ten
+"LastSeen.HoursAgo_0" = " %@ 小时前在线";
+"LastSeen.HoursAgo_1" = "1 小时前在线";
+"LastSeen.HoursAgo_2" = "%@ 小时前在线";
+"LastSeen.HoursAgo_3_10" = " %@ 小时前在线";
+"LastSeen.HoursAgo_any" = "%@ 小时前在线";
+"LastSeen.HoursAgo_many" = "%@ 小时前在线";
+"LastSeen.HoursAgo_0" = " %@ 小时前在线";
+"LastSeen.TodayAt" = "今日 %@ 在线";
+"LastSeen.YesterdayAt" = "昨天 %@ 在线";
+"LastSeen.AtWeekday" = "上个工作日 %@ 在线";
+"LastSeen.AtDate" = " %@ 在线";
+"LastSeen.Lately" = "最近上过线";
+"LastSeen.WithinAWeek" = "几天前在线";
+"LastSeen.WithinAMonth" = "几周前在线";
+"LastSeen.ALongTimeAgo" = "离线已久";
+
+"Date.DialogDateFormat" = "{month} {day} 日";
+
+// Tour
+"Tour.Title1" = "币用";
+"Tour.Text1" = "世界上**最快的**聊天工具\n**免费**又**安全**";
+
+"Tour.Title2" = "快速";
+"Tour.Text2" = "**币用** 以同类软件中最快的速度\n为您传递消息";
+
+"Tour.Title3" = "强大";
+"Tour.Text3" = "**币用** 不论消息或是媒体文件\n都无大小限制";
+
+"Tour.Title4" = "安全";
+"Tour.Text4" = "**币用** 保证您的消息安全\n不受黑客侵扰";
+
+"Tour.Title5" = "云端";
+"Tour.Text5" = "**币用** 允许您通过多个设备访问您的\n聊天记录";
+
+"Tour.Title6" = "免费";
+"Tour.Text6" = "**币用** 永久免费\n不收取任何费用";
+
+"Tour.Title7" = "Private";
+"Tour.Text7" = "**币用** 消息多种加密，支持阅后即焚.";
+
+"Tour.StartButton" = "开始使用";
+
+// Login
+"Login.PhoneAndCountryHelp" = "请确认您的国家代码并输入您的手机号码。";
+"Login.CodeHelp" = "我们通过短信向您发送了验证码\n%@";
+"Login.CodeSentInternal" = "请输入我们发送至您已登陆设备的验证码";
+"Login.HaveNotReceivedCodeInternal" = "没有收到验证码？";
+"Login.CodeSentSms" = "我们通过短信向您发送了验证码";
+"Login.Code" = "验证码";
+"Login.CallRequestState1" = "币用会在 %d:%.2d 后改用电话语音播报验证码";
+"Login.CallRequestState2" = "正在向币用发送呼叫请求...";
+"Login.CallRequestState3" = "币用已拨打您的电话\n[仍未收到验证码？]";
+"Login.EmailNotConfiguredError" = "请先启用邮箱账号";
+"Login.EmailCodeSubject" = "%@, no code";
+"Login.EmailCodeBody" = "手机号是:\n%@\n无法获取币用激活码.";
+"Login.UnknownError" = "出现未知错误，请稍后再试";
+"Login.InvalidCodeError" = "验证码错误，请重新输入";
+"Login.NetworkError" = "请检查您的网络连接后重试";
+"Login.CodeExpiredError" = "验证码已过期，请重试";
+"Login.CodeFloodError" = "错误次数已达上限，请稍后再试";
+"Login.InvalidPhoneError" = "手机号码无效，请重新输入。";
+"Login.InvalidFirstNameError" = "姓氏无效，请重新输入";
+"Login.InvalidLastNameError" = "名字无效，请重新输入";
+"Login.InactiveHelp" = "你的朋友还没有加入币用.\n我们会在他们加入后通知您.\n您也可以马上邀请朋友加入.";
+"Login.InviteButton" = "邀请朋友加入群聊";
+"Login.InvitationCodeError" = "邀请码无效";
+"Login.InvitationCode" = "邀请码";
+
+"Login.PhoneTitle" = "您的电话号码";
+"Login.PhonePlaceholder" = "您的手机号码";
+"Login.CountryCode" = "国家代码";
+"Login.InvalidCountryCode" = "国家代码无效";
+
+"Login.CodeTitle" = "您的代码";
+
+"Login.InfoTitle" = "个人信息";
+"Login.InfoAvatarAdd" = "上传";
+"Login.InfoAvatarPhoto" = "头像";
+"Login.InfoFirstNamePlaceholder" = "姓氏";
+"Login.InfoLastNamePlaceholder" = "名字";
+"Login.InfoUpdatePhoto" = "上传头像";
+"Login.InfoDeletePhoto" = "删除头像";
+"Login.InfoHelp" = "输入您的姓名并添加头像";
+
+// Login.SelectCountry
+"Login.SelectCountry.Title" = "国家";
+
+// Welcome Screen
+"WelcomeScreen.Title" = "开始使用";
+"WelcomeScreen.Logout" = "注销";
+"WelcomeScreen.Greeting" = "欢迎, %@!";
+"WelcomeScreen.ContactsAccessDisabled" = "抱歉，无法同步您的通讯录.";
+"WelcomeScreen.ContactsAccessHelp" = "币用基于通讯录来获取联系人列表，\n\n请前往「设置—隐私—通讯录」中打开币用的开关。";
+"WelcomeScreen.ContactsAccessSettings" = "设置";
+"WelcomeScreen.UpdatingTitle" = "更新中";
+
+// Discover List
+"DiscoverList.TabTitle" = "发现";
+"DiscoverList.Title" = "发现";
+
+// Dialog List
+"DialogList.TabTitle" = "会话";
+"DialogList.Title" = "会话";
+"DialogList.SearchLabel" = "搜索消息或用户";
+"DialogList.SelectContact" = "选择联系人";
+"DialogList.SelectContacts" = "选择联系人";
+"DialogList.Create" = "创建";
+"DialogList.NoMessagesTitle" = "尚无会话";
+"DialogList.NoMessagesText" = "点按右上角的铅笔图标来选择联系人开始聊天";
+"DialogList.SingleTypingSuffix" = "%@ 正在输入";
+"DialogList.SingleRecordingAudioSuffix" = "%@ 正在录制语音";
+"DialogList.SingleUploadingPhotoSuffix" = "%@ 正在发送图片";
+"DialogList.SingleUploadingVideoSuffix" = "%@ 正在发送视频";
+"DialogList.SingleRecordingVideoMessageSuffix" = "%@ 正在录制视频";
+"DialogList.SingleUploadingFileSuffix" = "%@ 正在发送文件";
+"DialogList.MultipleTypingSuffix" = "%d 正在输入";
+"DialogList.Typing" = "正在输入";
+"DialogList.ClearHistoryConfirmation" = "清除聊天记录";
+"DialogList.DeleteConversationConfirmation" = "删除并退出";
+"DialogList.AwaitingEncryption" = "等待 %@ 上线...";
+"DialogList.EncryptionRejected" = "私密对话已取消";
+"DialogList.EncryptionProcessing" = "正在交换加密密钥...";
+"DialogList.EncryptedChatStartedOutgoing" = "%@ 加入了您的私密对话";
+"DialogList.EncryptedChatStartedIncoming" = "%@ 创建了私密对话";
+"DialogList.Conversations" = "会话";
+"DialogList.Messages" = "消息";
+
+// Compose
+"Compose.TokenListPlaceholder" = "请选择收件人";
+"Compose.NewMessage" = "新建会话";
+"Compose.NewGroup" = "新建群组";
+"Compose.NewEncryptedChat" = "新建私密对话";
+"Compose.NewBroadcast" = "播放列表";
+"Compose.NewBroadcastButton" = "新的广播";
+"Compose.Recipients" = "收件人";
+"Compose.Create" = "创建";
+
+// Contacts
+"Contacts.TabTitle" = "联系人";
+"Contacts.Title" = "联系人";
+"Contacts.Invite" = "邀请";
+"Contacts.contact" = "联系人";
+"Contacts.contacts" = "联系人";
+"Contacts.contactsvar" = "联系人";
+"Contacts.InvitationText" = "嘿, 让我们使用币用 http://BTCchat.org/dl";
+"Contacts.FailedToSendInvitesMessage" = "呃，出错了。";
+"Contacts.AccessDeniedError" = "币用无法访问您的通讯录";
+"Contacts.AccessDeniedHelpLandscape" = "请前往 %@ 的“设置—隐私—通讯录”\n打开币用的开关";
+"Contacts.AccessDeniedHelpPortrait" = "请前往 %@ 的“设置—隐私—通讯录”\n打开币用的开关";
+"Contacts.AccessDeniedHelpON" = "开";
+"Contacts.InviteToBTCchat" = "邀请朋友加入币用";
+"Contacts.InviteFriends" = "邀请朋友";
+"Contacts.SelectAll" = "全选";
+
+// Conversation
+"Conversation.InputTextPlaceholder" = "输入消息...";
+"Conversation.Send" = "Send";
+"Conversation.typing" = "正在输入";
+"Conversation.MessageDeliveryFailed" = "您的消息未发送成功，点击 \“重新发送\” 可再次发送";
+"Conversation.MessageDialogEdit" = "编辑";
+"Conversation.MessageDialogRetry" = "重新发送";
+"Conversation.MessageDialogRetryAll" = "重新发送 %1$d 条消息";
+"Conversation.MessageDialogDelete" = "删除";
+"Conversation.LinkDialogOpen" = "打开";
+"Conversation.LinkDialogCopy" = "拷贝";
+"Conversation.EditDelete" = "删除";
+"Conversation.EditForward" = "转发";
+"Conversation.ForwardToPersonFormat" = "转发 %@?";
+"Conversation.ForwardToGroupFormat" = "转发 %@?";
+"Conversation.ForwardTitle" = "转发";
+"Conversation.ForwardChats" = "会话";
+"Conversation.ForwardContacts" = "联系人";
+"Conversation.StatusKickedFromGroup" = "您已被移出这个群组";
+"Conversation.StatusLeftGroup" = "您已退出这个群组";
+"Conversation.StatusTyping" = "正在输入";
+"Conversation.BroadcastTitle" = "广播";
+"Conversation.Call" = "呼叫";
+"Conversation.Mute" = "关闭通知";
+"Conversation.Unmute" = "开启通知";
+"Conversation.Edit" = "编辑";
+"Conversation.Info" = "联系人信息";
+"Conversation.Search" = "搜索";
+"Conversation.Block" = "屏蔽";
+"Conversation.Unblock" = "取消屏蔽";
+"Conversation.ClearAll" = "全部删除";
+"Conversation.Location" = "位置";
+"Conversation.Document" = "发送文件";
+"Conversation.Contact" = "联系人";
+"Conversation.BlockUser" = "屏蔽此用户";
+"Conversation.UnblockUser" = "取消屏蔽";
+"Conversation.DeleteGroup" = "删除这个区组";
+"Conversation.DeleteChat" = "删除这个聊天";
+"Conversation.ClearAllConfirmation" = "删除所有信息?";
+"Conversation.SearchImages" = "搜索图片";
+"Conversation.UnsupportedMedia" = "您的版本过旧，无法查看这条消息。 请前往这里下载新版：\nhttp://BTCchat.org/update";
+"Conversation.EncryptionWaiting" = "等待 %@ 上线...";
+"Conversation.EncryptionProcessing" = "正在交换加密密钥...";
+"Conversation.SupportPlaceholder" = "对于BTCChat有问题?";
+"Conversation.EmptyPlaceholder" = "这里暂时还没有消息...";
+"Conversation.EncryptedPlaceholderTitleIncoming" = "%@ 邀请您加入私密对话。";
+"Conversation.EncryptedPlaceholderTitleOutgoing" = "您已邀请 %@ 加入私密对话";
+"Conversation.EncryptedDescriptionTitle" = "私密对话：";
+"Conversation.EncryptedDescription1" = "使用端到端加密";
+"Conversation.EncryptedDescription2" = "不会在服务器上留下任何痕迹";
+"Conversation.EncryptedDescription3" = "支持阅后即焚";
+"Conversation.EncryptedDescription4" = "不允许转发消息";
+"Conversation.EncryptedForwardingAlert" = "抱歉，您不能转发加密聊天中的消息.";
+"Conversation.ContextMenuCopy" = "拷贝";
+"Conversation.ContextMenuDelete" = "删除";
+"Conversation.ContextMenuForward" = "转发";
+"Conversation.ContextMenuMore" = "更多...";
+
+"Conversation.StatusMembers_0" = "%@ 名成员";
+"Conversation.StatusMembers_1" = "1 位成员";
+"Conversation.StatusMembers_2" = "%@ 位成员";
+"Conversation.StatusMembers_3_10" = "%@ 位成员";
+"Conversation.StatusMembers_many" = "%@ 名成员";
+"Conversation.StatusMembers_any" = "%@ 位成员";
+
+"Conversation.StatusRecipients_0" = "%@ 名收件人";
+"Conversation.StatusRecipients_1" = "1 位收件人";
+"Conversation.StatusRecipients_2" = "2 位收件人";
+"Conversation.StatusRecipients_3_10" = "%@ 位收件人";
+"Conversation.StatusRecipients_many" = "%@ 位收件人";
+"Conversation.StatusRecipients_any" = "%@ 位收件人";
+
+"Conversation.StatusOnline_1" = "1 人在线";
+"Conversation.StatusOnline_2" = "%@ 人在线";
+"Conversation.StatusOnline_3_10" = "%@ 人在线";
+"Conversation.StatusOnline_any" = "%@ 人在线";
+"Conversation.StatusOnline_many" = "%@ 人在线";
+"Conversation.StatusOnline_0" = "%@ 人在线";
+
+"Conversation.UnreadMessages" = "未读消息";
+"Conversation.InfoGroup" = "群组";
+"Conversation.InfoPrivate" = "联系人";
+"Conversation.InfoBroadcastList" = "列表";
+
+// Notification
+"Notification.RenamedChat" = "%@ 更改了群组名称";
+"Notification.RenamedChannel" = "频道名称已更改";
+"Notification.ChangedGroupPhoto" = "%@ 更换了群组图片";
+"Notification.RemovedGroupPhoto" = "%@ 删除了群组图片";
+"Notification.ChangedUserPhoto" = "%@ 更换了头像照片";
+"Notification.RemovedUserPhoto" = "%@ 删除了头像照片";
+"Notification.JoinedChat" = "%@ 加入了群组";
+"Notification.JoinedChannel" = "%@ 加入了频道";
+"Notification.Invited" = "%@ 邀请了 %@";
+"Notification.LeftChat" = "%@ 退出了群组";
+"Notification.LeftChannel" = "%@ 退出了频道";
+"Notification.Kicked" = "%@ 移除了 %@";
+"Notification.CreatedChat" = "%@ 创建了群组";
+"Notification.CreatedChannel" = "频道创建";
+"Notification.CreatedGroup" = "群组创建";
+"Notification.CreatedBroadcastList" = "你创建了一个播放列表";
+"Notification.CreatedChatWithTitle" = "%@ 创建了群组 \"%@\"";
+"Notification.Joined" = "%@ 加入了币用";
+"Notification.ChangedGroupName" = "%@ 将群组名称更改为 \"%@\"";
+"Notification.NewAuthDetected" = "%1$@,\n我们在 %3$@ %2$@ %4$@发现一个新设备登录您的帐号\n\n设备: %5$@\n位置: %6$@\n\n如非本人登录, 请前往“设置—隐私与安全”点击“注销所有其他设备”。\n\n如果您怀疑有人未经您的同意登录您的账号，请在请在“隐私与安全”中启用两步验证。\n\n谢谢！\n币用团队";
+"Notification.EncryptedChatRequested" = "私密会话";
+"Notification.EncryptedChatAccepted" = "私密会话开始";
+"Notification.MessageLifetimeChanged" = "%1$@ 已将阅后即焚计时器设定为 %2$@";
+"Notification.MessageLifetimeChangedOutgoing" = "您已将阅后即焚计时器设定为 %1$@";
+"Notification.MessageLifetimeRemoved" = "%1$@ 取消了阅后即焚计时器";
+"Notification.MessageLifetimeRemovedOutgoing" = "您取消了阅后即焚计时器";
+"Notification.MessageLifetime2s" = "2 秒";
+"Notification.MessageLifetime5s" = "5 秒";
+"Notification.MessageLifetime1m" = "1 分钟";
+"Notification.MessageLifetime1h" = "1 小时";
+"Notification.MessageLifetime1d" = "1 天";
+"Notification.MessageLifetime1w" = "1 周";
+
+// Message
+"Message.Photo" = "图片";
+"Message.Video" = "视频";
+"Message.Location" = "位置";
+"Message.Contact" = "联系人";
+"Message.File" = "文件";
+"Message.Sticker" = "贴纸";
+"Message.Audio" = "[语音消息]";
+"Message.ForwardedMessage" = "转发的消息\n来自: %@";
+"Message.SharedContact" = "共享联系人";
+"Message.Animation" = "GIF";
+
+// Conversation Profile
+"ConversationProfile.ErrorCreatingConversation" = "呃，出错了..";
+"ConversationProfile.UserLeftChatError" = "Sorry, %@ 决定离开该群组, 你没法邀请他回来.";
+"ConversationProfile.UnknownAddMemberError" = "抱歉，遇到了一个意外问题，我们的魔法师已收到错误报告并将尽快修正咒语";
+"ConversationProfile.UsersTooMuchError" = "抱歉，群组已满，无法添加更多成员";
+
+"ConversationProfile.LeaveDeleteAndExit" = "删除并退出";
+
+"Conversation.DownloadPhoto" = "下载图片";
+"Conversation.ViewPhoto" = "浏览图片";
+"Conversation.PlayVideo" = "播放视频";
+"Conversation.Play" = "播放";
+"Conversation.Stop" = "停止";
+"Conversation.ViewFile" = "浏览文件";
+"Conversation.Download" = "下载";
+"Conversation.DownloadMegabytes" = "下载 %.1f MB";
+"Conversation.DownloadKilobytes" = "下载 %d KB";
+"Conversation.Megabytes" = "%.1f MB";
+"Conversation.Kilobytes" = "%d KB";
+"Conversation.Bytes" = "%d B";
+"Conversation.DownloadProgressMegabytes" = "%1$.1f MB / %2$.1f MB";
+"Conversation.DownloadProgressKilobytes" = "%1$d KB / %2$d KB";
+"Conversation.ViewLocation" = "浏览位置";
+"Conversation.SearchWebImages" = "搜索图片";
+"Conversation.ShareMyContactInfo" = "分享我的联系信息";
+"Conversation.AddContact" = "添加联系人";
+"Conversation.SendMessage" = "发送消息";
+"Conversation.EncryptionCanceled" = "私密对话已取消";
+"Conversation.DeleteOneMessage" = "删除消息";
+"Conversation.DeleteManyMessages" = "删除选中的消息";
+"Conversation.View" = "浏览";
+"Conversation.Download" = "下载";
+"Conversation.SlideToCancel" = "左滑取消录制";
+"Conversation.ApplyLocalization" = "使用此本地化文件";
+"Conversation.OpenFile" = "打开文件";
+"Conversation.MicrophoneAccessDisabled" = "币用需要访问麦克风才能录制语音消息，\n\n请前往「设置—隐私—麦克风」中打开币用的开关.";
+
+// Media Picker
+"MediaPicker.Send" = "发送";
+"MediaPicker.Choose" = "选择";
+"SearchImages.SearchImages" = "搜索图片";
+"SearchImages.Title" = "相册";
+"MediaPicker.CameraRoll" = "相机胶卷";
+"SearchImages.NoImagesFound" = "未找到图片";
+"MediaPicker.AccessDeniedError" = "币用没有获取图片的权限";
+"MediaPicker.AccessDeniedHelp" = "请到 %@ Settings — Privacy — Photos .\n 打开权限设置.";
+"SearchImages.Downloading#Kb" = "下载中 %d Kb";
+"SearchImages.Downloading#Mb" = "下载中 %d Mb";
+"SearchImages.ImageNofM" = "图片 %1$@ of %2$@";
+"SearchImages.DownloadCancelled" = "下载取消";
+"SearchImages.ErrorDownloadingImage" = "下载图片出错";
+"SearchImages.SkipImage" = "跳过图片";
+"SearchImages.RetryDownload" = "重新下载";
+
+// User Profile
+"Profile.ImageUploadError" = "出错啦. 请稍后重试.";
+"Profile.PhonebookAccessDisabled" = "币用基于通讯录来获取联系人列表，\n\n请前往「设置—隐私—通讯录」中打开币用的开关";
+"Profile.CreateEncryptedChatError" = "呃，出错了";
+"Profile.CreateEncryptedChatOutdatedError" = "无法和 %@ 创建私密会话.\n%@ 正在使用较低版本币用，需要升级后使用.";
+"Profile.CreateNewContact" = "新建联系人";
+"Profile.AddToExisting" = "添加到现有联系人";
+"Profile.EncryptionKey" = "加密密钥";
+"Profile.MessageLifetime" = "阅后即焚定时器";
+"Profile.MessageLifetimeForever" = "关闭";
+"Profile.MessageLifetime2s" = "2 秒";
+"Profile.MessageLifetime5s" = "5 秒";
+"Profile.MessageLifetime1m" = "1 分钟";
+"Profile.MessageLifetime1h" = "1 小时";
+"Profile.MessageLifetime1d" = "1 天";
+"Profile.MessageLifetime1w" = "1 周";
+"Profile.ShareContactButton" = "分享联系信息";
+"Profile.ShareContactPersonFormat" = "分享联系人给 %@?";
+"Profile.ShareContactGroupFormat" = "分享联系人给 %@?";
+
+// User Info
+"UserInfo.Title" = "个人信息";
+"UserInfo.FirstNamePlaceholder" = "姓氏";
+"UserInfo.LastNamePlaceholder" = "名字";
+"UserInfo.GenericPhoneLabel" = "手机号码";
+"UserInfo.SendMessage" = "发送消息";
+"UserInfo.AddContact" = "添加为联系人";
+"UserInfo.ShareContact" = "分享联系信息";
+"UserInfo.StartSecretChat" = "开始私密对话";
+"UserInfo.DeleteContact" = "删除联系人";
+"UserInfo.CreateNewContact" = "创建新的联系人";
+"UserInfo.AddToExisting" = "添加到现有联系人";
+"UserInfo.AddPhone" = "添加电话";
+"UserInfo.NotificationsEnabled" = "已开启";
+"UserInfo.NotificationsDisabled" = "已关闭";
+"UserInfo.NotificationsEnable" = "开启";
+"UserInfo.NotificationsDisable" = "关闭";
+"UserInfo.Invite" = "邀请使用币用";
+
+// New Contact
+"NewContact.Title" = "新建联系人";
+
+// Phone Label
+"PhoneLabel.Title" = "标签";
+
+// Secret Chat
+"SecretChat.Title" = "私密对话";
+
+// Group Info
+"GroupInfo.Title" = "群组信息";
+"GroupInfo.GroupNamePlaceholder" = "群组名称";
+"GroupInfo.BroadcastListNamePlaceholder" = "列表名称";
+"GroupInfo.SetGroupPhoto" = "设置群组图片";
+"GroupInfo.SetGroupPhotoStop" = "停止";
+"GroupInfo.SetGroupPhotoDelete" = "删除群组图片";
+"GroupInfo.Notifications" = "消息通知";
+"GroupInfo.Sound" = "声音";
+"GroupInfo.SharedMedia" = "分享的媒体文件";
+"GroupInfo.SharedMediaNone" = "无";
+"GroupInfo.DeleteAndExit" = "删除并退出";
+"GroupInfo.DeleteAndExitConfirmation" = "您将无法再次加入此群组";
+"GroupInfo.ParticipantCount_1" = "1 位成员";
+"GroupInfo.ParticipantCount_2" = "%@ 位成员";
+"GroupInfo.ParticipantCount_3_10" = "%@ 位成员";
+"GroupInfo.ParticipantCount_any" = "%@ 位成员";
+"GroupInfo.ParticipantCount_many" = "%@ 位成员";
+"GroupInfo.ParticipantCount_0" = "%@ 位成员";
+"GroupInfo.AddParticipant" = "添加成员";
+"GroupInfo.AddParticipantTitle" = "联系人";
+"GroupInfo.AddParticipantConfirmation" = "添加 %@ 到此群组？";
+"GroupInfo.KickedStatus" = "您已被移除该群组";
+"GroupInfo.LeftStatus" = "您已退出此群组";
+
+// Encryption Key
+"EncryptionKey.Title" = "加密密钥";
+"EncryptionKey.Description" = "这是您与 %1$@ 私密会话加密密钥的可视化图片。\n\n如果这张图片看起来和 %2$@ 设备上的图片完全一致，端到端加密则是安全的。\n\n更多详情请前往 BTCchat-cn.org 的 FAQ";
+
+// Conversation media
+"ConversationMedia.Title" = "媒体";
+"ConversationMedia.EmptyTitle" = "无图片或视频";
+
+// Preview
+"Preview.VideoNotYetDownloaded" = "请先下载该视频.";
+"Preview.GroupPhotoTitle" = "群组图片";
+"Preview.ProfilePhotoTitle" = "头像图片";
+"Preview.LoadingVideo" = "视频加载中...";
+"Preview.LoadingImage" = "图片加载中...";
+"Preview.LoadingImages" = "图片加载中...";
+"Preview.DeletePhoto" = "删除图片";
+"Preview.DeleteVideo" = "删除视频";
+"Preview.ForwardViaBTCchat" = "转发";
+"Preview.SaveToCameraRoll" = "保存到相机胶卷";
+
+// Map
+"Map.ChooseLocationTitle" = "位置";
+"Map.MapTitle" = "地图";
+"Map.Send" = "发送";
+"Map.Map" = "地图";
+"Map.Satellite" = "卫星";
+"Map.Hybrid" = "混合";
+"Map.AccessDeniedError" = "此功能需要您在您的iPhone隐私设置中打开定位信息.";
+"Map.ForwardViaBTCchat" = "转发";
+"Map.GetDirections" = "获取位置";
+"Map.OpenInGoogleMaps" = "在 Google Maps 中打开";
+
+// Web
+"Web.Error" = "无法加载网页";
+"Web.OpenExternal" = "在 Safari 中打开";
+"Web.CopyLink" = "复制链接";
+
+// Document
+"Document.TargetConfirmationFormat" = "发送文件 ({size}) 给 {target}？";
+
+// Dialog List
+"DialogList.You" = "我";
+
+// Settings
+"Settings.TabTitle" = "设置";
+"Settings.SetProfilePhoto" = "上传头像";
+"Settings.Logout" = "注销";
+"Settings.Title" = "设置";
+"Settings.NotificationsAndSounds" = "通知与声音";
+"Settings.ChatSettings" = "数据与存储";
+"Settings.BlockedUsers" = "已屏蔽";
+"Settings.ChatBackground" = "聊天背景";
+"Settings.Support" = "我有疑问";
+"Settings.FAQ" = "常见问题";
+"Settings.FAQ_URL" = "http://BTCchat.org/faq#general";
+"Settings.FAQ_Intro" = "请注意：币用的技术支持由志愿者提供，反馈时请使用英文。我们会尽快回复您，但是仍可能需要等待一段时间。\n\n请前往“常见问题” 看看：那里有各种常见问题和故障排除指南。";
+"Settings.FAQ_Button" = "常见问题";
+"Settings.SaveIncomingPhotos" = "自动保存图片";
+"Settings.SaveIncomingPhotosHelp" = "保存上传的照片到相册.";
+"Settings.LogoutError" = "出错啦. 请稍后再试.";
+"Settings.CheckVersion" = "检测版本";
+
+// Notifications and Sounds
+"Notifications.Title" = "通知";
+"Notifications.MessageNotifications" = "消息通知";
+"Notifications.MessageNotificationsAlert" = "提醒";
+"Notifications.MessageNotificationsPreview" = "消息预览";
+"Notifications.MessageNotificationsSound" = "声音";
+"Notifications.MessageNotificationsHelp" = "您可以在特定的用户信息界面中设置针对他们的通知策略。";
+
+"Notifications.GroupNotifications" = "群组消息通知";
+"Notifications.GroupNotificationsAlert" = "提醒";
+"Notifications.GroupNotificationsPreview" = "消息预览";
+"Notifications.GroupNotificationsSound" = "声音";
+"Notifications.GroupNotificationsHelp" = "您可以在特定的群组信息界面中设置针对他们的通知策略。";
+
+"Notifications.TextTone" = "提醒声音";
+"Notifications.AlertTones" = "提醒铃声";
+"Notifications.ClassicTones" = "经典";
+
+"Notifications.InAppNotifications" = "应用内通知";
+"Notifications.InAppNotificationsSounds" = "应用内播放提醒音";
+"Notifications.InAppNotificationsVibrate" = "应用内振动提醒";
+"Notifications.InAppNotificationsPreview" = "应用内消息预览";
+
+"Notifications.Reset" = "重设";
+"Notifications.ResetAllNotifications" = "重设所有通知选项";
+"Notifications.ResetAllNotificationsHelp" = "将您所有针对特定群组/联系人的通知策略恢复为默认。";
+
+// Chat Settings
+"ChatSettings.Title" = "数据与存储";
+"ChatSettings.Appearance" = "显示效果";
+"ChatSettings.TextSize" = "字号";
+"ChatSettings.TextSizeUnits" = "号";
+"ChatSettings.AutomaticPhotoDownload" = "自动下载图片";
+"ChatSettings.AutomaticAudioDownload" = "自动下载音频";
+"ChatSettings.PrivateChats" = "个人聊天";
+"ChatSettings.Groups" = "群组";
+"ChatSettings.Security" = "安全";
+"ChatSettings.Language" = "语言";
+"ChatSettings.RevertLanguage" = "切换语言";
+"ChatSettings.Cache" = "缓存";
+
+// Usage
+"Cache.Title" = "存储用量";
+"Cache.ClearCache" = "清除缓存";
+"Cache.ClearCacheAlert" = "为节省储存空间，此期限内您没有使用过的缓存文件都会被删除。这包括你消息记录中的图片、视频或其他文件。\n\n但这些文件都会保留在币用云端，您需要时可再次下载。";
+"Cache.KeepMedia" = "保留缓存";
+"Cache.Help" = "为节省储存空间，此期限内您没有使用过的缓存文件都会被删除。这包括你消息记录中的图片、视频或其他文件。\n\n但这些文件都会保留在币用云端，您需要时可再次下载。";
+
+// Blocked Users
+"BlockedUsers.Title" = "已屏蔽";
+"BlockedUsers.SelectUserTitle" = "屏蔽";
+"BlockedUsers.AlreadyBlocked" = "您已经屏蔽了该用户";
+"BlockedUsers.BlockUser" = "屏蔽用户";
+"BlockedUsers.BlockFormat" = "屏蔽 %@?";
+"BlockedUsers.BlockTitle" = "屏蔽";
+"BlockedUsers.LeavePrefix" = "离开 ";
+"BlockedUsers.Info" = "您屏蔽的用户将无法向您发送消息，或邀请您加入群组。他们也无法看到您的头像、在线状态及最后上线时间。";
+"BlockedUsers.AddNew" = "添加...";
+"BlockedUsers.Unblock" = "取消屏蔽";
+
+// Wallpaper
+"Wallpaper.Title" = "聊天背景";
+"Wallpaper.PhotoLibrary" = "照片图库";
+"Wallpaper.Set" = "选用";
+"Wallpaper.Wallpaper" = "背景";
+
+// Update
+"Update.Update" = "更新";
+"Update.UpdateTitle" = "检测到新版本";
+"Update.UpdateTip" = "版本号：%@";
+"Update.Ignore" = "忽略";
+"Update.Goto" = "前往下载";
+"Update.LatestTitle" = "最新版本";
+
+// Service
+"Service.LocalizationDownloadError" = "无法下载. 请检查您的网络并稍后再试.";
+"Service.ApplyLocalization" = "应用定位?";
+"Service.ApplyLocalizationWithWarnings" = "%@\n\n应用定位?";
+
+"Notification.SecretChatMessageScreenshot" = "%@ 截屏了！";
+"Notification.SecretChatScreenshot" = "您已截屏！";
+
+// Broadcast Lists
+"DialogList.Broadcast" = "广播";
+"BroadcastLists.Title" = "广播列表";
+"BroadcastLists.NoListsYet" = "暂没有列表";
+"BroadcastLists.NoListsText" = "通过广播列表，您可以很容易地将消息立即发送给许多人。";
+
+// Broadcast List
+"BroadcastListInfo.Title" = "广播列表";
+"BroadcastListInfo.AddRecipient" = "增加收件人";
+
+// Video
+"VideoPreview.OptionSD" = "标清(%@)";
+"VideoPreview.OptionHD" = "高清 (%@)";
+
+"ChatSettings.AutoPlayAudio" = "自动播放音频";
+
+"Settings.LogoutConfirmationTitle" = "退出登录";
+"Settings.LogoutConfirmationText" = "\n币用能在所有设备上同时登录和使用。\n\n但请注意，注销将会清除所有的私密对话数据。";
+
+"Login.PadPhoneHelp" = "\n您可以使用手机号在各种设备上登录币用。\n请不要在此使用您 iPad SIM 卡的号码，我们需要您能够接收短信。\n\n使用此号码？\n{number}";
+"Login.PadPhoneHelpTitle" = "手机号码";
+
+"MessageTimer.Custom" = "自定义";
+"MessageTimer.Title" = "自定义定时器";
+
+"MessageTimer.Forever" = "永不";
+
+"MessageTimer.Seconds_1" = "%@ 秒";
+"MessageTimer.Seconds_2" = "%@ 秒";
+"MessageTimer.Seconds_3_10" = "%@ 秒";
+"MessageTimer.Seconds_any" = "%@ 秒";
+"MessageTimer.Seconds_many" = "%@ 秒";
+"MessageTimer.Seconds_0" = "%@ 秒";
+"MessageTimer.Minutes_1" = "%@ 分钟";
+"MessageTimer.Minutes_2" = "%@ 分钟";
+"MessageTimer.Minutes_3_10" = "%@ 分钟";
+"MessageTimer.Minutes_any" = "%@ 分钟";
+"MessageTimer.Minutes_many" = "%@ 分钟";
+"MessageTimer.Minutes_0" = "%@ 分钟";
+"MessageTimer.Hours_1" = "%@ 小时";
+"MessageTimer.Hours_2" = "%@ 小时";
+"MessageTimer.Hours_3_10" = "%@ 小时";
+"MessageTimer.Hours_any" = "%@ 小时";
+"MessageTimer.Hours_many" = "%@ 小时";
+"MessageTimer.Hours_0" = "%@ 小时";
+"MessageTimer.Days_1" = "%@ 天";
+"MessageTimer.Days_2" = "%@ 天";
+"MessageTimer.Days_3_10" = "%@ 天";
+"MessageTimer.Days_any" = "%@ 天";
+"MessageTimer.Days_many" = "%@ 天";
+"MessageTimer.Days_0" = "%@ 天";
+"MessageTimer.Weeks_1" = "%@ 周";
+"MessageTimer.Weeks_2" = "%@ 周";
+"MessageTimer.Weeks_3_10" = "%@ 周";
+"MessageTimer.Weeks_any" = "%@ 周";
+"MessageTimer.Weeks_many" = "%@ 周";
+"MessageTimer.Weeks_0" = "%@ 周";
+"MessageTimer.Months_1" = "%@ 个月";
+"MessageTimer.Months_2" = "%@ 个月";
+"MessageTimer.Months_3_10" = "%@ 个月";
+"MessageTimer.Months_any" = "%@ 个月";
+"MessageTimer.Months_many" = "%@ 个月";
+"MessageTimer.Months_0" = "%@ 个月";
+"MessageTimer.Years_1" = "%@ 年";
+"MessageTimer.Years_2" = "%@ 年";
+"MessageTimer.Years_3_10" = "%@ 年";
+"MessageTimer.Years_any" = "%@ 年";
+"MessageTimer.Years_many" = "%@ 年";
+"MessageTimer.Years_0" = "%@ 年";
+
+"MessageTimer.ShortSeconds_1" = "%@ 秒";
+"MessageTimer.ShortSeconds_2" = "%@ 秒";
+"MessageTimer.ShortSeconds_3_10" = "%@ 秒";
+"MessageTimer.ShortSeconds_any" = "%@ 秒";
+"MessageTimer.ShortSeconds_many" = "%@ 秒";
+"MessageTimer.ShortSeconds_0" = "%@ 秒";
+"MessageTimer.ShortMinutes_1" = "%@ 分钟";
+"MessageTimer.ShortMinutes_2" = "%@ 分钟";
+"MessageTimer.ShortMinutes_3_10" = "%@ 分钟";
+"MessageTimer.ShortMinutes_any" = "%@ 分钟";
+"MessageTimer.ShortMinutes_many" = "%@ 分钟";
+"MessageTimer.ShortMinutes_0" = "%@ 分钟";
+"MessageTimer.ShortHours_1" = "%@ 小时";
+"MessageTimer.ShortHours_2" = "%@ 小时";
+"MessageTimer.ShortHours_3_10" = "%@ 小时";
+"MessageTimer.ShortHours_any" = "%@ 小时";
+"MessageTimer.ShortHours_many" = "%@ 小时";
+"MessageTimer.ShortHours_0" = "%@ 小时";
+"MessageTimer.ShortDays_1" = "%@ 天";
+"MessageTimer.ShortDays_2" = "%@ 天";
+"MessageTimer.ShortDays_3_10" = "%@ 天";
+"MessageTimer.ShortDays_any" = "%@ 天";
+"MessageTimer.ShortDays_many" = "%@ 天";
+"MessageTimer.ShortDays_0" = "%@ 天";
+"MessageTimer.ShortWeeks_1" = "%@ 周";
+"MessageTimer.ShortWeeks_2" = "%@ 周";
+"MessageTimer.ShortWeeks_3_10" = "%@ 周";
+"MessageTimer.ShortWeeks_any" = "%@ 周";
+"MessageTimer.ShortWeeks_many" = "%@ 周";
+"MessageTimer.ShortWeeks_0" = "%@ 周";
+
+"Activity.UploadingPhoto" = "正在发送图片";
+"Activity.UploadingVideo" = "正在发送视频";
+"Activity.UploadingDocument" = "正在发送文件";
+"Activity.RecordingAudio" = "正在录制语音";
+"Activity.RecordingVideoMessage" = "正在录制视频";
+"Activity.Location" = "获取地址信息";
+
+"Service.NetworkConfigurationUpdatedMessage" = "连接设置更新成功.";
+
+"Compatibility.SecretMediaVersionTooLow" = "%@ 正在使用较低版本币用，因此私密照片将显示在兼容模式中.\n\一旦 %@ 更新币用 这些照片会在1分钟内显示.";
+
+"Contacts.GlobalSearch" = "全局搜索";
+"Profile.Username" = "用户名";
+"Settings.Username" = "用户名";
+"Settings.UsernameEmpty" = "设置";
+
+"Username.Title" = "用户名";
+"Username.Placeholder" = "您的用户名";
+"Username.Help" = "设定用户名后，其他用户能通过用户名找到您，从而保证您无需泄漏手机号。\n\n您可以使用 **a-z**、**0-9** 以及 **_**，并且至少使用 **5** 个字符。";
+"Username.InvalidTooShort" = "用户名必须至少包含 **5** 个字符";
+"Username.InvalidStartsWithNumber" = "抱歉，用户名不能以数字开头";
+"Username.InvalidCharacters" = "抱歉，该用户名无效";
+"Username.InvalidTaken" = "抱歉，该用户名已被占用";
+
+"Username.CheckingUsername" = "正在检查用户名...";
+"Username.UsernameIsAvailable" = "%@ 可用";
+
+"WebSearch.Images" = "图片";
+"WebSearch.GIFs" = "GIF";
+"WebSearch.RecentSectionTitle" = "最近";
+"WebSearch.RecentSectionClear" = "清除";
+
+"Settings.PrivacySettings" = "隐私与安全";
+
+"UserCount_1" = "1 位用户";
+"UserCount_2" = "%@ 位用户";
+"UserCount_3_10" = "%@ 位用户";
+"UserCount_any" = "%@ 位用户";
+"UserCount_many" = "%@ 位用户";
+"UserCount_0" = "%@ 位用户";
+
+"PrivacySettings.Title" = "隐私与安全";
+
+"PrivacySettings.PrivacyTitle" = "隐私";
+"PrivacySettings.LastSeen" = "最后上线时间";
+"PrivacySettings.LastSeenEverybody" = "所有人";
+"PrivacySettings.LastSeenContacts" = "我的联系人";
+"PrivacySettings.LastSeenNobody" = "隐藏";
+
+"PrivacySettings.LastSeenEverybodyMinus" = "所有人 (-%@)";
+"PrivacySettings.LastSeenContactsPlus" = "我的联系人 (+%@)";
+"PrivacySettings.LastSeenContactsMinus" = "我的联系人 (-%@)";
+"PrivacySettings.LastSeenContactsMinusPlus" = "我的联系人 (-%@, +%@)";
+"PrivacySettings.LastSeenNobodyPlus" = "隐藏 (+%@)";
+
+"PrivacySettings.SecurityTitle" = "安全";
+
+"PrivacySettings.DeleteAccountTitle" = "删除账户";
+"PrivacySettings.DeleteAccountIfAwayFor" = "如果离开";
+"PrivacySettings.DeleteAccountHelp" = "如果您在此期间内未曾登录您的帐号，您账号的所有资料——包括群组、消息记录以及联系人都会被删除。";
+"PrivacySettings.DeleteAccountNowConfirmation" = "删除你的账户?";
+"PrivacySettings.DeleteAccountNever" = "从不";
+
+"PrivacyLastSeenSettings.Title" = "最后上线";
+"PrivacyLastSeenSettings.CustomHelp" = "注意：对于您设置为无法看到您最后上线时间的用户，您也无法看到他们的最后上线时间，取而代之的是大概的上线时间（如：最近、一周内、一个月内）。";
+"PrivacyLastSeenSettings.AlwaysShareWith" = "总是对他们公开...";
+"PrivacyLastSeenSettings.NeverShareWith" = "不对他们公开...";
+"PrivacyLastSeenSettings.CustomShareSettingsHelp" = "这些设置将会优先于上述设置。";
+
+"PrivacyLastSeenSettings.CustomShareSettings.Delete" = "删除";
+"PrivacyLastSeenSettings.AlwaysShareWith.Title" = "总是公开";
+"PrivacyLastSeenSettings.AlwaysShareWith.Placeholder" = "总是公开给...";
+"PrivacyLastSeenSettings.NeverShareWith.Title" = "不对他们公开";
+"PrivacyLastSeenSettings.NeverShareWith.Placeholder" = "不对他们公开...";
+"PrivacyLastSeenSettings.EmpryUsersPlaceholder" = "添加用户";
+"PrivacyLastSeenSettings.AddUsers_1" = "添加 1 位用户到此列表？";
+"PrivacyLastSeenSettings.AddUsers_2" = "添加 %@ 位用户到此列表？";
+"PrivacyLastSeenSettings.AddUsers_3_10" = "添加 %@ 位用户到此列表？";
+"PrivacyLastSeenSettings.AddUsers_any" = "添加 %@ 位用户到此列表？";
+"PrivacyLastSeenSettings.AddUsers_many" = "添加 %@ 位用户到此列表？";
+"PrivacyLastSeenSettings.AddUsers_0" = "添加 %@ 位用户到此列表？";
+
+"PrivacySettings.FloodControlError" = "非常抱歉，当前请求过多。无法更改隐私设置，请稍候再试.";
+
+
+"ImagePicker.NoPhotos" = "没有图片";
+"ImagePicker.NoVideos" = "没有视频";
+
+"Settings.OpenSystemPrivacySettings" = "打开 %@ 设置";
+
+// Photo Editor
+"PhotoEditor.DiscardChanges" = "撤销";
+"PhotoEditor.RevertToOriginal" = "还原";
+"PhotoEditor.RevertMessage" = "还原会移除您对图片所有修改，并且此动作无法撤销.";
+
+"PhotoEditor.Original" = "原图";
+"PhotoEditor.Current" = "当前图片";
+
+"PhotoEditor.CropReset" = "还原";
+"PhotoEditor.CropAuto" = "自动";
+"PhotoEditor.CropAspectRatioOriginal" = "原图";
+"PhotoEditor.CropAspectRatioSquare" = "正方形";
+
+"PhotoEditor.EnhanceTool" = "增强";
+"PhotoEditor.ExposureTool" = "亮度";
+"PhotoEditor.ContrastTool" = "对比";
+"PhotoEditor.WarmthTool" = "色温";
+"PhotoEditor.SaturationTool" = "饱和";
+"PhotoEditor.HighlightsTool" = "高光";
+"PhotoEditor.ShadowsTool" = "阴影";
+"PhotoEditor.VignetteTool" = "晕影";
+"PhotoEditor.GrainTool" = "噪点";
+"PhotoEditor.BlurTool" = "Blur";
+"PhotoEditor.SharpenTool" = "锐化";
+
+"PhotoEditor.BlurToolOff" = "关闭";
+"PhotoEditor.BlurToolRadial" = "圆形";
+"PhotoEditor.BlurToolLinear" = "线性";
+
+"PhotoEditor.Set" = "设置";
+"PhotoEditor.Skip" = "跳过";
+
+// Camera
+"Camera.PhotoMode" = "拍照";
+"Camera.VideoMode" = "视频";
+"Camera.SquareMode" = "正方形";
+"Camera.FlashOff" = "关闭";
+"Camera.FlashOn" = "打开";
+"Camera.FlashAuto" = "自动";
+"Camera.Retake" = "重拍";
+
+"Settings.PhoneNumber" = "更改号码";
+
+"PhoneNumberHelp.Help" = "更换当前与币用帐号绑定的电话号码。此帐号的一切资料，包括云端储存的消息，文件，联系人都会被迁移到新号码下。\n\n**注意：** 所有拥有您旧号码且未被您屏蔽的币用 联系人会获得您的**新号码**。";
+"PhoneNumberHelp.Alert" = "所有拥有当前号码，且未被屏蔽的币用联系人会自动获取新号码。";
+"PhoneNumberHelp.ChangeNumber" = "更改号码";
+
+"ChangePhoneNumberNumber.Title" = "更改号码";
+"ChangePhoneNumberNumber.NewNumber" = "新号码";
+"ChangePhoneNumberNumber.Help" = "我们会此号码发送短信验证码";
+"ChangePhoneNumberNumber.NumberPlaceholder" = "输入您的新手机号码";
+
+"ChangePhoneNumberCode.Code" = "验证码";
+"ChangePhoneNumberCode.CodePlaceholder" = "输入验证码";
+"ChangePhoneNumberCode.Help" = "我们已向此号码发送短信验证码";
+"ChangePhoneNumberCode.CallTimer" = "币用会在 %@ 后通过电话语音播报验证码";
+"ChangePhoneNumberCode.RequestingACall" = "发送呼叫请求...";
+"ChangePhoneNumberCode.Called" = "币用已呼叫您";
+
+"LoginPassword.Title" = "输入密码";
+"LoginPassword.PasswordPlaceholder" = "密码";
+"LoginPassword.InvalidPasswordError" = "密码错误，请重试。";
+"LoginPassword.FloodError" = "错误次数已达上限，请稍后再试。";
+"LoginPassword.ForgotPassword" = "忘记密码？";
+"LoginPassword.PasswordHelp" = "此帐号已被两步验证密码保护。";
+"LoginPassword.ResetAccount" = "重置帐号";
+
+"QuickSend.Photos_1" = "发送 1 张图片";
+"QuickSend.Photos_2" = "发送 %@ 张图片";
+"QuickSend.Photos_3_10" = "发送 %@ 张图片";
+"QuickSend.Photos_any" = "发送 %@ 张图片";
+"QuickSend.Photos_many" = "发送 %@ 张图片";
+"QuickSend.Photos_0" = "发送 %@ 张图片";
+
+"Share.Title" = "分享";
+"Forward.ConfirmMultipleFiles_1" = "发送 1 个文件给 {target}？";
+"Forward.ConfirmMultipleFiles_2" = "发送 %@ 个文件给 {target}？";
+"Forward.ConfirmMultipleFiles_3_10" = "发送 %@ 个文件给 {target}？";
+"Forward.ConfirmMultipleFiles_any" = "发送 %@ 个文件给 {target}？";
+"Forward.ConfirmMultipleFiles_many" = "发送 %@ 个文件给 {target}？";
+"Forward.ConfirmMultipleFiles_0" = "发送 %@ 个文件给 {target}？";
+
+"PrivacySettings.TouchIdTitle" = "TouchID";
+"PrivacySettings.TouchIdEnable" = "同意";
+
+"Notification.Reply" = "回复";
+"Notification.Mute1h" = "免打扰 1 小时";
+"Notification.Mute1hMin" = "免打扰 1 小时";
+"Conversation.ContextMenuShare" = "分享";
+
+"SharedMedia.TitleAll" = "共享媒体";
+"SharedMedia.TitlePhoto" = "共享图片";
+"SharedMedia.TitleVideo" = "共享视频";
+"SharedMedia.TitleFile" = "共享文件";
+"SharedMedia.TitleAudio" = "共享音乐";
+
+"SharedMedia.All" = "所有";
+"SharedMedia.Incoming" = "收到的";
+"SharedMedia.Outgoing" = "发送的";
+
+"SharedMedia.Photo_1" = "1 张图片";
+"SharedMedia.Photo_2" = "%@ 张图片";
+"SharedMedia.Photo_3_10" = "%@ 张图片";
+"SharedMedia.Photo_any" = "%@ 张图片";
+"SharedMedia.Photo_many" = "%@ 张图片";
+"SharedMedia.Photo_0" = "%@ 张图片";
+
+"SharedMedia.Video_1" = "1 个视频";
+"SharedMedia.Video_2" = "%@ 段视频";
+"SharedMedia.Video_3_10" = "%@ 个视频";
+"SharedMedia.Video_any" = "%@ 个视频";
+"SharedMedia.Video_many" = "%@ 段视频";
+"SharedMedia.Video_0" = "%@ 段视频";
+
+"SharedMedia.File_1" = "1 个文件";
+"SharedMedia.File_2" = "%@ 个文件";
+"SharedMedia.File_3_10" = "%@ 个文件";
+"SharedMedia.File_any" = "%@ 个文件";
+"SharedMedia.File_many" = "%@ 个文件";
+"SharedMedia.File_0" = "%@ 个文件";
+
+"SharedMedia.Generic_1" = "1 个媒体文件";
+"SharedMedia.Generic_2" = "%@ 个媒体文件";
+"SharedMedia.Generic_3_10" = "%@ 个媒体文件";
+"SharedMedia.Generic_any" = "%@ 个媒体文件";
+"SharedMedia.Generic_many" = "%@ 个媒体文件";
+"SharedMedia.Generic_0" = "%@ 个媒体文件";
+
+"FileSize.B" = "%@ B";
+"FileSize.KB" = "%@ KB";
+"FileSize.MB" = "%@ MB";
+"FileSize.GB" = "%@ GB";
+
+"DownloadingStatus" = "下载中: %@ / %@";
+
+"Time.MonthOfYear_m1" = "%@ 年 1 月";
+"Time.MonthOfYear_m2" = "%@ 年 2 月";
+"Time.MonthOfYear_m3" = "%@ 年 3 月";
+"Time.MonthOfYear_m4" = "%@ 年 4 月";
+"Time.MonthOfYear_m5" = "%@ 年 5 月";
+"Time.MonthOfYear_m6" = "%@ 年 6 月";
+"Time.MonthOfYear_m7" = "%@ 年 7 月";
+"Time.MonthOfYear_m8" = "%@ 年 8 月";
+"Time.MonthOfYear_m9" = "%@ 年 9 月";
+"Time.MonthOfYear_m10" = "%@ 年 10 月";
+"Time.MonthOfYear_m11" = "%@ 年 11 月";
+"Time.MonthOfYear_m12" = "%@ 年 12 月";
+
+"Time.PreciseDate_m1" = "%2$@ 年 1 月 %1$@ 日 %3$@";
+"Time.PreciseDate_m2" = "%2$@ 年 2 月 %1$@ 日 %3$@";
+"Time.PreciseDate_m3" = "%2$@ 年 3 月 %1$@ 日 %3$@";
+"Time.PreciseDate_m4" = "%2$@ 年 4 月 %1$@ 日 %3$@";
+"Time.PreciseDate_m5" = "%2$@ 年 5 月 %1$@ 日 %3$@";
+"Time.PreciseDate_m6" = "%2$@ 年 6 月 %1$@ 日 %3$@";
+"Time.PreciseDate_m7" = "%2$@ 年 7 月 %1$@ 日 %3$@";
+"Time.PreciseDate_m8" = "%2$@ 年 8 月 %1$@ 日 %3$@";
+"Time.PreciseDate_m9" = "%2$@ 年 9 月 %1$@ 日 %3$@";
+"Time.PreciseDate_m10" = "%2$@ 年 10 月 %1$@ 日 %3$@";
+"Time.PreciseDate_m11" = "%2$@ 年 11 月 %1$@ 日 %3$@";
+"Time.PreciseDate_m12" = "%2$@ 年 12 月 %1$@ 日 %3$@";
+
+"MuteFor.Minutes_1" = "免打扰 for 1 分钟";
+"MuteFor.Minutes_2" = "免打扰 for 2 分钟";
+"MuteFor.Minutes_3_10" = "免打扰 for %@ 分钟";
+"MuteFor.Minutes_any" = "免打扰 for %@ 分钟";
+"MuteFor.Minutes_many" = "免打扰 for %@ 分钟";
+"MuteFor.Minutes_0" = "免打扰 for %@ 分钟";
+
+"MuteFor.Hours_1" = "免打扰 1 小时";
+"MuteFor.Hours_2" = "免打扰 %@ 小时";
+"MuteFor.Hours_3_10" = "免打扰 %@ 小时";
+"MuteFor.Hours_any" = "免打扰 %@ 小时";
+"MuteFor.Hours_many" = "免打扰 %@ 小时";
+"MuteFor.Hours_0" = "免打扰 %@ 小时";
+
+"MuteFor.Days_1" = "免打扰 1 天";
+"MuteFor.Days_2" = "免打扰 %@ 天";
+"MuteFor.Days_3_10" = "免打扰 %@ 天";
+"MuteFor.Days_any" = "免打扰 %@ 天";
+"MuteFor.Days_many" = "免打扰 %@ 天";
+"MuteFor.Days_0" = "免打扰 %@ 天";
+
+"MuteFor.Weeks_1" = "免打扰 for 1 周";
+"MuteFor.Weeks_2" = "免打扰 for 2 周";
+"MuteFor.Weeks_3_10" = "免打扰 for %@ 周";
+"MuteFor.Weeks_any" = "免打扰 for %@ 周";
+"MuteFor.Weeks_many" = "免打扰 for %@ 周";
+"MuteFor.Weeks_0" = "免打扰 for %@ 周";
+
+"MuteExpires.Minutes_1" = "1 分钟内";
+"MuteExpires.Minutes_2" = "%@ 分钟内";
+"MuteExpires.Minutes_3_10" = "%@ 分钟内";
+"MuteExpires.Minutes_any" = "%@ 分钟内";
+"MuteExpires.Minutes_many" = "%@ 分钟内";
+"MuteExpires.Minutes_0" = "%@ 分钟内";
+
+"MuteExpires.Hours_1" = "1 小时内";
+"MuteExpires.Hours_2" = "%@ 小时内";
+"MuteExpires.Hours_3_10" = "%@ 小时内";
+"MuteExpires.Hours_any" = "%@ 小时内";
+"MuteExpires.Hours_many" = "%@ 小时内";
+"MuteExpires.Hours_0" = "%@ 小时内";
+
+"MuteExpires.Days_1" = "1 天内";
+"MuteExpires.Days_2" = "%@ 天内";
+"MuteExpires.Days_3_10" = "%@ 天内";
+"MuteExpires.Days_any" = "%@ 天内";
+"MuteExpires.Days_many" = "%@ 天内";
+"MuteExpires.Days_0" = "%@ 天内";
+
+"SharedMedia.EmptyTitle" = "暂无媒体文件";
+"SharedMedia.EmptyText" = "快在这个会话里分享一些图片或者视频吧\n不然这个回形针会继续不嗨森";
+"SharedMedia.EmptyFilesText" = "您可以发送和收取上限为 1.5G 的任意文件，\n并在所有设备上访问。";
+
+"ShareFileTip.Title" = "分享文件";
+"ShareFileTip.Text" = "通过这里选择，并**无损**发送相机胶卷中的照片。\n\n如要分享其他类型的文件，请在 %@（例如浏览器）中打开它们，点按在 **通过其他应用打开** 或在分享按钮中选择「币用」打开。";
+"ShareFileTip.CloseTip" = "关闭提示";
+
+"DialogList.SearchSectionDialogs" = "会话与联系人";
+"DialogList.SearchSectionGlobal" = "全局搜索";
+"DialogList.SearchSectionMessages" = "消息";
+
+"Username.LinkHint" = "此链接会在币用中打开一个会话窗口：[\nhttps://t.me/%@]";
+"Username.LinkCopied" = "链接已复制到剪贴板";
+
+"SharedMedia.ItemsSelected_1" = "1 选中";
+"SharedMedia.ItemsSelected_2" = "2 选中";
+"SharedMedia.ItemsSelected_3_10" = "%@ 选中";
+"SharedMedia.ItemsSelected_any" = "%@ 选中";
+"SharedMedia.ItemsSelected_many" = "%@ 选中";
+"SharedMedia.ItemsSelected_0" = "%@ 选中";
+
+"SharedMedia.DeleteItemsConfirmation_1" = "删除媒体文件？";
+"SharedMedia.DeleteItemsConfirmation_2" = "删除 %@ 个媒体文件？";
+"SharedMedia.DeleteItemsConfirmation_3_10" = "删除 %@ 个媒体文件？";
+"SharedMedia.DeleteItemsConfirmation_any" = "删除 %@ 个媒体文件？";
+"SharedMedia.DeleteItemsConfirmation_many" = "删除 %@ 个媒体文件？";
+"SharedMedia.DeleteItemsConfirmation_0" = "删除 %@ 个媒体文件？";
+
+"PrivacySettings.Passcode" = "密码锁";
+"PasscodeSettings.Title" = "密码锁";
+"PasscodeSettings.TurnPasscodeOn" = "开启密码锁";
+"PasscodeSettings.TurnPasscodeOff" = "关闭密码锁";
+"PasscodeSettings.ChangePasscode" = "更改密码";
+"PasscodeSettings.Help" = "开启密码锁后，会话页面将出现锁形图标，点击即可锁定或解锁币用。\n\n注意：如果遗忘此密码，您只能删除并重装币用来移除密码锁。重装会丢失所有私密对话。";
+"PasscodeSettings.UnlockWithTouchId" = "使用 Touch ID 解锁";
+"PasscodeSettings.SimplePasscode" = "简单密码";
+"PasscodeSettings.SimplePasscodeHelp" = "简单密码由四位数字组成。";
+"PasscodeSettings.EncryptData" = "加密本地数据库";
+"PasscodeSettings.EncryptDataHelp" = "这是一个试验性功能，请谨慎使用。它通过密码锁生成密码，来加密本地储存的币用数据。";
+
+"EnterPasscode.EnterTitle" = "输入解锁密码";
+"EnterPasscode.SetupTitle" = "新密码";
+"EnterPasscode.ChangeTitle" = "更改密码";
+"EnterPasscode.EnterPasscode" = "请输入解锁密码";
+"EnterPasscode.EnterNewPasscodeNew" = "设定解锁密码";
+"EnterPasscode.EnterNewPasscodeChange" = "请输入新的解锁密码";
+"EnterPasscode.RepeatNewPasscode" = "重复密码以确认";
+"EnterPasscode.EnterCurrentPasscode" = "输入当前解锁密码";
+"EnterPasscode.TouchId" = "输入密码";
+
+"DialogList.PasscodeLockHelp" = "点击锁定币用";
+
+"PasscodeSettings.AutoLock" = "自动锁定";
+"PasscodeSettings.AutoLock.Disabled" = "停用";
+"PasscodeSettings.AutoLock.IfAwayFor_1minute" = "离开 1 分钟后";
+"PasscodeSettings.AutoLock.IfAwayFor_5minutes" = "离开 5 分钟后";
+"PasscodeSettings.AutoLock.IfAwayFor_1hour" = "离开 1 小时后";
+"PasscodeSettings.AutoLock.IfAwayFor_5hours" = "离开 5 小时后";
+
+"PasscodeSettings.FailedAttempts_1" = "已错误 %@ 次";
+"PasscodeSettings.FailedAttempts_2" = "已错误 %@ 次";
+"PasscodeSettings.FailedAttempts_3_10" = "已错误 %@ 次";
+"PasscodeSettings.FailedAttempts_any" = "已错误 %@ 次";
+"PasscodeSettings.FailedAttempts_many" = "已错误 %@ 次";
+"PasscodeSettings.FailedAttempts_0" = "已错误 %@ 次";
+"PasscodeSettings.TryAgainIn1Minute" = "请一分钟后再试";
+
+"AccessDenied.Title" = "请授权访问";
+
+"AccessDenied.Contacts" = "币用基于通讯录来获取联系人列表，\n\n请前往「设置—隐私—通讯录」中打开币用的开关。";
+
+"AccessDenied.VoiceMicrophone" = "币用需要访问麦克风才能录制语音消息，\n\n请前往「设置—隐私—麦克风」中打开币用的开关。";
+
+"AccessDenied.VideoMicrophone" = "币用需要访问麦克风才能在录制视频时录制声音，\n\n请前往「设置—隐私—麦克风」中打开币用的开关。";
+
+"AccessDenied.MicrophoneRestricted" = "币用无法访问麦克风，\n\n请前往「设置—隐私—麦克风」中打开 “币用” 的开关。";
+
+
+"AccessDenied.Camera" = "币用需要访问相机才能拍照或录制视频，\n\n请前往「设置—隐私—相机」中打开币用的开关。";
+
+"AccessDenied.CameraRestricted" = "币用无法访问相机，\n\n请前往「设置—隐私—相机」中打开币用的开关。";
+
+"AccessDenied.CameraDisabled" = "此设备已经禁止使用相机，\n\n请前往「设置—通用—访问限制」中打开「相机」的开关。";
+
+"AccessDenied.PhotosAndVideos" = "币用需要访问照片才能发送图片或视频，\n\n请前往「设置—隐私—照片」中打开币用的开关。";
+
+"AccessDenied.SaveMedia" = "币用需要访问照片才能保存图片或视频，\n\n请前往「设置—隐私—照片」中打开币用的开关。";
+
+"AccessDenied.PhotosRestricted" = "币用无法访问照片，\n\n请前往「设置—隐私—照片」中打开币用的开关。";
+
+"AccessDenied.LocationDenied" = "币用需要使用定位服务才能获取，并分享当前位置，\n\n请前往「设置—隐私—定位服务」中打开币用的开关。";
+
+"AccessDenied.LocationDisabled" = "币用需要使用定位服务才能获取，并分享当前位置，\n\n请前往「设置—隐私—定位服务」中打开币用的开关。";
+
+"AccessDenied.LocationTracking" = "币用需要访问定位服务才能在地图上显示您的位置，\n\n请前往「设置—隐私—定位服务」中打开币用的开关。";
+
+"AccessDenied.Settings" = "设置";
+
+"WebSearch.RecentClearConfirmation" = "删除最近的图片？";
+
+"FeatureDisabled.Oops" = "糟糕";
+
+"Conversation.ContextMenuReply" = "回复";
+
+"ForwardedMessages_1" = "1 条转发消息";
+"ForwardedMessages_2" = "%@ 条转发的消息";
+"ForwardedMessages_3_10" = "%@ 条转发的消息";
+"ForwardedMessages_any" = "%@ 条转发的消息";
+"ForwardedMessages_many" = "%@ 条转发的消息";
+"ForwardedMessages_0" = "%@ 条转发的消息";
+
+"ForwardedFiles_1" = "1 个转发的文件";
+"ForwardedFiles_2" = "%@ 个转发的文件";
+"ForwardedFiles_3_10" = "%@ 个转发的文件";
+"ForwardedFiles_any" = "%@ 个转发的文件";
+"ForwardedFiles_many" = "%@ 个转发的文件";
+"ForwardedFiles_0" = "%@ 个转发的文件";
+
+"ForwardedStickers_1" = "1 个转发的贴纸";
+"ForwardedStickers_2" = "%@ 个转发的贴纸";
+"ForwardedStickers_3_10" = "%@ 个转发的贴纸";
+"ForwardedStickers_any" = "%@ 个转发的贴纸";
+"ForwardedStickers_many" = "%@ 个转发的贴纸";
+"ForwardedStickers_0" = "%@ 个转发的贴纸";
+
+"ForwardedPhotos_1" = "1 张转发的图片";
+"ForwardedPhotos_2" = "%@ 张转发的图片";
+"ForwardedPhotos_3_10" = "%@ 张转发的图片";
+"ForwardedPhotos_any" = "%@ 张转发的图片";
+"ForwardedPhotos_many" = "%@ 张转发的图片";
+"ForwardedPhotos_0" = "%@ 张转发的图片";
+
+"ForwardedVideos_1" = "1 个转发的视频";
+"ForwardedVideos_2" = "%@ 个转发的视频";
+"ForwardedVideos_3_10" = "%@ 个转发的视频";
+"ForwardedVideos_any" = "%@ 个转发的视频";
+"ForwardedVideos_many" = "%@ 个转发的视频";
+"ForwardedVideos_0" = "%@ 个转发的视频";
+
+"ForwardedAudios_1" = "1 条转发的语音";
+"ForwardedAudios_2" = "%@ 条转发的语音";
+"ForwardedAudios_3_10" = "%@ 条转发的语音";
+"ForwardedAudios_any" = "%@ 条转发的语音";
+"ForwardedAudios_many" = "%@ 条转发的语音";
+"ForwardedAudios_0" = "%@ 条转发的语音";
+
+"ForwardedLocations_1" = "1 个转发的位置";
+"ForwardedLocations_2" = "%@ 个转发的位置";
+"ForwardedLocations_3_10" = "%@ 个转发的位置";
+"ForwardedLocations_any" = "%@ 个转发的位置";
+"ForwardedLocations_many" = "%@ 个转发的位置";
+"ForwardedLocations_0" = "%@ 个转发的位置";
+
+"ForwardedGifs_1" = "转发的 GIF";
+"ForwardedGifs_2" = "%@ 个转发的 GIF";
+"ForwardedGifs_3_10" = "%@ 个转发的 GIF";
+"ForwardedGifs_any" = "%@ 个转发的 GIF";
+"ForwardedGifs_many" = "%@ 个转发的 GIF";
+"ForwardedGifs_0" = "%@ 个转发的 GIF";
+
+"ForwardedContacts_1" = "1 位转发的联系人";
+"ForwardedContacts_2" = "%@ 位转发的联系人";
+"ForwardedContacts_3_10" = "%@ 位转发的联系人";
+"ForwardedContacts_any" = "%@ 位转发的联系人";
+"ForwardedContacts_many" = "%@ 位转发的联系人";
+"ForwardedContacts_0" = "%@ 位转发的联系人";
+
+"ForwardedAuthors2" = "%@, %@";
+"ForwardedAuthorsOthers_1" = "%@ 和其他1人";
+"ForwardedAuthorsOthers_2" = "%@ 和其他 %@ 人";
+"ForwardedAuthorsOthers_3_10" = "%@ 和其他 %@ 人";
+"ForwardedAuthorsOthers_any" = "%@ 和其他 %@ 人";
+"ForwardedAuthorsOthers_many" = "%@ 和其他 %@ 人";
+"ForwardedAuthorsOthers_0" = "%@ 和其他 %@ 人";
+
+"PrivacySettings.TwoStepAuth" = "两步验证";
+"TwoStepAuth.Title" = "两步验证";
+"TwoStepAuth.SetPassword" = "添加密码保护";
+"TwoStepAuth.SetPasswordHelp" = "在新设备登录时，除了输入短信验证码外，还需输入此密码。";
+"TwoStepAuth.SetupPasswordTitle" = "设置密码";
+
+"TwoStepAuth.SetupHintTitle" = "密码提示";
+"TwoStepAuth.SetupHint" = "请设置密码提示：";
+
+"TwoStepAuth.ChangePassword" = "更改密码";
+"TwoStepAuth.RemovePassword" = "关闭两步验证";
+"TwoStepAuth.SetupEmail" = "设置密码找回邮箱";
+"TwoStepAuth.ChangeEmail" = "更换密保邮箱";
+"TwoStepAuth.PendingEmailHelp" = "邮箱 %@ 正在等待验证，在完成验证之前此恢复邮箱不会启用。";
+"TwoStepAuth.GenericHelp" = "两步验证已开启\n在登录币用时，请输入之前所设的密码。";
+
+"TwoStepAuth.ConfirmationTitle" = "两步验证";
+"TwoStepAuth.ConfirmationText" = "请检查邮箱，并点击验证链接来完成两步验证的设置。如未收到邮件请查看垃圾邮件。";
+"TwoStepAuth.ConfirmationChangeEmail" = "Change e-mail";
+"TwoStepAuth.ConfirmationAbort" = "取消两步验证设置";
+
+"TwoStepAuth.SetupPasswordEnterPasswordNew" = "请设定密码：";
+"TwoStepAuth.SetupPasswordEnterPasswordChange" = "请输入新密码：";
+"TwoStepAuth.SetupPasswordConfirmPassword" = "请再次输入密码：";
+"TwoStepAuth.SetupPasswordConfirmFailed" = "密码不一致，请重新输入";
+
+"TwoStepAuth.EnterPasswordTitle" = "密码";
+"TwoStepAuth.EnterPasswordPassword" = "密码";
+"TwoStepAuth.EnterPasswordHint" = "提示： %@";
+"TwoStepAuth.EnterPasswordHelp" = "此帐号已被两步验证密码保护。";
+"TwoStepAuth.EnterPasswordInvalid" = "密码无效，请重新输入。";
+"TwoStepAuth.EnterPasswordForgot" = "密码忘了？";
+
+"TwoStepAuth.EmailTitle" = "密码找回邮箱";
+"TwoStepAuth.EmailSkip" = "跳过";
+"TwoStepAuth.EmailSkipAlert" = "您确定不设置密码找回邮箱？\n\n一旦忘记密码，您将无法再登录此币用账号，并且无法恢复。";
+"TwoStepAuth.Email" = "邮箱";
+"TwoStepAuth.EmailPlaceholder" = "邮箱地址";
+"TwoStepAuth.EmailHelp" = "请输入有效的邮箱地址，它是您找回密码的唯一途径。";
+"TwoStepAuth.EmailInvalid" = "邮箱地址无效，请重新输入。";
+"TwoStepAuth.EmailSent" = "我们发送了一封邮件来验证此邮箱地址。";
+"TwoStepAuth.PasswordSet" = "两步验证密码现已启用。";
+"TwoStepAuth.PasswordRemoveConfirmation" = "关闭两步验证？";
+
+"TwoStepAuth.RecoveryUnavailable" = "由于您在设置密码时未提供密保邮箱，您现在只能尝试想起密码，或者重置账号。";
+"TwoStepAuth.RecoveryFailed" = "您现在只能尝试记起密码，或者重置您的账号。";
+"TwoStepAuth.ResetAccount" = "Reset my account";
+"TwoStepAuth.ResetAccountHelp" = "如果您确认重置账号，除了账户中所有的会话、聊天记录之外，您所分享的媒体文件等数据也均会被删除。";
+"TwoStepAuth.ResetAccountConfirmation" = "在您重置账户后，您账户中所有的会话和聊天记录，包括您分享的媒体文件等数据都会被删除。";
+
+"TwoStepAuth.RecoveryTitle" = "邮件认证码";
+"TwoStepAuth.RecoverySent" = "我们向您的邮箱发送你了验证码:\n\n%@";
+"TwoStepAuth.RecoveryCode" = "认证码";
+"TwoStepAuth.RecoveryCodeHelp" = "请检查您的邮箱并输入我们发送给您的六位认证码来关闭两步验证密码。";
+"TwoStepAuth.RecoveryCodeInvalid" = "认证码无效，请重新输入。";
+"TwoStepAuth.RecoveryCodeExpired" = "我们重新向您发送了六位认证码";
+"TwoStepAuth.RecoveryEmailUnavailable" = "无法访问您的密保邮箱 %@ ？";
+
+"TwoStepAuth.FloodError" = "错误次数已达上限，请稍后再试。";
+"TwoStepAuth.GenericError" = "出错啦. 请稍后再试。";
+
+"Conversation.FilePhotoOrVideo" = "相机胶卷";
+"Conversation.FileICloudDrive" = "iCloud Drive";
+"Conversation.FileDropbox" = "Dropbox";
+"Conversation.FileGoogleDrive" = "Google Drive";
+
+"Conversation.FileHowTo" = "如何分享文件?";
+"Conversation.FileOpenIn" = "通过其他应用打开...";
+"Conversation.FileHowToText" = "如需分享其他类型的文件，在您的 %@（例如浏览器）中打开它们，在 **通过其他应用打开** 或分享按钮中选择使用 “币用” 打开。";
+
+"Map.LocationTitle" = "位置";
+"Map.OpenInMaps" = "在地图中显示";
+"Map.OpenInGooglePlus" = "在 Google Plus 中打开";
+"Map.OpenInFoursquare" = "在 Foursquare 中打开";
+"Map.OpenInHereMaps" = "在 HERE Maps 中打开";
+"Map.OpenInYandexMaps" = "在 Yandex Maps 中打开";
+"Map.OpenInYandexNavigator" = "在 Yandex Navigator 中打开";
+"Map.OpenIn" = "在其他应用中打开";
+"Map.More" = "更多...";
+
+"Map.SendThisLocation" = "发送此位置";
+"Map.SendMyCurrentLocation" = "发送我的当前位置";
+"Map.Locating" = "定位中...";
+"Map.ChooseAPlace" = "或选择一个位置";
+"Map.AccurateTo" = "精确到 %@";
+"Map.Search" = "搜索附近的位置";
+"Map.ShowPlaces" = "显示位置";
+"Map.LoadError" = "呃，出错了。 请稍后再试。";
+"Map.LocatingError" = "定位失败";
+"Map.Unknown" = "未知位置";
+
+"Map.DistanceAway" = "距离 %@";
+"Map.ETAMinutes_0" = "%@ 分钟";
+"Map.ETAMinutes_1" = "%@ 分钟";
+"Map.ETAMinutes_2" = "%@ 分钟";
+"Map.ETAMinutes_3_10" = "%@ 分钟";
+"Map.ETAMinutes_any" = "%@ 分钟";
+"Map.ETAMinutes_many" = "%@ 分钟";
+"Map.ETAMinutes_0" = "%@ 分钟";
+"Map.ETAHours_1" = "%@ 小时";
+"Map.ETAHours_2" = "%@ 小时";
+"Map.ETAHours_3_10" = "%@ 小时";
+"Map.ETAHours_any" = "%@ 小时";
+"Map.ETAHours_many" = "%@ 小时";
+
+"GoogleDrive.Title" = "Google Drive";
+"GoogleDrive.Logout" = "登出";
+"GoogleDrive.LogoutTitle" = "登出";
+"GoogleDrive.LogoutMessage" = "您确定登出Google Drive吗?";
+"GoogleDrive.LogoutLogout" = "登出";
+"GoogleDrive.FolderIsEmpty" = "文件夹为空";
+"GoogleDrive.FolderLoadError" = "无法加载文件";
+"GoogleDrive.LoadErrorTitle" = "无法连接";
+"GoogleDrive.LoadErrorMessage" = "请检查您的网络并稍后再试.";
+
+"ChangePhone.ErrorOccupied" = "该号码 %@ 已注册币用，请在转移至新号码前删除对方帐户。";
+
+"AccessDenied.LocationTracking" = "币用需要访问定位服务才能在地图上显示您的位置，\n\n请前往「设置—隐私—定位服务」中打开币用的开关。";
+
+"PrivacySettings.AuthSessions" = "所有设备";
+"AuthSessions.Title" = "所有设备";
+"AuthSessions.CurrentSession" = "当前设备";
+"AuthSessions.TerminateOtherSessions" = "注销其他设备";
+"AuthSessions.TerminateOtherSessionsHelp" = "除本设备之外，其他已登录的设备都会被注销。";
+"AuthSessions.TerminateSession" = "注销此设备";
+"AuthSessions.OtherSessions" = "其他设备";
+"AuthSessions.EmptyTitle" = "无其他设备";
+"AuthSessions.EmptyText" = "您可以用同一个手机号码在其他手机、平板和桌面设备上登录币用，所有数据会即时同步。";
+"AuthSessions.AppUnofficial" = "(ID: %@)";
+
+"WebPreview.GettingLinkInfo" = "获取链接信息...";
+"WebPreview.LinkPreview" = "链接预览";
+
+"Preview.OpenInInstagram" = "在 Instagram 中打开";
+
+"MediaPicker.AddCaption" = "添加说明...";
+
+"GroupInfo.InviteByLink" = "通过链接邀请到群组";
+
+"GroupInfo.InviteLink.Title" = "邀请链接";
+"GroupInfo.InviteLink.LinkSection" = "链接地址";
+"GroupInfo.InviteLink.Help" = "任何已安装币用的用户都可通过此链接加入您的群组。";
+"GroupInfo.InviteLink.CopyLink" = "拷贝链接";
+"GroupInfo.InviteLink.RevokeLink" = "撤销链接";
+"GroupInfo.InviteLink.ShareLink" = "分享链接";
+"GroupInfo.InviteLink.RevokeAlert.Text" = "您确定要撤销此链接？一旦撤销，任何人不能再通过此链接加入本群组。";
+"GroupInfo.InviteLink.RevokeAlert.Revoke" = "撤销";
+"GroupInfo.InviteLink.RevokeAlert.Success" = "旧链接已失效，新链接已生成。";
+"GroupInfo.InviteLink.CopyAlert.Success" = "链接已拷贝到剪贴板。";
+
+"UserInfo.ShareMyContactInfo" = "分享我的联系信息";
+
+"GroupInfo.InvitationLinkAccept" = "确认加入聊天 \"%@\"?";
+"GroupInfo.InvitationLinkAcceptChannel" = "确定加入频道 \"%@\" ？";
+"GroupInfo.InvitationLinkAlreadyAccepted" = "您已经加入了该群组.";
+"GroupInfo.InvitationLinkDoesNotExist" = "抱歉，该群组似乎不存在";
+"GroupInfo.InvitationLinkGroupFull" = "抱歉，该群组已满员";
+
+"Core.ServiceUserStatus" = "服务通知";
+
+"Notification.JoinedGroupByLink" = "%@ 通过邀请链接加入了群组";
+
+"ChatSettings.Other" = "其他";
+"ChatSettings.Stickers" = "贴纸";
+
+"StickerPacksSettings.Title" = "贴纸设置";
+"StickerPacksSettings.ShowStickersButton" = "显示贴纸面板";
+"StickerPacksSettings.ShowStickersButtonHelp" = "开启后，输入框右侧将出现用于访问贴纸面板的快捷图标。";
+
+"StickerPacksSettings.StickerPacksSection" = "您的贴纸包";
+"StickerPacksSettings.ManagingHelp" = "用户可以通过机器人 @stickers 创建自己的贴纸包。\n\n点击贴纸可以预览及添加贴纸包。";
+
+"StickerPack.RemovePrompt" = "删除 \"%@\"?";
+"StickerPack.BuiltinPackName" = "Great Minds";
+"StickerPack.StickerCount_1" = "1 个贴纸";
+"StickerPack.StickerCount_2" = "%@ 个贴纸";
+"StickerPack.StickerCount_3_10" = "%@ 个贴纸";
+"StickerPack.StickerCount_any" = "%@ 个贴纸";
+"StickerPack.StickerCount_many" = "%@ 个贴纸";
+"StickerPack.StickerCount_0" = "%@ 个贴纸";
+
+"StickerPack.AddStickerCount_1" = "添加 1 个贴纸";
+"StickerPack.AddStickerCount_2" = "添加 %@ 个贴纸";
+"StickerPack.AddStickerCount_3_10" = "添加 %@ 个贴纸";
+"StickerPack.AddStickerCount_any" = "添加 %@ 个贴纸";
+"StickerPack.AddStickerCount_many" = "添加 %@ 个贴纸";
+"StickerPack.AddStickerCount_0" = "添加 %@ 个贴纸";
+
+"StickerPack.ShareStickers" = "分享贴纸";
+
+"Conversation.ContextMenuStickerPackAdd" = "添加贴纸";
+"Conversation.ContextMenuStickerPackInfo" = "贴纸信息";
+
+"MediaPicker.Processing" = "处理中 %@";
+"MediaPicker.Nof" = "%@ of";
+
+"UserInfo.ShareBot" = "分享";
+"UserInfo.InviteBotToGroup" = "添加到群组";
+"Profile.BotInfo" = "关于";
+"Profile.ShareBotPersonFormat" = "分享 %@?";
+"Profile.ShareBotGroupFormat" = "分享 %@?";
+
+"Target.SelectGroup" = "选择群组";
+"Target.InviteToGroupConfirmation" = "将机器人添加到 \"%@\" ？";
+"Target.InviteToGroupErrorAlreadyInvited" = "机器人已在该群组";
+"Bot.GenericBotStatus" = "机器人";
+"Bot.DescriptionTitle" = "它能做什么？";
+"Bot.GroupStatusReadsHistory" = "允许访问消息";
+"Bot.GroupStatusDoesNotReadHistory" = "不允许访问消息";
+"Bot.Start" = "开始";
+"UserInfo.BotSettings" = "设置";
+"UserInfo.BotHelp" = "帮助";
+
+"Contacts.SearchLabel" = "搜索联系人或用户名";
+"ChatSearch.SearchPlaceholder" = "搜索";
+
+"WatchRemote.NotificationText" = "在您的手机上打开此通知来查看来自您 Apple Watch 的消息。";
+"WatchRemote.AlertTitle" = "来自 Apple Watch 的消息";
+"WatchRemote.AlertText" = "在此查看这条消息？";
+"WatchRemote.AlertOpen" = "打开";
+
+"Conversation.SearchPlaceholder" = "搜索此会话";
+"Conversation.SearchNoResults" = "无搜索结果";
+
+"GroupInfo.AddUserLeftError" = "抱歉，如果某位用户已退出该群组，只有双向联系人可以加回他们（他们有您的电话号码，您也有他们的）。";
+
+"DialogList.SearchSectionRecent" = "最近";
+
+"DialogList.DeleteBotConfirmation" = "删除";
+"DialogList.DeleteBotConversationConfirmation" = "删除并停用";
+"Bot.Stop" = "停止使用";
+"Bot.Unblock" = "取消屏蔽";
+
+"Login.PhoneNumberHelp" = "帮助";
+"Login.EmailPhoneSubject" = "无效的号码 %@";
+"Login.EmailPhoneBody" = "我正在使用我的手机号码: %@\n但币用认为它是无效的，请帮助.\n更多信息: %@, %@.";
+
+"SharedMedia.TitleLink" = "共享链接";
+"SharedMedia.EmptyLinksText" = "所有已分享的链接都会在此显示。";
+
+"SharedMedia.Link_1" = "1 条链接";
+"SharedMedia.Link_2" = "%@ 条链接";
+"SharedMedia.Link_3_10" = "%@ 条链接";
+"SharedMedia.Link_any" = "%@ 条链接";
+"SharedMedia.Link_many" = "%@ 条链接";
+"SharedMedia.Link_0" = "%@ 条链接";
+
+"Compose.NewChannelButton" = "新的频道";
+"Channels.Title" = "频道";
+
+"Compose.NewChannel" = "新建频道";
+"GroupInfo.ChannelListNamePlaceholder" = "频道名称";
+
+"Channel.MessagePhotoUpdated" = "频道标识已更新";
+"Channel.MessagePhotoRemoved" = "频道标识已移除";
+"Channel.MessageTitleUpdated" = "频道名称已更改为 \"%@\"";
+"Channel.TitleInfo" = "频道详情";
+
+"Channel.UpdatePhotoItem" = "设置频道标识";
+
+"Channel.AboutItem" = "关于";
+"Channel.LinkItem" = "分享链接";
+"Channel.Edit.AboutItem" = "简介";
+"Channel.Edit.LinkItem" = "链接";
+
+"Channel.Username.Title" = "链接";
+"Channel.Username.Help" = "您可以在 **币用** 上为频道设置一个名称，他人能通过该名称找到您的频道。\n\n您可以使用字母、数字及下划线，最小长度为 **5** 个字符。";
+"Channel.Username.LinkHint" = "此链接将打开您的币用频道：[\nhttps://t.me/%@]";
+"Channel.Username.InvalidTooShort" = "频道名称必须包含至少 5 个字符。";
+"Channel.Username.InvalidStartsWithNumber" = "频道名称不能以数字开头。";
+"Channel.Username.InvalidCharacters" = "抱歉，该名称不符合规范。";
+"Channel.Username.InvalidTaken" = "抱歉，该名称已被占用。";
+"Channel.Username.CheckingUsername" = "正在检查名称...";
+"Channel.Username.UsernameIsAvailable" = "%@ 可用";
+
+"Channel.Share" = "分享";
+"Channel.LeaveChannel" = "退出频道";
+
+"Channel.About.Title" = "简介";
+
+"Channel.About.Placeholder" = "简介";
+"Channel.About.Help" = "为频道设置简介。";
+"Group.About.Help" = "为频道设置简介。";
+"Channel.About.Error" = "出错啦。";
+"Channel.ShareNoLink" = "请为您的频道选择一个链接，以便人们可以在搜索中找到它。.";
+
+"Channel.Status" = "频道";
+"Group.Status" = "群组";
+
+"Compose.NewChannel.Members" = "成员";
+"Compose.NewChannel.AddMember" = "增加成员...";
+"Compose.NewChannel.AddMemberHelp" = "你现在可以邀请你的联系人加入频道，或者稍后再加入他们。.";
+"Channel.NotificationSelfAdded" = "%@ 将您加入了这个频道";
+
+"ChannelInfo.ConfirmLeave" = "退出频道";
+"Channel.JoinChannel" = "加入";
+"Forward.ChannelReadOnly" = "抱歉，您不能在此频道发布消息。";
+
+"Conversation.InfoChannel" = "频道";
+
+"Channel.ErrorAccessDenied" = "抱歉，这是一个私人频道。";
+"Conversation.InputTextBroadcastPlaceholder" = "发布消息";
+
+"Channel.NotificationCommentsEnabled" = "评论被打开";
+"Channel.NotificationCommentsDisabled" = "评论被关闭";
+"Channel.Edit.EnableComments" = "评论";
+
+"Channel.TitleShowDiscussion" = "显示评论";
+"Channel.ShareChannel" = "分享";
+
+"Channel.NotificationComments_1" = "1 条评论";
+"Channel.NotificationComments_2" = "2 条评论";
+"Channel.NotificationComments_3_10" = "%@ 条评论";
+"Channel.NotificationComments_any" = "%@ 条评论";
+"Channel.NotificationComments_many" = "%@ 条评论";
+"Channel.NotificationComments_0" = "%@ 条评论";
+"Channel.NotificationLoading" = "加载中...";
+
+"Conversation.InputTextDisabledPlaceholder" = "评论被关闭";
+"Compose.ChannelTokenListPlaceholder" = "搜索联系人或用户名";
+"Compose.GroupTokenListPlaceholder" = "搜索联系人或用户名";
+
+"Compose.ChannelMembers" = "成员";
+
+"Channel.Setup.TypeHeader" = "频道类型";
+"Channel.Setup.TypePrivate" = "私人";
+"Channel.Setup.TypePublic" = "公开";
+"Channel.Setup.TypePublicHelp" = "公开频道可以被搜索，任何人都可以加入。";
+"Channel.Setup.TypePrivateHelp" = "私人频道只能通过邀请链接加入。";
+
+"Channel.Setup.Title" = "频道";
+
+"Channel.Username.CreatePublicLinkHelp" = "用户可与他人分享此链接，使用币用搜索也能找到您的频道。";
+"Channel.Username.CreatePrivateLinkHelp" = "用户可通过以上链接加入您的频道。您可以随时撤销此链接。";
+
+"Channel.Username.CreateCommentsEnabled" = "评论";
+"Channel.Username.CreateCommentsHelp" = "如果您打开评论, 成员梦可以在频道讨论你的文章。";
+
+"Channel.Setup.PublicNoLink" = "请为您的公开频道选择一个链接，以便他人可以通过搜索找到此频道并分享给别人。\n\n如果您对此不感兴趣，我们建议您创建一个私人频道。";
+
+"Channel.Edit.PrivatePublicLinkAlert" = "请注意：如果您选择给您的频道创建一个公开链接，任何人都可以通过搜索找到您的频道并加入。\n\n如果您想保持频道的私密性，请不要创建此链接。";
+
+"Channel.Info.Description" = "简介";
+
+"Channel.Info.Management" = "管理员";
+"Channel.Info.Banned" = "已封禁";
+"Channel.Info.Members" = "成员";
+
+"Channel.Members.AddMembers" = "添加成员";
+"Channel.Members.AddMembersHelp" = "此列表仅频道管理员可见。";
+"Channel.Members.Title" = "成员";
+"Channel.BlackList.Title" = "已封禁";
+"Channel.Management.Title" = "管理员";
+"Channel.Management.LabelCreator" = "创建者";
+"Channel.Management.LabelModerator" = "管理员";
+"Channel.Management.LabelEditor" = "管理员";
+
+"Channel.Management.AddModerator" = "添加管理员";
+"Channel.Management.AddModeratorHelp" = "您可以添加管理员来帮助您管理您的频道。";
+
+"Channel.Members.Kick" = "移除";
+"Channel.Management.Remove" = "移除";
+
+"Conversation.InputTextCommentPlaceholder" = "评论";
+
+"Channel.Members.InviteLink" = "使用链接邀请";
+
+"Channel.Management.ErrorNotMember" = "%@ 还没有加入该频道。你希望邀请吗?";
+
+"Channel.Moderator.AccessLevelHeader" = "访问级别";
+"Channel.Moderator.AccessLevelEditor" = "编辑";
+"Channel.Moderator.AccessLevelModerator" = "管理员";
+
+"Channel.Moderator.AccessLevelModeratorHelp" = "版主可以删除用户的评论和管理频道的黑名单。\n\n版主不能改变频道的名字，链接，照片和描述。";
+"Channel.Moderator.AccessLevelEditorHelp" = "编辑者可以发布频道，管理黑名单和删除帖子。\n\n编辑者无法更改频道的名称、链接、照片和描述。";
+"Channel.Moderator.AccessLevelRevoke" = "撤销管理员";
+
+"Channel.Moderator.Title" = "管理员";
+
+"Notification.ChannelInviter" = "%@ 已邀请您加入此频道";
+"Notification.ChannelInviterSelf" = "您加入了此频道";
+
+"Notification.GroupInviter" = "%@ 已邀请您加入此群组";
+"Notification.GroupInviterSelf" = "您加入了此群组";
+
+"ChannelInfo.DeleteChannel" = "删除频道";
+"ChannelInfo.DeleteChannelConfirmation" = "注意：删除频道会清除所有成员和消息记录。 确定删除频道？";
+
+"Channel.Username.InvalidTooManyUsernames" = "对不起，您创建了太多公共频道。您可以先创建一个私有频道或删除一个现有频道。";
+
+"ChannelInfo.ChannelForbidden" = "抱歉，频道 \"%@\" 不存在。";
+
+"PhotoEditor.FadeTool" = "褪色";
+"PhotoEditor.TintTool" = "着色";
+"PhotoEditor.TintIntensity" = "着色强度";
+"PhotoEditor.ShadowsTint" = "阴影";
+"PhotoEditor.HighlightsTint" = "高光";
+"PhotoEditor.CurvesTool" = "曲线";
+"PhotoEditor.CurvesAll" = "全部";
+"PhotoEditor.CurvesRed" = "红";
+"PhotoEditor.CurvesGreen" = "绿";
+"PhotoEditor.CurvesBlue" = "蓝";
+
+"Channel.ErrorAddBlocked" = "对不起，不能将此用户添加到频道。";
+"Channel.ErrorAddTooMuch" = "抱歉，您只能将前200名用户加入频道。注意：通过频道链接加入的用户人数无上限。";
+
+"ChannelIntro.Title" = "什么是频道？";
+"ChannelIntro.Text" = "频道是向大众\n广播消息的全新工具";
+"ChannelIntro.CreateChannel" = "创建频道";
+
+"ShareMenu.Send" = "发送";
+
+"Conversation.ReportSpam" = "举报垃圾信息";
+"Conversation.ReportSpamConfirmation" = "您确定要举报该用户发布垃圾信息？";
+"SharedMedia.EmptyMusicText" = "在此会话中所分享的全部音乐会出现在这里。";
+
+"ChatSettings.AutoPlayAnimations" = "自动播放 GIF ";
+
+"GroupInfo.ChatAdmins" = "添加管理员";
+
+"ChatAdmins.Title" = "管理员";
+"ChatAdmins.AllMembersAreAdmins" = "将所有成员设为管理员";
+"ChatAdmins.AllMembersAreAdminsOnHelp" = "所有成员可以添加新成员、编辑群组名称及图片。";
+"ChatAdmins.AllMembersAreAdminsOffHelp" = "只有管理员可以添加及移除成员、编辑群组名称及图片。";
+"ChatAdmins.AdminLabel" = "管理员";
+
+"Group.MessagePhotoUpdated" = "群组图片已更新";
+"Group.MessagePhotoRemoved" = "群组图片已移除";
+"Group.MessageTitleUpdated" = "群组重命名为 \"%@\"";
+
+"Group.UpgradeNoticeHeader" = "成员人数已达上限";
+
+"Group.UpgradeNoticeText1" = "升级为超级群组即可提高成员上限、并获得更多功能：";
+"Group.UpgradeNoticeText2" = "•  超级群组成员上限为 {supergroup_member_limit} 人\n•  新成员可以看到所有聊天记录\n•  管理员可以使消息在所有成员的记录中被删除\n•  默认关闭消息通知";
+"GroupInfo.UpgradeButton" = "升级为超级群组";
+"Group.UpgradeConfirmation" = "请注意：群组成员必须更新最新版的币用才能看到您的超级群组。";
+
+"Notification.GroupMigratedToChannel" = "此群组已升级为超级群组";
+"Notification.GroupDeactivated" = "群组已停用";
+"Notification.GroupDeactivated" = "群组已停用";
+"Notification.ChannelMigratedFrom" = "此群组已升级为超级群组";
+
+"Conversation.StatusGroupDeactivated" = "群组已停用";
+"GroupInfo.DeactivatedStatus" = "群组已失效";
+
+"Notification.RenamedGroup" = "群组名称已更改";
+
+"Group.ErrorAddTooMuch" = "抱歉，该群组的人数已达上限。";
+"Group.ErrorAddTooMuchBots" = "抱歉，该群组的机器人数量已达上限。";
+"Group.ErrorAddTooMuchAdmins" = "抱歉，该群组的管理员人数已达上限。";
+"Group.ErrorAddBlocked" = "抱歉，您无法添加该用户到群组。";
+"Group.ErrorNotMutualContact" = "抱歉，目前您只能添加双向联系人到群组。";
+
+"Conversation.SendMessageErrorFlood" = "抱歉，您现在只能给双向联系人发送消息。";
+"Generic.ErrorMoreInfo" = "详情";
+
+"Notification.InvitedMany" = "%@ 邀请了 %@";
+
+"ChannelMembers.Blacklist.EmptyText" = "黑名单用户会从组中删除，只有在管理员邀请下才能返回。他们不能使用邀请链接。";
+
+"ChannelInfo.DeleteGroup" = "删除群组";
+"ChannelInfo.DeleteGroupConfirmation" = "且慢！删除此群组会移除所有成员，并且所有消息记录会丢失。无论如何都要删除这个群组吗？";
+
+"ReportPeer.Report" = "举报";
+
+"ReportPeer.ReasonSpam" = "垃圾消息";
+"ReportPeer.ReasonViolence" = "暴力";
+"ReportPeer.ReasonPornography" = "色情";
+"ReportPeer.ReasonOther" = "其他";
+
+"ReportPeer.AlertSuccess" = "非常感谢！\n我们会尽快核查您的举报。";
+
+"Login.TermsOfServiceLabel" = "注册即代表您同意 [服务协议]。";
+"Login.TermsOfServiceHeader" = "服务协议";
+"Login.TermsOfAgreement" = "注册币用，您同意：\n\n- 不向用户发送垃圾邮件或诈骗用户的服务。\n- 不在公开渠道宣传暴力。\n- 不在公开渠道上发布色情内容。\n\n我们保留稍后更新这些服务条款的权利。";
+
+"ReportPeer.ReasonOther.Placeholder" = "其他";
+"ReportPeer.ReasonOther.Title" = "举报";
+"ReportPeer.ReasonOther.Send" = "发送";
+
+"Group.Management.AddModeratorHelp" = "您可以添加管理员来帮助您管理群组。";
+
+"Watch.AppName" = "币用";
+"Watch.Compose.AddContact" = "选择联系人";
+"Watch.Compose.CreateMessage" = "新建消息";
+"Watch.Compose.CurrentLocation" = "当前位置";
+"Watch.Compose.Send" = "发送";
+"Watch.Contacts.NoResults" = "未找到符合的联系人";
+"Watch.ChatList.NoConversationsTitle" = "尚无对话";
+"Watch.ChatList.NoConversationsText" = "点击「新消息」开始发送信息";
+"Watch.ChatList.Compose" = "新消息";
+
+"Watch.Conversation.Reply" = "回复";
+"Watch.Conversation.Unblock" = "取消屏蔽";
+"Watch.Conversation.UserInfo" = "个人信息";
+"Watch.Conversation.GroupInfo" = "群组信息";
+"Watch.Bot.Restart" = "重启";
+
+"Watch.UserInfo.Title" = "详细信息";
+"Watch.UserInfo.Service" = "通知服务";
+
+"Watch.UserInfo.Block" = "屏蔽";
+"Watch.UserInfo.Unblock" = "取消屏蔽";
+"Watch.UserInfo.Mute_1" = "静音 1 小时";
+"Watch.UserInfo.Mute_2" = "免打扰 %@ 小时";
+"Watch.UserInfo.Mute_3_10" = "静音 %@ 小时";
+"Watch.UserInfo.Mute_any" = "静音 %@ 小时";
+"Watch.UserInfo.Mute_many" = "静音 %@ 小时";
+"Watch.UserInfo.Mute_0" = "静音 %@ 小时";
+"Watch.UserInfo.MuteTitle" = "暂停消息通知";
+"Watch.UserInfo.Unmute" = "开启通知";
+
+"Watch.GroupInfo.Title" = "群组信息";
+"Watch.ChannelInfo.Title" = "频道信息";
+
+"Watch.Message.ForwardedFrom" = "转发自";
+
+"Watch.Notification.Joined" = "加入了币用";
+
+"Watch.MessageView.Title" = "输入消息...";
+"Watch.MessageView.Forward" = "转发";
+"Watch.MessageView.Reply" = "回复";
+"Watch.MessageView.ViewOnPhone" = "在手机上查看";
+
+"Watch.PhotoView.Title" = "图片";
+
+"Watch.Stickers.Recents" = "最近";
+"Watch.Stickers.RecentPlaceholder" = "您的常用贴纸";
+"Watch.Stickers.StickerPacks" = "贴纸包";
+
+"Watch.Location.Current" = "当前位置";
+"Watch.Location.Access" = "允许币用在手机上访问您的位置";
+
+"Watch.AuthRequired" = "请在配对设备上登录币用";
+"Watch.UnlockRequired" = "在手机上解锁币用";
+
+"Watch.NoConnection" = "无网络连接";
+"Watch.ConnectionDescription" = "您的 Watch 需要连接到网络";
+
+"Watch.State.Connecting" = "连接中...";
+"Watch.State.Updating" = "更新中...";
+"Watch.State.WaitingForNetwork" = "没有网络";
+
+"Watch.Time.ShortTodayAt" = "今天 %@";
+"Watch.Time.ShortYesterdayAt" = "昨天 %@";
+"Watch.Time.ShortWeekdayAt" = "%1$@ %2$@";
+"Watch.Time.ShortFullAt" = "%1$@ %2$@";
+
+"Watch.LastSeen.JustNow" = "刚刚";
+"Watch.LastSeen.MinutesAgo_1" = "1 分钟前";
+"Watch.LastSeen.MinutesAgo_2" = "%@ 分钟前";
+"Watch.LastSeen.MinutesAgo_3_10" = "%@ 分钟前";
+"Watch.LastSeen.MinutesAgo_any" = "%@ 分钟前";
+"Watch.LastSeen.MinutesAgo_many" = "%@ 分钟前";
+"Watch.LastSeen.MinutesAgo_0" = "%@ 分钟前";
+"Watch.LastSeen.HoursAgo_1" = "1 小时以前";
+"Watch.LastSeen.HoursAgo_2" = "%@ 小时前";
+"Watch.LastSeen.HoursAgo_3_10" = "%@ 小时以前";
+"Watch.LastSeen.HoursAgo_any" = "%@ 小时以前";
+"Watch.LastSeen.HoursAgo_many" = "%@ 小时前";
+"Watch.LastSeen.HoursAgo_0" = "%@ 小时前";
+"Watch.LastSeen.TodayAt" = "今天 %@";
+"Watch.LastSeen.YesterdayAt" = "昨天 %@";
+"Watch.LastSeen.AtWeekday" = "%@";
+"Watch.LastSeen.AtDate" = "%@";
+"Watch.LastSeen.Lately" = "不久前";
+"Watch.LastSeen.WithinAWeek" = "一周内";
+"Watch.LastSeen.WithinAMonth" = "一个月内";
+"Watch.LastSeen.ALongTimeAgo" = "很久之前";
+
+"Watch.Suggestion.OK" = "好";
+"Watch.Suggestion.ThankYou" = "谢谢！";
+"Watch.Suggestion.Thanks" = "谢谢！";
+"Watch.Suggestion.WhatsUp" = "什么事？";
+"Watch.Suggestion.Yes" = "是的";
+"Watch.Suggestion.No" = "不是";
+"Watch.Suggestion.Absolutely" = "绝对的";
+"Watch.Suggestion.Nope" = "不";
+"Watch.Suggestion.TalkLater" = "待会儿再聊？";
+"Watch.Suggestion.CantTalk" = "现在无法聊天...";
+"Watch.Suggestion.HoldOn" = "等一下...";
+"Watch.Suggestion.CallSoon" = "马上打电话给你.";
+"Watch.Suggestion.TextInABit" = "稍后给你发信息.";
+"Watch.Suggestion.BRB" = "马上回来";
+"Watch.Suggestion.OnMyWay" = "在路上。";
+"Cache.Photos" = "图片";
+"Cache.Videos" = "视频";
+"Cache.Music" = "音乐";
+"Cache.Files" = "文件";
+"Cache.Clear" = "清空 (%@)";
+"Cache.ClearNone" = "清空";
+"Cache.ClearProgress" = "请稍候...";
+"Cache.ClearEmpty" = "清空";
+"Cache.ByPeerHeader" = "对话";
+"Cache.Indexing" = "币用正在计算当前缓存大小。\n这可能需要几分钟。";
+
+"ExplicitContent.AlertTitle" = "抱歉";
+"ExplicitContent.AlertChannel" = "您无法访问这个频道，因为它违反了 App Store 的规定。";
+"ExplicitContent.AlertUser" = "您无法访问这个机器人，因为它违反了 App Store 的规定。";
+
+"StickerSettings.ContextHide" = "存档";
+"StickerSettings.ContextShow" = "读档";
+
+"Conversation.LinkDialogSave" = "保存";
+"Conversation.GifTooltip" = "点按这里访问保存的 GIF";
+
+"AttachmentMenu.PhotoOrVideo" = "图片或视频";
+"AttachmentMenu.ImageSearch" = "图片搜索";
+"AttachmentMenu.File" = "文件";
+
+"AttachmentMenu.SendPhoto_1" = "发送 1 张图片";
+"AttachmentMenu.SendPhoto_2" = "发送 %@ 张图片";
+"AttachmentMenu.SendPhoto_3_10" = "发送 %@ 张图片";
+"AttachmentMenu.SendPhoto_any" = "发送 %@ 张图片";
+"AttachmentMenu.SendPhoto_many" = "发送 %@ 张照片";
+"AttachmentMenu.SendPhoto_0" = "发送 %@ 张照片";
+
+"AttachmentMenu.SendVideo_1" = "发送 1 个视频";
+"AttachmentMenu.SendVideo_2" = "发送 %@ 个视频";
+"AttachmentMenu.SendVideo_3_10" = "发送 %@ 个视频";
+"AttachmentMenu.SendVideo_any" = "发送 %@ 个视频";
+"AttachmentMenu.SendVideo_many" = "发送 %@ 个视频";
+"AttachmentMenu.SendVideo_0" = "发送 %@ 个视频";
+
+"AttachmentMenu.SendGif_1" = "发送 1 个 GIF";
+"AttachmentMenu.SendGif_2" = "发送 %@ 个 GIF";
+"AttachmentMenu.SendGif_3_10" = "发送 %@ 个 GIF";
+"AttachmentMenu.SendGif_any" = "发送 %@ 个 GIF";
+"AttachmentMenu.SendGif_many" = "发送 %@ 个 GIF";
+"AttachmentMenu.SendGif_0" = "发送 %@ 个 GIF";
+
+"AttachmentMenu.SendItem_1" = "发送 1 个";
+"AttachmentMenu.SendItem_2" = "发送 %@ 个";
+"AttachmentMenu.SendItem_3_10" = "发送 %@ 个";
+"AttachmentMenu.SendItem_any" = "发送 %@ 个";
+"AttachmentMenu.SendItem_many" = "发送 %@ 个";
+"AttachmentMenu.SendItem_0" = "发送 %@ 个";
+
+"AttachmentMenu.SendAsFile" = "作为文件发送";
+"AttachmentMenu.SendAsFiles" = "作为文件发送";
+
+"Conversation.Processing" = "正在处理...";
+
+"Conversation.MessageViaUser" = "通过 %@";
+
+"CreateGroup.SoftUserLimitAlert" = "您将可以在升级到超级群组后添加更多的用户";
+"ChannelMembers.AllMembersMayInvite" = "所有成员均可邀请";
+"ChannelMembers.AllMembersMayInviteOnHelp" = "每个人都可以添加新成员。";
+"ChannelMembers.AllMembersMayInviteOffHelp" = "只有管理员可以添加新成员。";
+
+"Privacy.GroupsAndChannels" = "群组";
+"Privacy.GroupsAndChannels.WhoCanAddMe" = "邀请权限控制";
+"Privacy.GroupsAndChannels.CustomHelp" = "您可以限制其他人将您添加到群组或频道的权限。";
+"Privacy.GroupsAndChannels.AlwaysAllow" = "总是允许";
+"Privacy.GroupsAndChannels.NeverAllow" = "从不允许";
+"Privacy.GroupsAndChannels.CustomShareHelp" = "在这里配置的权限将会覆盖全局设置。";
+
+"Privacy.GroupsAndChannels.AlwaysAllow.Title" = "总是允许";
+"Privacy.GroupsAndChannels.AlwaysAllow.Placeholder" = "总是允许...";
+"Privacy.GroupsAndChannels.NeverAllow.Title" = "从不允许";
+"Privacy.GroupsAndChannels.NeverAllow.Placeholder" = "从不允许...";
+
+"Privacy.GroupsAndChannels.InviteToGroupError" = "抱歉，根据 %@ 的隐私设置，您不能添加 %@ 到群组。";
+"Privacy.GroupsAndChannels.InviteToChannelError" = "抱歉，根据 %@ 的隐私设置，您不能添加 %@ 到频道。";
+"Privacy.GroupsAndChannels.InviteToChannelMultipleError" = "抱歉，根据其中一些用户的隐私设置，您不能与这些人建立群组。";
+
+"ChannelMembers.WhoCanAddMembers" = "谁可以添加成员";
+"ChannelMembers.WhoCanAddMembers.AllMembers" = "所有成员";
+"ChannelMembers.WhoCanAddMembers.Admins" = "仅管理员";
+"ChannelMembers.WhoCanAddMembersAllHelp" = "所有人都能添加成员";
+"ChannelMembers.WhoCanAddMembersAdminsHelp" = "只有管理员能添加成员";
+
+"ChannelMembers.GroupAdminsTitle" = "群组管理员";
+"ChannelMembers.ChannelAdminsTitle" = "频道管理员";
+"MusicPlayer.VoiceNote" = "语音消息";
+
+"PrivacyLastSeenSettings.WhoCanSeeMyTimestamp" = "谁可以看到我的上线时间";
+
+"PrivacyLastSeenSettings.GroupsAndChannelsHelp" = "控制谁能将您添加到频道或群组。";
+"MusicPlayer.VoiceNote" = "语音消息";
+
+"Watch.Microphone.Access" = "允许币用访问您的麦克风";
+
+"Settings.AppleWatch" = "苹果手表";
+"AppleWatch.Title" = "苹果手表";
+"AppleWatch.ReplyPresets" = "默认回复";
+"AppleWatch.ReplyPresetsHelp" = "编写或回复信息时，您可以选择一条默认回复，也可将之更改为后用作回复。";
+
+"KeyCommand.FocusOnInputField" = "输入消息";
+"KeyCommand.Find" = "搜索";
+"KeyCommand.ScrollUp" = "向上滚动";
+"KeyCommand.ScrollDown" = "向下滚动";
+"KeyCommand.NewMessage" = "新消息";
+"KeyCommand.JumpToPreviousChat" = "跳转到上一个会话";
+"KeyCommand.JumpToNextChat" = "跳转到下一个会话";
+"KeyCommand.JumpToPreviousUnreadChat" = "跳转到上一个未读会话";
+"KeyCommand.JumpToNextUnreadChat" = "跳转到下一个未读会话";
+"KeyCommand.SendMessage" = "发送消息";
+"KeyCommand.ChatInfo" = "详细信息";
+
+"Conversation.SecretLinkPreviewAlert" = "要为私密对话启用链接预览吗？预览信息需要通过币用服务器生成。";
+"Conversation.SecretChatContextBotAlert" = "请注意：内嵌机器人服务是由第三方开发者提供的。为了使机器人工作，您使用这些机器人时发送的消息将会传递给相关的开发者。";
+
+"Map.OpenInWaze" = "在 Waze 中打开";
+
+"ShareMenu.CopyShareLink" = "拷贝链接";
+
+"Channel.SignMessages" = "署名";
+"Channel.SignMessages.Help" = "在发布的内容后注明发布者。";
+
+"Channel.EditMessageErrorGeneric" = "抱歉，您不能编辑这条消息。";
+
+"ChannelInfo.InvitationLinkDoesNotExist" = "对不起，这个频道好像不存在。";
+
+"Conversation.InputTextSilentBroadcastPlaceholder" = "静音发布";
+"Conversation.SilentBroadcastTooltipOn" = "消息发布后向将订阅者推送通知";
+"Conversation.SilentBroadcastTooltipOff" = "消息发布后不通知订阅者";
+
+"Settings.About" = "个人简介";
+"GroupInfo.LabelAdmin" = "管理员";
+
+"Conversation.Pin" = "置顶";
+"Conversation.Unpin" = "取消置顶";
+"Conversation.Report" = "举报骚扰";
+"Conversation.PinnedMessage" = "置顶消息";
+
+"Conversation.Moderate.Delete" = "删除消息";
+"Conversation.Moderate.Ban" = "屏蔽用户";
+"Conversation.Moderate.Report" = "举报垃圾信息";
+"Conversation.Moderate.DeleteAllMessages" = "删除来自 %@ 的所有消息";
+
+"Group.Username.Help" = "你可以在币用中选择一个群组名称，其他人就可以用这个名字找到你的小组了。.\n\n你可以使用A-Z、0-9和下划线。最小长度为5个字符。";
+
+"Group.Username.InvalidTooShort" = "群组名称必须至少包含 5 个字符。";
+"Group.Username.InvalidStartsWithNumber" = "群组名称不能以数字开头。";
+
+"Group.Username.LinkHint" = "点击此链接，打开您的币用群组:[\nhttps://t.me/%@]";
+
+"Notification.PinnedTextMessage" = "%@ 已置顶 \"%@\"";
+"Notification.PinnedPhotoMessage" = "%@ 已置顶 1 张图片";
+"Notification.PinnedVideoMessage" = "%@ 已置顶 1 个视频";
+"Notification.PinnedRoundMessage" = "%@ 已置顶 1 条视频消息";
+"Notification.PinnedAudioMessage" = "%@ 已置顶 1 条语音消息";
+"Notification.PinnedDocumentMessage" = "%@ 已置顶 1 个文件";
+"Notification.PinnedAnimationMessage" = "%@ 已置顶 1 个 GIF";
+"Notification.PinnedStickerMessage" = "%@ 已置顶 1 个贴纸";
+"Notification.PinnedLocationMessage" = "%@ 已置顶 1 个位置";
+"Notification.PinnedContactMessage" = "%@ 已置顶 1 个联系人信息";
+"Notification.PinnedDeletedMessage" = "%@ 已置顶删除的消息";
+
+"Message.PinnedTextMessage" = "已置顶 \"%@\"";
+"Message.PinnedPhotoMessage" = "已置顶图片";
+"Message.PinnedVideoMessage" = "已置顶视频";
+"Message.PinnedAudioMessage" = "已置顶语音消息";
+"Message.PinnedDocumentMessage" = "已置顶文件";
+"Message.PinnedAnimationMessage" = "已置顶 GIF";
+"Message.PinnedStickerMessage" = "已置顶贴纸";
+"Message.PinnedLocationMessage" = "已置顶位置";
+"Message.PinnedContactMessage" = "已置顶联系人信息";
+"Message.PinnedDeletedMessage" = "已置顶删除消息";
+
+"Notification.PinnedMessage" = "已置顶消息";
+
+"GroupInfo.ConvertToSupergroup" = "升级为超级群组";
+
+"ConvertToSupergroup.Title" = "超级群组";
+"ConvertToSupergroup.HelpTitle" = "**超级群组中：**";
+"ConvertToSupergroup.HelpText" = "• 新成员可以看到所有聊天记录\n• 所有成员将看不到已删除的消息\n• 管理员可以置顶重要消息\n• 创建者可以给群组设置一个公开链接";
+
+"ConvertToSupergroup.Note" = "**注意**：此操作**不可撤销**。";
+
+"GroupInfo.GroupType" = "群组类型";
+
+"Group.Setup.TypeHeader" = "群组类型";
+"Group.Setup.TypePublicHelp" = "任何人都可以搜索、加入公开群组，并查看聊天记录。";
+"Group.Setup.TypePrivateHelp" = "私人群组只能通过群成员邀请或邀请链接加入。";
+
+"Group.Username.CreatePublicLinkHelp" = "其他用户可以通过搜索或群成员分享的链接来加入群组。";
+"Group.Username.CreatePrivateLinkHelp" = "任何人都可以通过此链接进入群组。你可以随时撤销此链接。";
+
+"Conversation.PinMessageAlertGroup" = "置顶此消息并通知所有成员？";
+"Conversation.PinMessageAlertChannel" = "置顶该消息通知所有该频道的成员";
+"Conversation.PinMessageAlert.OnlyPin" = "仅置顶";
+
+"Conversation.UnpinMessageAlert" = "取消置顶？";
+
+"Settings.About.Title" = "个人简介";
+"Settings.About.Help" = "一些个人简介，例如年龄、工作或城市。\n示例: 23岁，来自旧金山的设计师";
+
+"Profile.About" = "个人简介";
+
+"Group.Management.ErrorNotMember" = "%@ 还没有加入这个群组。你想邀请他们吗？";
+
+"Conversation.ReportSpamAndLeave" = "报告垃圾邮件并且退出";
+
+"Conversation.StatusKickedFromChannel" = "您已被移出此频道";
+
+"Generic.OpenHiddenLinkAlert" = "打开 %@？";
+
+"Resolve.ErrorNotFound" = "抱歉，此用户不存在。";
+
+"StickerPack.AddStickers" = "添加贴纸";
+"StickerPack.Share" = "分享";
+"StickerPack.Send" = "发送贴纸";
+
+"StickerPack.RemoveStickers" = "移除贴纸";
+"StickerPack.RemoveStickerCount_1" = "移除 1 个贴纸";
+"StickerPack.RemoveStickerCount_2" = "移除 %@ 个贴纸";
+"StickerPack.RemoveStickerCount_3_10" = "移除 %@ 个贴纸";
+"StickerPack.RemoveStickerCount_any" = "移除 %@ 个贴纸";
+"StickerPack.RemoveStickerCount_many" = "移除 %@ 个贴纸";
+"StickerPack.RemoveStickerCount_0" = "移除 %@ 个贴纸";
+
+"StickerPack.HideStickers" = "隐藏贴纸";
+"StickerPack.ShowStickers" = "显示贴纸";
+
+"ShareMenu.ShareTo" = "分享到";
+"ShareMenu.SelectChats" = "选择会话";
+"ShareMenu.Comment" = "发表评论...";
+
+"MediaPicker.Videos" = "视频";
+
+"Coub.TapForSound" = "点击播放声音";
+
+"Preview.SaveGif" = "保存 GIF";
+"Preview.DeleteGif" = "删除 GIF";
+"Preview.CopyAddress" = "拷贝地址";
+"Preview.ViewStickerPack" = "查看贴纸设置";
+
+"Conversation.ShareBotLocationConfirmationTitle" = "分享您的位置信息？";
+"Conversation.ShareBotLocationConfirmation" = "此操作将会告知机器人您的当前位置。";
+
+"Conversation.ShareBotContactConfirmationTitle" = "分享您的手机号码？";
+"Conversation.ShareBotContactConfirmation" = "机器人将会获取您的手机号码。这可能对与其他服务的集成有用。";
+
+"Conversation.ShareInlineBotLocationConfirmation" = "机器人需要在您每次向其发送请求时获取您的位置信息，以便提供基于位置的查询结果。";
+
+"Activity.UploadingAudio" = "发送音频";
+
+"Preview.Tooltip" = "长按以预览一个项目";
+
+"StickerPack.ErrorNotFound" = "抱歉，此贴纸包不存在。";
+
+"Camera.TapAndHoldForVideo" = "长按拍摄";
+
+"Conversation.TapAndHoldToRecord" = "长按以记录";
+
+"DialogList.RecentTitlePeople" = "用户";
+"DialogList.RecentTitleGroups" = "群组";
+"DialogList.RecentTitleBots" = "机器人";
+
+"Conversation.MessageEditedLabel" = "已编辑";
+"Conversation.EditingMessagePanelTitle" = "已编辑的消息";
+
+"DialogList.Draft" = "草稿";
+"Embed.PlayingInPIP" = "此视频正以「画中画」形式播放";
+
+"MediaPicker.Moments" = "瞬间";
+"MediaPicker.MomentsDateFormat" = "{month} {day}"; // 1 - 日, 2 - 月
+"MediaPicker.MomentsDateYearFormat" = "{month} {day}, {year}"; // 1 - 日, 2 - 月, 3 - 年
+
+"MediaPicker.MomentsDateRangeFormat" = "{date1} – {date2}";
+"MediaPicker.MomentsDateRangeYearFormat" = "{date1} – {date2} {year}";
+"MediaPicker.MomentsDateRangeSameMonthFormat" = "{month} {day1} – {day2}";
+"MediaPicker.MomentsDateRangeSameMonthYearFormat" = "{month} {day1} – {day2}, {year}";
+
+"StickerPacksSettings.FeaturedPacks" = "热门贴纸";
+"FeaturedStickerPacks.Title" = "热门贴纸";
+
+"Invitation.JoinGroup" = "加入群组";
+"Invitation.Members_1" = "1 名成员：";
+"Invitation.Members_2" = "%@ 名成员";
+"Invitation.Members_3_10" = "%@ 名成员：";
+"Invitation.Members_any" = "%@ 名成员：";
+"Invitation.Members_many" = "%@ 名成员";
+"Invitation.Members_0" = "%@ 名成员";
+
+"StickerPacksSettings.ArchivedPacks" = "已归档贴纸";
+"StickerPacksSettings.ArchivedPacks.Info" = "你可以拥有最多 200 个贴纸包。\n未使用的贴纸将在你添加更多的贴纸时被归档。";
+
+"Conversation.CloudStorageInfo.Title" = "您的云存储";
+"Conversation.ClousStorageInfo.Description1" = "• 转发信息到这来保存它们";
+"Conversation.ClousStorageInfo.Description2" = "• 发送媒体和文件来存储它们";
+"Conversation.ClousStorageInfo.Description3" = "• 在任意设备上访问这个会话";
+"Conversation.ClousStorageInfo.Description4" = "• 使用搜索来更快地找东西";
+
+"Conversation.CloudStorage.ChatStatus" = "和你自己聊天";
+
+"ArchivedPacksAlert.Title" = "你的一些旧贴纸包已经被归档。你可以在贴纸设置里重新激活它们。";
+
+"StickerSettings.ContextInfo" = "如果你归档了一套贴纸，你可以立即从「已归档贴纸」里恢复它们。";
+
+"Contacts.TopSection" = "联系人";
+
+"Login.ResetAccountProtected.Title" = "重置账号";
+"Login.ResetAccountProtected.Text" = "因为 %@ 这个账号处于活动状态并设置了密码保护，出于安全考虑，我们将在 1 周后予以删除。\n\n你可以在这段时间内随时取消这一流程。";
+"Login.ResetAccountProtected.TimerTitle" = "您将能够在此时间后重置您的帐户:";
+"Login.ResetAccountProtected.Reset" = "重置";
+"Login.ResetAccountProtected.LimitExceeded" = "您近期的重置帐户请求被它当前活动帐户撤销，请于 7 天后重试。";
+
+"Login.CodeSentCall" = "我们正在呼叫您的手机来播报验证码。";
+
+"Login.SmsRequestState1" = "币用将在 %d:%.2d 后给你发送短信";
+"Login.SmsRequestState2" = "正在向币用发送短信请求...";
+"Login.SmsRequestState3" = "币用已向您发送短信\n[仍未收到验证码？]";
+
+"CancelResetAccount.Title" = "取消账号重置";
+"CancelResetAccount.TextSMS" = "有个拥有你的电话号码 %@ 访问权限的人递交了删除您的币用账号、并重置两步验证密码的请求。\n\n如果你没有执行该操作，请输入我们刚刚发送给你的短信验证码。";
+
+"CancelResetAccount.Success" = "您的帐户 %@ 的删除请求已经被撤销。";
+"MediaPicker.MomentsDateRangeSameMonthYearFormat" = "{month} {day1} – {day2}, {year}";
+
+"Paint.Clear" = "清除所有";
+"Paint.ClearConfirm" = "清除绘制";
+"Paint.Delete" = "删除";
+"Paint.Edit" = "编辑";
+"Paint.Duplicate" = "复制";
+"Paint.Stickers" = "贴纸";
+"Paint.RecentStickers" = "最近";
+"Paint.Masks" = "装饰";
+
+"Paint.Outlined" = "空心";
+"Paint.Regular" = "常规";
+
+"MediaPicker.VideoMuteDescription" = "已设置静音，因而视频将会像 GIF 动画一样自动循环播放。";
+
+
+"Group.Username.RemoveExistingUsernamesInfo" = "抱歉，您已使用太多公共用户名。你可以撤销其中一个群组或频道的链接，或者创建一个私人链接。";
+
+"ServiceMessage.GameScoreExtended_1" = "{name} 在 {game} 中获得 %@ 分";
+"ServiceMessage.GameScoreExtended_2" = "{name} 在 {game} 中获得 %@ 分";
+"ServiceMessage.GameScoreExtended_3_10" = "{name} 在 {game} 中获得 %@ 分";
+"ServiceMessage.GameScoreExtended_any" = "{name} 在 {game} 中获得 %@ 分";
+"ServiceMessage.GameScoreExtended_many" = "{name} 在 {game} 中获得 %@ 分";
+"ServiceMessage.GameScoreExtended_0" = "{name} 在 {game} 中获得 %@ 分";
+
+"ServiceMessage.GameScoreSelfExtended_1" = "您在 {game} 中获得 %@ 分";
+"ServiceMessage.GameScoreSelfExtended_2" = "您在 {game} 中获得 %@ 分";
+"ServiceMessage.GameScoreSelfExtended_3_10" = "您在 {game} 中获得 %@ 分";
+"ServiceMessage.GameScoreSelfExtended_any" = "您在 {game} 中获得 %@ 分";
+"ServiceMessage.GameScoreSelfExtended_many" = "您在 {game} 中获得 %@ 分";
+"ServiceMessage.GameScoreSelfExtended_0" = "您在 {game} 中获得 %@ 分";
+
+"ServiceMessage.GameScoreSimple_1" = "{name} 获得 %@ 分";
+"ServiceMessage.GameScoreSimple_2" = "{name} 获得 %@ 分";
+"ServiceMessage.GameScoreSimple_3_10" = "{name} 获得 %@ 分";
+"ServiceMessage.GameScoreSimple_any" = "{name} 获得 %@ 分";
+"ServiceMessage.GameScoreSimple_many" = "{name} 获得 %@ 分";
+"ServiceMessage.GameScoreSimple_0" = "{name} 获得 %@ 分";
+
+"ServiceMessage.GameScoreSelfSimple_1" = "你获得 %@ 分";
+"ServiceMessage.GameScoreSelfSimple_2" = "你获得 %@ 分";
+"ServiceMessage.GameScoreSelfSimple_3_10" = "你获得 %@ 分";
+"ServiceMessage.GameScoreSelfSimple_any" = "你获得 %@ 分";
+"ServiceMessage.GameScoreSelfSimple_many" = "你获得 %@ 分";
+"ServiceMessage.GameScoreSelfSimple_0" = "你获得 %@ 分";
+
+"Notification.GameScoreExtended_1" = "在 {game} 中获得 %@ 分";
+"Notification.GameScoreExtended_2" = "在 {game} 中获得 %@ 分";
+"Notification.GameScoreExtended_3_10" = "在 {game} 中获得 %@ 分";
+"Notification.GameScoreExtended_any" = "在 {game} 中获得 %@ 分";
+"Notification.GameScoreExtended_many" = "在 {game} 中获得 %@ 分";
+"Notification.GameScoreExtended_0" = "在 {game} 中获得 %@ 分";
+
+"Notification.GameScoreSelfExtended_1" = "在 {game} 中获得 %@ 分";
+"Notification.GameScoreSelfExtended_2" = "在 {game} 中获得 %@ 分";
+"Notification.GameScoreSelfExtended_3_10" = "在 {game} 中获得 %@ 分";
+"Notification.GameScoreSelfExtended_any" = "在 {game} 中获得 %@ 分";
+"Notification.GameScoreSelfExtended_many" = "在 {game} 中获得 %@ 分";
+"Notification.GameScoreSelfExtended_0" = "在 {game} 中获得 %@ 分";
+
+"Notification.GameScoreSimple_1" = "获得 %@ 分";
+"Notification.GameScoreSimple_2" = "获得 %@ 分";
+"Notification.GameScoreSimple_3_10" = "获得 %@ 分";
+"Notification.GameScoreSimple_any" = "获得 %@ 分";
+"Notification.GameScoreSimple_many" = "获得 %@ 分";
+"Notification.GameScoreSimple_0" = "获得 %@ 分";
+
+"Notification.GameScoreSelfSimple_1" = "获得 %@ 分";
+"Notification.GameScoreSelfSimple_2" = "获得 %@ 分";
+"Notification.GameScoreSelfSimple_3_10" = "获得 %@ 分";
+"Notification.GameScoreSelfSimple_any" = "获得 %@ 分";
+"Notification.GameScoreSelfSimple_many" = "获得 %@ 分";
+"Notification.GameScoreSelfSimple_0" = "获得 %@ 分";
+
+"Stickers.Install" = "添加";
+
+"MaskStickerSettings.Title" = "装饰";
+"MaskStickerSettings.Info" = "你可以在要发送的图片或视频里添加装饰——只需在发送前打开图片编辑器进行编辑即可。";
+
+"StickerPack.MaskCount_1" = "1 装饰";
+"StickerPack.MaskCount_2" = "2 装饰";
+"StickerPack.MaskCount_3_10" = "%@ 装饰";
+"StickerPack.MaskCount_any" = "%@ 装饰";
+"StickerPack.MaskCount_many" = "%@ 装饰";
+"StickerPack.MaskCount_0" = "%@ 装饰";
+
+"StickerPack.Add" = "添加";
+"StickerPack.AddMaskCount_1" = "添加 1 个装饰";
+"StickerPack.AddMaskCount_2" = "添加 %@ 个装饰";
+"StickerPack.AddMaskCount_3_10" = "添加 %@ 个装饰";
+"StickerPack.AddMaskCount_any" = "添加 %@ 个装饰";
+"StickerPack.AddMaskCount_many" = "添加 %@ 个装饰";
+"StickerPack.AddMaskCount_0" = "添加 %@ 个装饰";
+
+"StickerPack.Remove" = "Remove";
+"StickerPack.RemoveMaskCount_1" = "移除 1 个装饰";
+"StickerPack.RemoveMaskCount_2" = "移除 %@ 个装饰";
+"StickerPack.RemoveMaskCount_3_10" = "移除 %@ 个装饰";
+"StickerPack.RemoveMaskCount_any" = "移除 %@ 个装饰";
+"StickerPack.RemoveMaskCount_many" = "移除 %@ 个装饰";
+"StickerPack.RemoveMaskCount_0" = "移除 %@ 个装饰";
+
+"Conversation.BotInteractiveUrlAlert" = "是否允许 %@ 传送你的币用昵称及 ID（不是你的电话号码）到你通过此机器人打开的网页中呢？";
+"StickerPacksSettings.ArchivedMasks" = "已归档装饰";
+"StickerSettings.MaskContextInfo" = "如果你归档了一套装饰，你可以立即从「已归档装饰」中将它们放回。";
+"StickerPacksSettings.ArchivedMasks.Info" = "你最多可以有200个装饰。当你添加更多时，装饰会保存在未使用装饰中";
+
+"CloudStorage.Title" = "云存储";
+
+"Widget.AuthRequired" = "登陆到币用";
+"Widget.NoUsers" = "发送第一条消息后就能在这里看到你的朋友";
+
+"Message.GamePreviewLabel" = "游戏";
+
+"ShareMenu.CopyShareLinkGame" = "复制游戏链接";
+
+"Message.PinnedGame" = "置顶一个游戏";
+
+"Target.ShareGameConfirmationPrivate" = "与 %@ 分享此游戏？";
+"Target.ShareGameConfirmationGroup" = "与 \"%@\" 分享此游戏？";
+
+"Activity.PlayingGame" = "正在玩游戏";
+
+"DialogList.SinglePlayingGameSuffix" = "%@ 正在游戏中";
+
+"UserInfo.GroupsInCommon" = "共同加入的群组";
+"Conversation.InstantPagePreview" = "即时预览";
+
+"StickerPack.ViewPack" = "预览贴纸包";
+"InstantPage.AuthorAndDateTitle" = "%1$@ 于 %2$@";
+"InstantPage.FeedbackButton" = "发送关于此预览的反馈";
+"Conversation.JumpToDate" = "跳转";
+"Conversation.AddToReadingList" = "添加到阅读列表";
+
+"AccessDenied.CallMicrophone" = "币用需要访问麦克风的权限才能进行语音通话。\n\n请前往“设置—隐私—麦克风”打开币用的开关。";
+
+"Call.EncryptionKey.Title" = "加密密钥";
+"Call.EncryptionKey.Description" = "这个图像和文本是从这个语音呼叫 %1$@ 的加密密钥派生出来的。";
+
+"Application.Name" = "币用";
+"DialogList.Pin" = "置顶";
+"DialogList.Unpin" = "取消置顶";
+"DialogList.PinLimitError" = "对不起，您最多只能将 %@ 个会话置顶。";
+
+"Conversation.DeleteMessagesForMe" = "从本地删除";
+"Conversation.DeleteMessagesFor" = "从本地和 %@ 删除";
+"Conversation.DeleteMessagesForEveryone" = "为所有人删除";
+
+"NetworkUsageSettings.Title" = "网络用量";
+"NetworkUsageSettings.Cellular" = "移动网络";
+"NetworkUsageSettings.Wifi" = "Wi-Fi";
+
+"NetworkUsageSettings.GeneralDataSection" = "消息";
+"NetworkUsageSettings.MediaImageDataSection" = "图片";
+"NetworkUsageSettings.MediaVideoDataSection" = "视频";
+"NetworkUsageSettings.MediaAudioDataSection" = "音频";
+"NetworkUsageSettings.MediaDocumentDataSection" = "文档";
+"NetworkUsageSettings.TotalSection" = "总字节数";
+"NetworkUsageSettings.BytesSent" = "已发送字节";
+"NetworkUsageSettings.BytesReceived" = "已接收字节";
+
+"NetworkUsageSettings.ResetStats" = "重置统计数据";
+"NetworkUsageSettings.ResetStatsConfirmation" = "您确定要重置统计数据吗";
+"NetworkUsageSettings.CellularUsageSince" = "自 %@ 的蜂窝移动网络用量";
+"NetworkUsageSettings.WifiUsageSince" = "自 %@ 的 Wi-Fi 用量";
+
+"Settings.CallSettings" = "语音通话";
+
+"Calls.TabTitle" = "呼叫";
+"Calls.All" = "全部";
+"Calls.Missed" = "未接";
+"Calls.Clear" = "清空";
+
+"CallSettings.Title" = "语音通话";
+"CallSettings.RecentCalls" = "最近呼叫";
+"CallSettings.TabIcon" = "显示呼叫面板";
+"CallSettings.TabIconDescription" = "「呼叫」图标将显示在标签栏上。";
+"CallSettings.UseLessData" = "使用更少流量";
+"CallSettings.Never" = "从不";
+"CallSettings.OnMobile" = "仅限数据网络";
+"CallSettings.Always" = "总是";
+"CallSettings.UseLessDataLongDescription" = "使用更少的数据将提升在较差的网络环境下的体验，但是会轻微降低语音质量。";
+
+"Calls.CallTabTitle" = "呼叫标签";
+"Calls.CallTabDescription" = "您可以将「呼叫标签」添加到标签栏上。";
+"Calls.NotNow" = "不是现在";
+"Calls.AddTab" = "添加标签";
+"Calls.Search" = "搜索呼叫";
+"Calls.NewCall" = "新呼叫";
+
+"Calls.RatingTitle" = "请对你这次的币用呼叫\n做出评价";
+"Calls.SubmitRating" = "提交";
+
+"Call.Seconds_1" = "%@ 秒";
+"Call.Seconds_2" = "%@ 秒";
+"Call.Seconds_3_10" = "%@ 秒";
+"Call.Seconds_any" = "%@ 秒";
+"Call.Seconds_many" = "%@ 秒";
+"Call.Seconds_0" = "%@ 秒";
+"Call.Minutes_1" = "%@ 分钟";
+"Call.Minutes_2" = "%@ 分钟";
+"Call.Minutes_3_10" = "%@ 分钟";
+"Call.Minutes_any" = "%@ 分钟";
+"Call.Minutes_many" = "%@ 分钟";
+"Call.Minutes_0" = "%@ 分钟";
+
+"Call.ShortSeconds_1" = "%@ 秒";
+"Call.ShortSeconds_2" = "%@ 秒";
+"Call.ShortSeconds_3_10" = "%@ 秒";
+"Call.ShortSeconds_any" = "%@ 秒";
+"Call.ShortSeconds_many" = "%@ 秒";
+"Call.ShortSeconds_0" = "%@ 秒";
+"Call.ShortMinutes_1" = "%@ 分钟";
+"Call.ShortMinutes_2" = "%@ 分钟";
+"Call.ShortMinutes_3_10" = "%@ 分钟";
+"Call.ShortMinutes_any" = "%@ 分钟";
+"Call.ShortMinutes_many" = "%@ 分钟";
+"Call.ShortMinutes_0" = "%@ 分钟";
+
+"Notification.CallTimeFormat" = "%1$@ (%2$@)"; // 1 - 类型, 2 - 通话时长
+"Notification.CallOutgoing" = "外拨电话";
+"Notification.CallIncoming" = "来电";
+"Notification.CallMissed" = "未接来电";
+"Notification.CallCanceled" = "未接电话";
+"Notification.CallOutgoingShort" = "外拨电话";
+"Notification.CallIncomingShort" = "来电";
+"Notification.CallMissedShort" = "未接";
+"Notification.CallCanceledShort" = "取消";
+"Notification.CallFormat" = "%1$@, %2$@"; // 1 - 时间, 2 - 通话时长
+
+
+
+"Call.ConnectionErrorTitle" = "无法呼叫";
+"Call.ConnectionErrorMessage" = "请检查您的互联网连接并重试。";
+
+"Call.CallBack" = "回叫";
+"Call.CallAgain" = "再次呼叫";
+
+"Login.PhoneFloodError" = "对不起，您最近删除并重建您的帐户次数过多。请稍等几天再来重新注册。";
+
+"Checkout.Title" = "结算";
+"Checkout.TotalAmount" = "总计";
+"Checkout.TotalPaidAmount" = "总计支付";
+"Checkout.PaymentMethod" = "付款信息";
+"Checkout.ShippingMethod" = "配送方式";
+"Checkout.ShippingAddress" = "配送信息";
+"Checkout.Name" = "姓名";
+"Checkout.Email" = "电子邮箱";
+"Checkout.Phone" = "电话";
+"Checkout.PayPrice" = "支付 %@";
+"Checkout.PayNone" = "付款";
+
+"Checkout.PaymentMethod.Title" = "付款信息";
+"Checkout.PaymentMethod.New" = "添加银行卡...";
+
+"Checkout.NewCard.Title" = "添加银行卡";
+"Checkout.NewCard.PaymentCard" = "银行卡";
+"Checkout.NewCard.SaveInfo" = "保存付款信息";
+"Checkout.NewCard.SaveInfoEnableHelp" = "您可以保存您的付款信息以在将来使用。\n请先[开启两步验证] 后再启用此功能。";
+"Checkout.NewCard.SaveInfoHelp" = "您可以保存您的付款信息以在将来使用。";
+"Checkout.NewCard.CardholderNameTitle" = "持卡人";
+"Checkout.NewCard.CardholderNamePlaceholder" = "持卡人姓名";
+"Checkout.NewCard.PostcodeTitle" = "账单地址";
+"Checkout.NewCard.PostcodePlaceholder" = "邮编";
+
+"Checkout.ShippingOption.Title" = "配送方式";
+"Checkout.ShippingOption.Header" = "选择配送方式";
+
+"Checkout.ErrorProviderAccountInvalid" = "这个机器人现在不接受支付，请稍后再试";
+"Checkout.ErrorProviderAccountTimeout" = "这个机器人现在不能处理支付，请稍后再试";
+"Checkout.ErrorInvoiceAlreadyPaid" = "您已经付款过这个项目了。";
+
+"Checkout.ErrorGeneric" = "进行支付时发生错误。您的银行卡没有被扣款。";
+"Checkout.ErrorPaymentFailed" = "支付失败。您的银行卡没有被扣款。";
+"Checkout.ErrorPrecheckoutFailed" = "这个机器人无法处理你的支付。您的银行卡没有被扣款。";
+
+"CheckoutInfo.Title" = "配送信息";
+"CheckoutInfo.ShippingInfoTitle" = "配送地址";
+"CheckoutInfo.ShippingInfoAddress1" = "地址行 1";
+"CheckoutInfo.ShippingInfoAddress1Placeholder" = "地址";
+"CheckoutInfo.ShippingInfoAddress2" = "地址行 2";
+"CheckoutInfo.ShippingInfoAddress2Placeholder" = "地址";
+"CheckoutInfo.ShippingInfoState" = "省份";
+"CheckoutInfo.ShippingInfoStatePlaceholder" = "省份";
+"CheckoutInfo.ShippingInfoCity" = "城市";
+"CheckoutInfo.ShippingInfoCityPlaceholder" = "城市";
+"CheckoutInfo.ShippingInfoCountry" = "国家";
+"CheckoutInfo.ShippingInfoCountryPlaceholder" = "国家";
+"CheckoutInfo.ShippingInfoPostcode" = "邮政编码";
+"CheckoutInfo.ShippingInfoPostcodePlaceholder" = "邮政编码";
+"CheckoutInfo.ReceiverInfoTitle" = "收货人";
+"CheckoutInfo.ReceiverInfoName" = "姓名";
+"CheckoutInfo.ReceiverInfoNamePlaceholder" = "姓名";
+"CheckoutInfo.ReceiverInfoEmail" = "电子邮箱";
+"CheckoutInfo.ReceiverInfoEmailPlaceholder" = "电子邮箱";
+"CheckoutInfo.ReceiverInfoPhone" = "电话";
+"CheckoutInfo.SaveInfo" = "保存信息";
+"CheckoutInfo.SaveInfoHelp" = "您可以保存您的配送信息以在将来使用。";
+"CheckoutInfo.Pay" = "付款";
+
+"Checkout.Receipt.Title" = "收据";
+
+"Message.ReplyActionButtonShowReceipt" = "显示收据";
+"Message.InvoiceShipmentLabel" = "运输";
+"Message.InvoiceLabel" = "订单";
+
+"CheckoutInfo.ErrorShippingNotAvailable" = "无法配送到您所选择的国家。";
+"CheckoutInfo.ErrorPostcodeInvalid" = "请输入有效的邮政编码。";
+"CheckoutInfo.ErrorStateInvalid" = "请输入有效的省份。";
+"CheckoutInfo.ErrorCityInvalid" = "请输入有效的城市。";
+"CheckoutInfo.ErrorNameInvalid" = "请输入有效的姓名。";
+"CheckoutInfo.ErrorEmailInvalid" = "请输入有效的电子邮箱地址。";
+"CheckoutInfo.ErrorPhoneInvalid" = "请输入有效的手机号码。";
+
+"Checkout.WebConfirmation.Title" = "完成支付";
+"Checkout.PasswordEntry.Title" = "支付确认";
+"Checkout.PasswordEntry.Pay" = "付款";
+"Checkout.PasswordEntry.Text" = "您曾经保存过您的银行卡 %@ 。要使用此卡付款，请输入您的两步验证密码。";
+
+"Checkout.SavePasswordTimeout" = "您是否希望保存您 %@ 的密码？";
+"Checkout.SavePasswordTimeoutAndTouchId" = "您是否希望保存 %@ 的密码并使用 Touch ID 支付？";
+"Checkout.PayWithTouchId" = "使用 Touch ID 支付";
+"Checkout.EnterPassword" = "输入密码";
+
+"Your_card_has_expired" = "您的卡已过期。";
+
+/* Error when the card was declined by the credit card networks */
+"Your_card_was_declined" = "您的卡被拒绝。";
+
+/* Error when the card's expiration month is not valid */
+"Your_cards_expiration_month_is_invalid" = "您输入了一个无效的过期月份。";
+
+/* Error when the card's expiration year is not valid */
+"Your_cards_expiration_year_is_invalid" = "您输入了一个无效的过期年份。";
+
+/* Error when the card number is not valid */
+"Your_cards_number_is_invalid" = "您输入了一个无效的卡号。";
+
+/* Error when the card's CVC is not valid */
+"Your_cards_security_code_is_invalid" = "您输入了一个错误的安全码。";
+
+"MESSAGE_INVOICE" = "%1$@ 向您发送了关于 %2$@ 的一个订单";
+"CHAT_MESSAGE_INVOICE" = "%1$@ 因 %3$@ 给 %2$@ 群组发送了一张订单";
+"PINNED_INVOICE" = "%1$@ 已置顶 1 个订单";
+
+"Message.PinnedInvoice" = "已置顶一个订单";
+
+"User.DeletedAccount" = "删除帐号";
+
+"Settings.SaveEditedPhotos" = "保存已编辑的图片";
+
+"Message.PaymentSent" = "支付： %@";
+"Notification.PaymentSent" = "您已成功因 {title} 向 {user} 转账 {amount}";
+
+"Common.NotNow" = "不是现在";
+
+"Calls.RatingFeedback" = "输入文字...";
+
+"Call.StatusIncoming" = "币用语音...";
+"Call.StatusRequesting" = "连接中...";
+"Call.StatusWaiting" = "等待中...";
+"Call.StatusRinging" = "响铃中...";
+"Call.StatusConnecting" = "连接中...";
+"Call.StatusOngoing" = "币用语音 %@";
+"Call.StatusEnded" = "通话结束";
+"Call.StatusFailed" = "通话失败";
+"Call.StatusBusy" = "忙线";
+"Call.Accept" = "接受";
+"Call.Decline" = "拒绝";
+
+"Call.StatusBar" = "轻触此处来返回通话 %@";
+
+"UserInfo.Call" = "语音通话";
+
+"Call.ParticipantVersionOutdatedError" = "%@ 的应用不支持通话。在您能够呼叫他们之前，他们必须先更新他们的应用。";
+
+"Privacy.Calls" = "语音通话";
+
+"Privacy.Calls.WhoCanCallMe" = "谁可以呼叫我";
+"Privacy.Calls.CustomHelp" = "你可以限制其他人和你语音通话的权限";
+"Privacy.Calls.AlwaysAllow" = "总是允许";
+"Privacy.Calls.NeverAllow" = "从不允许";
+"Privacy.Calls.CustomShareHelp" = "无论上面如何设置，这些用户将能够或不能呼叫您。";
+
+"Privacy.Calls.AlwaysAllow.Title" = "总是允许";
+"Privacy.Calls.AlwaysAllow.Placeholder" = "总是允许...";
+"Privacy.Calls.NeverAllow.Title" = "从不允许";
+"Privacy.Calls.NeverAllow.Placeholder" = "从不允许...";
+
+"PhotoEditor.QualityTool" = "质量";
+"PhotoEditor.QualityVeryLow" = "非常低";
+"PhotoEditor.QualityLow" = "低";
+"PhotoEditor.QualityMedium" = "中";
+"PhotoEditor.QualityHigh" = "高";
+"PhotoEditor.QualityVeryHigh" = "极高";
+
+"Settings.SaveEditedPhotos" = "保存已编辑的图片";
+
+"Calls.NoCallsPlaceholder" = "您最近的通话将在此显示";
+"Calls.NoMissedCallsPlacehoder" = "您没有未接电话";
+
+"Call.CallInProgressTitle" = "正在通话";
+"Call.CallInProgressMessage" = "结束和 %1$@ 的通话并且和 %2$@ 进行新的通话？";
+
+"Call.Message" = "输入消息";
+
+"UserInfo.TapToCall" = "点击进行端到端加密的通话";
+"Call.GroupFormat" = "%1$@ (%2$@)";
+
+"NetworkUsageSettings.CallDataSection" = "通话";
+
+"Call.PrivacyErrorMessage" = "抱歉，%@ 不接受呼叫。";
+
+"Notification.CallBack" = "回拨";
+
+"CallSettings.PrivacyDescription" = "在个人设置中配置谁可以呼叫你。";
+
+"Call.AudioRouteSpeaker" = "扬声器";
+"Call.AudioRouteHeadphones" = "耳机";
+"Call.AudioRouteHide" = "隐藏";
+
+"EncryptionKey.TapToEmojify" = "点击 emojify";
+
+"Call.PhoneCallInProgressMessage" = "你不能在电话通话时同时使用币用通话。";
+"Call.RecordingDisabledMessage" = "请在录制语音消息前结束通话。";
+
+"Call.EmojiDescription" = "如果这些绘文字也出现在 %@ 的屏幕上，本次通话的安全性是 100%%。";
+
+"Message.VideoMessage" = "视频消息";
+
+"Conversation.HoldForAudio" = "按住来录制音频。点击切换为拍摄视频。";
+"Conversation.HoldForVideo" = "按住来拍摄视频。点击切换为录制音频。";
+
+"UserInfo.BTCchatCall" = "币用通话";
+"UserInfo.PhoneCall" = "电话";
+
+"SharedMedia.CategoryMedia" = "已共享媒体";
+"SharedMedia.CategoryDocs" = "文档";
+"SharedMedia.CategoryLinks" = "链接";
+"SharedMedia.CategoryOther" = "语音";
+
+"AccessDenied.VideoMessageCamera" = "币用需要访问相机才能录制视频，\n\n请前往「设置—隐私—相机」中打开币用的开关。";
+"AccessDenied.VideoMessageMicrophone" = "币用需要访问麦克风才能录制视频消息，\n\n请前往「设置—隐私—麦克风」中打开币用的开关。";
+
+"ChatSettings.AutomaticVideoMessageDownload" = "自动下载视频消息";
+
+"ForwardedVideoMessages_1" = "转发视频消息";
+"ForwardedVideoMessages_2" = "%@ 条转发的视频消息";
+"ForwardedVideoMessages_3_10" = "%@ 转发视频消息";
+"ForwardedVideoMessages_any" = "%@ 转发视频消息";
+"ForwardedVideoMessages_many" = "%@ 条转发的视频消息";
+"ForwardedVideoMessages_0" = "%@ 条转发的视频消息";
+
+"Conversation.DiscardVoiceMessageTitle" = "丢弃语音消息";
+"Conversation.DiscardVoiceMessageDescription" = "你确定要停止录制并丢弃\n你的语音消息吗？";
+"Conversation.DiscardVoiceMessageAction" = "丢弃";
+
+"Message.ForwardedMessageShort" = "转发自\n%@";
+
+"Checkout.LiabilityAlertTitle" = "警告";
+"Checkout.LiabilityAlert" = "币用服务器 和 %1$@ 均无法获取您的信用卡信息。信用卡信息将仅由支付平台 %2$@ 处理。\n\n您的款项将直接发送至 %1$@ 的开发者。币用无法提供任何保障，因此您需要自行承担风险。如果出现问题，请联系 %1$@ 的开发者或信用卡的开户行。";
+
+"Settings.AppLanguage" = "语言";
+
+"InstantPage.AutoNightTheme" = "自动启用夜间主题";
+
+"Privacy.PaymentsTitle" = "支付";
+"Privacy.PaymentsClearInfo" = "清除付款和配送信息";
+"Privacy.PaymentsClearInfoHelp" = "您可以删除您的配送信息，并要求所有服务提供商删除您提供的信用卡信息。请注意：币用从不保存您的信用卡信息。";
+"Privacy.PaymentsClear.PaymentInfo" = "付款信息";
+"Privacy.PaymentsClear.ShippingInfo" = "配送信息";
+
+"Channel.Management.LabelRights_1" = "1 个允许";
+"Channel.Management.LabelRights_2" = "2 个允许";
+"Channel.Management.LabelRights_3_10" = "%@ 个允许";
+"Channel.Management.LabelRights_any" = "%@ 个允许";
+"Channel.Management.LabelRights_many" = "%@ 个允许";
+"Channel.Management.LabelRights_0" = "%@ 个允许";
+
+"Channel.EditAdmin.PermissionsHeader" = "管理员权限";
+"Channel.EditAdmin.PermissionChangeInfo" = "修改频道信息";
+"Group.EditAdmin.PermissionChangeInfo" = "修改群组信息";
+"Channel.EditAdmin.PermissionPostMessages" = "发布消息";
+"Channel.EditAdmin.PermissionEditMessages" = "编辑消息";
+"Channel.EditAdmin.PermissionDeleteMessages" = "删除消息";
+"Channel.EditAdmin.PermissionBanUsers" = "禁止用户";
+"Channel.EditAdmin.PermissionInviteUsers" = "添加用户";
+"Channel.EditAdmin.PermissionChangeInviteLink" = "添加用户链接";
+"Channel.EditAdmin.PermissionPinMessages" = "置顶消息";
+"Channel.EditAdmin.PermissionAddAdmins" = "添加新管理员";
+
+"Channel.EditAdmin.PermissinAddAdminOn" = "该管理员能够添加新管理员，并赋予其最高与该管理员相当的权限。";
+"Channel.EditAdmin.PermissinAddAdminOff" = "该管理员不能添加新管理员。";
+
+"Login.ContinueWithLocalization" = "使用简体中文继续";
+"Localization.LanguageName" = "简体中文";
+"Localization.ChooseLanguage" = "选择你的语言";
+"Localization.EnglishLanguageName" = "简体中文";
+"Localization.LanguageOther" = "其它";
+"Localization.LanguageCustom" = "自定义";
+
+"Channel.BanUser.Title" = "封禁用户";
+"Channel.BanUser.PermissionsHeader" = "用户限制";
+"Channel.BanUser.PermissionReadMessages" = "查看消息";
+"Channel.BanUser.PermissionSendMessages" = "发送消息";
+"Channel.BanUser.PermissionSendMedia" = "发送媒体";
+"Channel.BanUser.PermissionSendStickersAndGifs" = "发送贴纸和 GIF";
+"Channel.BanUser.PermissionEmbedLinks" = "显示链接预览";
+"Channel.BanUser.Unban" = "解除封禁";
+
+"Channel.BanUser.BlockFor" = "屏蔽时长";
+
+"Channel.BanList.BlockedTitle" = "封禁";
+"Channel.BanList.RestrictedTitle" = "限制";
+
+"Group.Info.AdminLog" = "近期操作";
+"Channel.AdminLog.InfoPanelTitle" = "这是什么？";
+"Channel.AdminLog.InfoPanelAlertTitle" = "什么是事件记录？";
+"Channel.AdminLog.InfoPanelAlertText" = "此列表包含了在过去 48 小时内群组成员和管理员执行的所有服务操作。";
+"Channel.AdminLog.Status" = "event log";
+
+"Channel.AdminLog.BanReadMessages" = "查看消息";
+"Channel.AdminLog.BanSendMessages" = "发送消息";
+"Channel.AdminLog.BanSendMedia" = "发送媒体";
+"Channel.AdminLog.BanSendStickers" = "发送贴纸";
+"Channel.AdminLog.BanEmbedLinks" = "显示链接预览";
+"Channel.AdminLog.BanSendGifs" = "发送 GIF";
+"Channel.AdminLog.MessageRestricted" = "%@ 修改了 %@ 的限制 (%@)";
+"Channel.AdminLog.MessageAdmin" = "%@ 修改了 %@ 的权限 (%@)";
+
+"Channel.AdminLog.CanChangeInfo" = "修改信息";
+"Channel.AdminLog.CanSendMessages" = "发布消息";
+"Channel.AdminLog.CanDeleteMessages" = "删除消息";
+"Channel.AdminLog.CanBanUsers" = "禁止用户";
+"Channel.AdminLog.CanInviteUsers" = "添加用户";
+"Channel.AdminLog.CanChangeInviteLink" = "使用链接邀请用户";
+"Channel.AdminLog.CanPinMessages" = "置顶消息";
+"Channel.AdminLog.CanStartCalls" = "新的通话";
+"Channel.AdminLog.CanAddAdmins" = "添加新管理员";
+"Channel.AdminLog.CanEditMessages" = "编辑消息";
+
+"Channel.AdminLog.MessageToggleInvitesOn" = "%@ 启用了邀请权限";
+"Channel.AdminLog.MessageToggleInvitesOff" = "%@ 禁用了邀请权限";
+
+"Channel.AdminLog.MessageUnpinned" = "%@ 取消了置顶消息";
+
+"Channel.AdminLog.MessageToggleSignaturesOn" = "%@ 启用了消息署名";
+"Channel.AdminLog.MessageToggleSignaturesOff" = "%@ 禁用了消息署名";
+
+"Channel.AdminLog.MessageChangedGroupUsername" = "%@ 更改了群组链接:";
+"Channel.AdminLog.MessageChangedChannelUsername" = "%@ 更改了频道链接:";
+"Channel.AdminLog.MessageRemovedGroupUsername" = "%@ 移除了群组链接";
+"Channel.AdminLog.MessageRemovedChannelUsername" = "%@ 移除了频道链接";
+
+"Channel.AdminLog.MessageChangedGroupAbout" = "%@ 修改了群组简介";
+"Channel.AdminLog.MessageChangedChannelAbout" = "%@ 修改了频道简介";
+
+"Channel.AdminLog.MessageEdited" = "%@ 编辑了消息";
+"Channel.AdminLog.CaptionEdited" = "%@ 编辑了说明:";
+"Channel.AdminLog.MessageDeleted" = "%@ 删除了消息: ";
+"Channel.AdminLog.MessagePinned" = "%@ 置顶了消息";
+
+"Channel.AdminLog.MessageInvitedName" = "邀请了 %1$@";
+"Channel.AdminLog.MessageInvitedNameUsername" = "邀请了 %1$@ (%2$@)";
+"Channel.AdminLog.MessageKickedName" = "封禁了 %1$@";
+"Channel.AdminLog.MessageKickedNameUsername" = "封禁了 %1$@ (%2$@)";
+"Channel.AdminLog.MessageRestrictedName" = "修改了对 %1$@ 的限制";
+"Channel.AdminLog.MessageRestrictedNameUsername" = "修改了对 %1$@ 的限制 (%2$@)";
+"Channel.AdminLog.MessagePromotedName" = "修改了 %1$@ 的权限";
+"Channel.AdminLog.MessagePromotedNameUsername" = "修改了 %1$@ 的权限 (%2$@)";
+"Channel.AdminLog.MessageRestrictedUntil" = "直到 %@";
+"Channel.AdminLog.MessageRestrictedForever" = "永久";
+"Channel.AdminLog.MessageRestrictedNewSetting" = "现在: %@";
+
+"Channel.AdminLog.MessagePreviousMessage" = "原始消息";
+"Channel.AdminLog.MessagePreviousCaption" = "原说明";
+"Channel.AdminLog.MessagePreviousLink" = "之前的链接";
+"Channel.AdminLog.MessagePreviousDescription" = "之前的简介";
+
+"Contacts.MemberSearchSectionTitleChannel" = "频道成员";
+"Contacts.MemberSearchSectionTitleGroup" = "群组成员";
+
+"Channel.AdminLog.TitleAllEvents" = "所有操作";
+"Channel.AdminLog.TitleSelectedEvents" = "选中的操作";
+"Channel.AdminLogFilter.Title" = "过滤器";
+"Channel.AdminLogFilter.EventsTitle" = "操作";
+"Channel.AdminLogFilter.EventsAll" = "所有操作";
+"Channel.AdminLogFilter.EventsRestrictions" = "新限制";
+"Channel.AdminLogFilter.EventsAdmins" = "新管理员";
+"Channel.AdminLogFilter.EventsNewMembers" = "新成员";
+"Channel.AdminLogFilter.EventsInfo" = "群组信息";
+"Channel.AdminLogFilter.ChannelEventsInfo" = "频道信息";
+"Channel.AdminLogFilter.EventsDeletedMessages" = "删除消息";
+"Channel.AdminLogFilter.EventsEditedMessages" = "编辑消息";
+"Channel.AdminLogFilter.EventsPinned" = "置顶消息";
+"Channel.AdminLogFilter.EventsLeaving" = "移除成员";
+"Channel.AdminLogFilter.AdminsTitle" = "管理员";
+"Channel.AdminLogFilter.AdminsAll" = "所有管理员";
+
+"Group.ErrorSendRestrictedStickers" = "抱歉，群组管理员已限制您在此处发送贴纸。";
+"Group.ErrorSendRestrictedMedia" = "抱歉，群组管理员已限制您在此处发送多媒体。";
+
+"ChannelMembers.BanList.EmptyText" = "您还没有限制任何用户";
+
+"SharedMedia.ViewInChat" = "在对话中查看";
+
+"Channel.Info.BlackList" = "黑名单";
+
+"Channel.Management.PromotedBy" = "被 %@ 设为管理员";
+"DialogList.LanguageTooltip" = "您可以稍后在设置中更改您的语言。";
+
+"Contacts.PhoneNumber" = "手机号码";
+"Contacts.AddPhoneNumber" = "添加 %@";
+"Contacts.ShareBTCchat" = "分享币用";
+
+"Conversation.ViewChannel" = "查看频道";
+"Conversation.ViewGroup" = "查看群组";
+
+"GroupInfo.ActionPromote" = "设置管理员";
+"GroupInfo.ActionBan" = "限制";
+"GroupInfo.ActionRestrict" = "限制";
+
+"Conversation.RestrictedTextTimed" = "此群组的管理员限制了您在 %@ 前发送消息的权限";
+"Conversation.RestrictedText" = "此群组的管理员限制了您在此发送消息的权限";
+
+"Conversation.RestrictedInlineTimed" = "此群组的管理员限制了您在 %@ 前发送机器人内容的权限";
+"Conversation.RestrictedInline" = "此群组的管理员限制了您在此发送机器人内容的权限";
+
+"Conversation.RestrictedMediaTimed" = "此群组的管理员限制了您在 %@ 前发送媒体文件的权限";
+"Conversation.RestrictedMedia" = "此群组的管理员限制了您在此发送媒体文件的权限";
+
+"Conversation.RestrictedStickersTimed" = "此群组的管理员限制了您在 %@ 前此发送贴纸的权限";
+"Conversation.RestrictedStickers" = "此群组的管理员限制了您在此发送贴纸的权限";
+
+"ChatSettings.ConnectionType.Title" = "连接类型";
+"ChatSettings.ConnectionType.UseProxy" = "使用代理";
+"ChatSettings.ConnectionType.UseSocks5" = "SOCKS5";
+
+"SocksProxySetup.Title" = "代理";
+
+"SocksProxySetup.TypeNone" = "已禁用";
+"SocksProxySetup.TypeSocks" = "SOCKS5";
+
+"SocksProxySetup.Connection" = "连接";
+"SocksProxySetup.Hostname" = "服务器";
+"SocksProxySetup.Port" = "端口";
+
+"SocksProxySetup.Credentials" = "认证信息（可选）";
+"SocksProxySetup.Username" = "用户名";
+"SocksProxySetup.Password" = "密码";
+
+"Channel.AdminLog.EmptyTitle" = "暂无操作日志";
+"Channel.AdminLog.EmptyText" = "在过去的 48 小时内群组成员和管理员没有执行任何服务操作。";
+"Channel.AdminLog.EmptyFilterTitle" = "未找到操作日志";
+"Channel.AdminLog.EmptyFilterQueryText" = "找不到包含 %@ 的事件相符的结果。";
+"Channel.AdminLog.EmptyFilterText" = "找不到与您查询的事件相符的结果。";
+
+"Channel.AdminLog.EmptyMessageText" = "无";
+
+"Camera.Title" = "拍摄照片或视频";
+
+"Channel.Members.AddAdminErrorNotAMember" = "抱歉，您无法设置该用户为管理员，因为这位用户不是群组成员，且您无法将他邀请到该群组。";
+
+"Channel.Members.AddAdminErrorBlacklisted" = "抱歉，您无法设置该用户为管理员，因为该用户在黑名单中，且您无权解封。";
+
+"Channel.Members.AddBannedErrorAdmin" = "抱歉，您无法封禁该用户。因为他们是该群组管理员，";
+
+"Group.Members.AddMemberErrorNotAllowed" = "抱歉，您没有向此群组添加成员的权限。";
+"Group.Members.AddMemberBotErrorNotAllowed" = "抱歉，您没有向此群组添加机器人的权限。";
+
+"Privacy.Calls.P2P" = "端对端连接";
+"Privacy.Calls.P2PHelp" = "禁用端对端连接后，所有通话流量将使用币用服务器中转以避免泄露您的 IP 地址，但可能会轻微降低音质。";
+
+"Privacy.Calls.Integration" = "iOS 通话集成";
+"Privacy.Calls.IntegrationHelp" = "iOS 通话集成能将币用通话显示在锁屏界面上和系统的通话记录里。如果启用了 iCloud 同步，您的通话记录将被共享给 Apple。";
+
+"Call.ReportPlaceholder" = "出了什么问题？";
+"Call.ReportIncludeLog" = "发送技术信息";
+"Call.ReportIncludeLogDescription" = "这不会暴露您的对话内容，但却能帮助我们尽快修复问题。";
+"Call.ReportSkip" = "跳过";
+"Call.ReportSend" = "发送";
+
+"Channel.EditAdmin.CannotEdit" = "您不能变更该管理员的权限。";
+"Call.RateCall" = "评价此次通话";
+
+"Settings.ApplyProxyAlert" = "您确定要启用这个代理吗？\n服务器: %1$@\n端口: %2$@\n\n您可以稍后在设置（数据和存储）中修改您的代理服务器。";
+"Settings.ApplyProxyAlertCredentials" = "您确定要启用这个代理吗？\n服务器: %1$@\n端口: %2$@\n用户名: %3$@\n密码: %4$@\n\n您可以稍后在设置（数据和存储）中修改您的代理服务器。";
+"Settings.ApplyProxyAlertEnable" = "启用";
+
+"Channel.Management.RestrictedBy" = "被 %@ 限制";
+
+"Stickers.FrequentlyUsed" = "近期使用过";
+
+"Contacts.ImportersCount_1" = "1 位在币用上的联系人";
+"Contacts.ImportersCount_2" = "%@ 位在币用上的联系人";
+"Contacts.ImportersCount_3_10" = "%@ 位在币用上的联系人";
+"Contacts.ImportersCount_any" = "%@ 位在币用上的联系人";
+"Contacts.ImportersCount_many" = "%@ 位在币用上的联系人";
+"Contacts.ImportersCount_0" = "%@ 位在币用上的联系人";
+
+"Conversation.ContextMenuBan" = "封禁";
+
+"SocksProxySetup.UseForCalls" = "对通话启用";
+"SocksProxySetup.UseForCallsHelp" = "使用代理服务器可能降低通话质量。";
+
+"InviteText.URL" = "https://0.plus";
+"InviteText.SingleContact" = "嗨，我在使用币用聊天。加入我们吧！从这里下载：%@";
+"InviteText.ContactsCount_1" = "嗨，我在使用币用聊天。加入我们吧！从这里下载：%@";
+"InviteText.ContactsCount_2" = "嗨，我在和另外 %@ 个联系人使用币用聊天。加入我们吧！从这里下载：%@";
+"InviteText.ContactsCount_3_10" = "嗨，我在和另外 %@ 个联系人使用币用聊天。加入我们吧！从这里下载：%@";
+"InviteText.ContactsCount_any" = "嗨，我在和另外 %@ 个联系人使用币用聊天。加入我们吧！从这里下载：%@";
+"InviteText.ContactsCount_many" = "嗨，我在和另外 %@ 个联系人使用币用聊天。加入我们吧！从这里下载：%@";
+"InviteText.ContactsCount_0" = "嗨，我在和另外 %@ 个联系人使用币用聊天。加入我们吧！从这里下载：%@";
+
+"Invite.LargeRecipientsCountWarning" = "请注意发送所有这些邀请函将花费一些时间。";
+
+"Contacts.InviteSearchLabel" = "搜索联系人";
+
+"Message.ImageExpired" = "图片已自毁";
+"Message.VideoExpired" = "视频已自毁";
+
+"SecretImage.Title" = "自毁图片";
+"SecretVideo.Title" = "自毁视频";
+"SecretTimer.ImageDescription" = "如果您设定一个定时器，该图片将在阅后一定时间内自毁。";
+"SecretTimer.VideoDescription" = "如果您设定一个定时器，该视频将在阅后一定时间内自毁。";
+
+"PhotoEditor.TiltShift" = "倾斜移位";
+
+"Notification.SecretChatMessageScreenshotSelf" = "你截屏了！";
+
+"Settings.AboutEmpty" = "设置";
+
+"SecretImage.NotViewedYet" = "%@ 还没有打开这张图片";
+"SecretVideo.NotViewedYet" = "%@ 还没有打开这段视频";
+
+"UserInfo.About.Placeholder" = "个人简介";
+
+"Call.StatusNoAnswer" = "无应答";

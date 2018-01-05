@@ -1,0 +1,32 @@
+"Share.Cancel" = "Cancel";
+"Share.Next" = "Next";
+"Share.OK" = "OK";
+"Share.Search" = "Search";
+"Share.Send" = "Send";
+
+"Share.Title" = "Share";
+"Share.ShareWithPerson" = "Share with %@?";
+"Share.ShareWithGroup" = "Share with %@?";
+"Share.ShareWithMultiple" = "Share with %@ recipients?";
+"Share.Sharing" = "Sharing...";
+
+"Share.PasscodeTitle" = "Passcode";
+"Share.EnterPasscode" = "Enter passcode";
+"Share.ErrorInvalidPasscode" = "Invalid passcode";
+
+"Share.Select" = "Select";
+"Share.Done" = "Done";
+
+"Share.AuthTitle" = "Log in to BTCChat";
+"Share.AuthText" = "Open BiYong and log in to share.";
+
+"Share.ChoosePhoneNumber" = "Choose a phone number to share";
+
+"Share.RecentSection" = "Recent";
+"Share.RecentSectionClear" = "Clear";
+
+"Share.PeopleSection" = "People";
+
+"Share.TouchId" = "Enter your passcode";
+
+"Share.AddCaption" = "Add a comment...";
