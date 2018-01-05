@@ -10773,14 +10773,14 @@ static UIView *_findBackArrow(UIView *view)
             }
             
             if (botUser != nil && invoiceStartParam != nil) {
-                fixedSharedLink = [NSString stringWithFormat:@"https://t.me/%@?start=%@", botUser.userName, invoiceStartParam];
+                fixedSharedLink = [NSString stringWithFormat:@"https://o.plus/%@?start=%@", botUser.userName, invoiceStartParam];
             } else {
                 if (botUser != nil && isGame) {
                     shareGameData = [[TGWebAppControllerShareGameData alloc] initWithPeerId:((TGGenericModernConversationCompanion *)_companion).conversationId messageId:mid botName:botUser.userName shareName:shareName];
                 }
                 
                 if (botUser != nil && shareName != nil && botUser.userName.length != 0) {
-                    fixedSharedLink = [NSString stringWithFormat:@"https://t.me/%@?game=%@", botUser.userName, shareName];
+                    fixedSharedLink = [NSString stringWithFormat:@"https://o.plus/%@?game=%@", botUser.userName, shareName];
                 }
             }
         }

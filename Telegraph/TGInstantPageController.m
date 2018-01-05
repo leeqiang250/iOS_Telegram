@@ -444,7 +444,7 @@
     _pageView.openFeedback = ^{
         __strong TGInstantPageController *strongSelf = weakSelf;
         if (strongSelf != nil) {
-            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[NSString stringWithFormat:@"https://t.me/previews?start=webpage%lld", strongSelf->_webPage.webPageId]]];
+            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[NSString stringWithFormat:@"https://o.plus/previews?start=webpage%lld", strongSelf->_webPage.webPageId]]];
         }
     };
     _pageView.openChannel = ^(TGConversation *channel) {

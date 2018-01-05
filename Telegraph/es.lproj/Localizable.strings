@@ -1055,7 +1055,7 @@
 "DialogList.SearchSectionGlobal" = "Búsqueda global";
 "DialogList.SearchSectionMessages" = "Mensajes";
 
-"Username.LinkHint" = "Este enlace abre un chat contigo en BiYong::[\nhttps://t.me/%@]";
+"Username.LinkHint" = "Este enlace abre un chat contigo en BiYong::[\nhttps://o.plus/%@]";
 "Username.LinkCopied" = "Enlace copiado al portapapeles";
 
 "SharedMedia.ItemsSelected_1" = "1 seleccionado";
@@ -1445,7 +1445,7 @@
 
 "Channel.Username.Title" = "Enlace";
 "Channel.Username.Help" = "Puedes elegir un nombre de canal en **BiYong**. Si lo haces, otras personas podrán encontrar tu canal por ese nombre. \n\nPuedes usar **a-z**, **0-9** y guiones bajos. La longitud mínima es de **5** caracteres.";
-"Channel.Username.LinkHint" = "Este enlace abre un canal contigo en BiYong:[\nhttps://t.me/%@]";
+"Channel.Username.LinkHint" = "Este enlace abre un canal contigo en BiYong:[\nhttps://o.plus/%@]";
 "Channel.Username.InvalidTooShort" = "El nombre del canal debe tener al menos 5 caracteres.";
 "Channel.Username.InvalidStartsWithNumber" = "El nombre del canal no puede comenzar con un número.";
 "Channel.Username.InvalidCharacters" = "Lo sentimos, este nombre es inválido.";
@@ -1897,7 +1897,7 @@
 "Group.Username.InvalidTooShort" = "El nombre del grupo debe tener al menos 5 caracteres.";
 "Group.Username.InvalidStartsWithNumber" = "El nombre del grupo no puede comenzar con un número.";
 
-"Group.Username.LinkHint" = "Este enlace abre un grupo contigo en BiYong:[\nhttps://t.me/%@]";
+"Group.Username.LinkHint" = "Este enlace abre un grupo contigo en BiYong:[\nhttps://o.plus/%@]";
 
 "Notification.PinnedTextMessage" = "%@ ancló “%@”";
 "Notification.PinnedPhotoMessage" = "%@ ancló una foto ";

@@ -1055,7 +1055,7 @@
 "DialogList.SearchSectionGlobal" = "بحث شامل";
 "DialogList.SearchSectionMessages" = "الرسائل";
 
-"Username.LinkHint" = "هذا الرابط سيقوم بفتح محادثة معك في تيليجرام:\n[https://t.me/%@]";
+"Username.LinkHint" = "هذا الرابط سيقوم بفتح محادثة معك في تيليجرام:\n[https://o.plus/%@]";
 "Username.LinkCopied" = "تم نسخ الرابط إلى الحافظة";
 
 "SharedMedia.ItemsSelected_1" = "١ محدد";
@@ -1445,7 +1445,7 @@
 
 "Channel.Username.Title" = "الرابط";
 "Channel.Username.Help" = "يمكنك اختيار اسم القناة في **تيليجرام**. إذا قمت بذلك، سيستطيع الناس إيجاد قناتك باستخدام هذا الاسم.\n\nتستطيع استخدام حروف اللغة الإنجليزية وأرقامها وكذلك الخط. لا بد من استخدام ٥ حروف على الأقل.";
-"Channel.Username.LinkHint" = "هذا الرابط سيفتح قناتك في تيليجرام:[\nhttp://t.me/%@]";
+"Channel.Username.LinkHint" = "هذا الرابط سيفتح قناتك في تيليجرام:[\nhttp://o.plus/%@]";
 "Channel.Username.InvalidTooShort" = "اسم القناة يجب أن يتكوّن من ٥ حروف على الأقل.";
 "Channel.Username.InvalidStartsWithNumber" = "أسماء القنوات لا يمكن أن تبدأ برقم.";
 "Channel.Username.InvalidCharacters" = "المعذرة، الاسم غير مقبول.";
@@ -1897,7 +1897,7 @@
 "Group.Username.InvalidTooShort" = "أسماء المجموعات يجب أن تتكوّن من ٥ حروف على الأقل.";
 "Group.Username.InvalidStartsWithNumber" = "أسماء المجموعات لا يمكن أن تبدأ برقم.";
 
-"Group.Username.LinkHint" = "هذا الرابط سيقوم بفتح مجموعتك في تيليجرام:\n[https://t.me/%@]";
+"Group.Username.LinkHint" = "هذا الرابط سيقوم بفتح مجموعتك في تيليجرام:\n[https://o.plus/%@]";
 
 "Notification.PinnedTextMessage" = "%@ قام بتثبيت \"%@\"";
 "Notification.PinnedPhotoMessage" = "%@ ثبت صورة";

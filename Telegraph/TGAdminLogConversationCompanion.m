@@ -445,13 +445,13 @@ static bool isEventFilterAllSet(TGChannelEventFilter filter) {
                         detailMessage.fromUid = entry.userId;
                         detailMessage.outgoing = false;
                         if (value.username.length != 0) {
-                            detailMessage.text = [@"https://t.me/" stringByAppendingString:value.username];
+                            detailMessage.text = [@"https://o.plus/" stringByAppendingString:value.username];
                         }
                         
                         if (value.previousUsername.length != 0) {
                             TGWebPageMediaAttachment *originalMedia = [[TGWebPageMediaAttachment alloc] init];
                             originalMedia.pageType = @"message";
-                            originalMedia.pageDescription = [@"https://t.me/" stringByAppendingString:value.previousUsername];
+                            originalMedia.pageDescription = [@"https://o.plus/" stringByAppendingString:value.previousUsername];
                             originalMedia.siteName = TGLocalized(@"Channel.AdminLog.MessagePreviousLink");
                             detailMessage.mediaAttachments = @[originalMedia];
                         }

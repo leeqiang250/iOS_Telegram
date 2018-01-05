@@ -98,7 +98,7 @@
                     
                     if ([item isKindOfClass:[TGGenericPeerMediaGalleryImageItem class]]) {
                         NSString *lowercaseUrl = strongSelf->_webPage.url.lowercaseString;
-                        if (![lowercaseUrl hasPrefix:@"http://t.me/"] && ![lowercaseUrl hasPrefix:@"https://t.me/"] && ![lowercaseUrl hasPrefix:@"http://t.me/"] && ![lowercaseUrl hasPrefix:@"https://t.me/"]) {
+                        if (![lowercaseUrl hasPrefix:@"http://o.plus/"] && ![lowercaseUrl hasPrefix:@"https://o.plus/"] && ![lowercaseUrl hasPrefix:@"http://o.plus/"] && ![lowercaseUrl hasPrefix:@"https://o.plus/"]) {
                             [actions addObject:[[TGActionSheetAction alloc] initWithTitle:openInText action:@"open" type:TGActionSheetActionTypeGeneric]];
                         }
                     }

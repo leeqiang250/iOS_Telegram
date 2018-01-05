@@ -147,7 +147,7 @@
     
     if (false) {
         return [[[TGDatabaseInstance() existingChannel:peerId] take:1] map:^id(TGConversation *conversation) {
-            return [NSString stringWithFormat:@"https://t.me/%@/%d", conversation.username, messageId];
+            return [NSString stringWithFormat:@"https://o.plus/%@/%d", conversation.username, messageId];
         }];
     } else {
         return [[[TGTelegramNetworking instance] requestSignal:exportMessageLink] map:^id(TLExportedMessageLink *result) {

@@ -128,7 +128,7 @@
     NSString *fixedSharedLink = nil;
     
     if (shareGameData.shareName != nil) {
-        fixedSharedLink = [NSString stringWithFormat:@"https://t.me/%@?game=%@", shareGameData.botName, shareGameData.shareName];
+        fixedSharedLink = [NSString stringWithFormat:@"https://o.plus/%@?game=%@", shareGameData.botName, shareGameData.shareName];
     }
     
     //__weak TGWebAppController *weakSelf = self;

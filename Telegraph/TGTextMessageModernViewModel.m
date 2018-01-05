@@ -311,13 +311,13 @@ static NSString *expandedTextAndAttributes(NSString *text, NSArray *textChecking
                     }
                 }
             }
-            if (_webPage.instantPage != nil && ([linkCandidate hasPrefix:@"http://telegra.ph/"] || [linkCandidate hasPrefix:@"https://telegra.ph/"] || [linkCandidate hasPrefix:@"http://t.me/iv?"] || [linkCandidate hasPrefix:@"https://t.me/iv?"]) && webpageAction != TGWebpageFooterModelActionDownload) {
+            if (_webPage.instantPage != nil && ([linkCandidate hasPrefix:@"http://telegra.ph/"] || [linkCandidate hasPrefix:@"https://telegra.ph/"] || [linkCandidate hasPrefix:@"http://o.plus/iv?"] || [linkCandidate hasPrefix:@"https://o.plus/iv?"]) && webpageAction != TGWebpageFooterModelActionDownload) {
                 if ([_webPage.url isEqualToString:linkCandidate] || (linkCandidateText != nil && [_webPage.url isEqualToString:linkCandidateText])) {
                     activateInstantPage = true;
                 }
             }
             
-            if (hiddenLink && ([linkCandidate hasPrefix:@"http://telegram.me/"] || [linkCandidate hasPrefix:@"http://t.me/"] || [linkCandidate hasPrefix:@"https://telegram.me/"] || [linkCandidate hasPrefix:@"https://t.me/"])) {
+            if (hiddenLink && ([linkCandidate hasPrefix:@"http://telegram.me/"] || [linkCandidate hasPrefix:@"http://o.plus/"] || [linkCandidate hasPrefix:@"https://telegram.me/"] || [linkCandidate hasPrefix:@"https://o.plus/"])) {
                 hiddenLink = false;
             }
             

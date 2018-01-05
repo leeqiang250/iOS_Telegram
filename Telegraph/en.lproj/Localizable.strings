@@ -1141,7 +1141,7 @@
 "DialogList.SearchSectionGlobal" = "Global Search";
 "DialogList.SearchSectionMessages" = "Messages";
 
-"Username.LinkHint" = "This link opens a chat with you in BiYong:[\nhttps://t.me/%@]";
+"Username.LinkHint" = "This link opens a chat with you in BiYong:[\nhttps://o.plus/%@]";
 "Username.LinkCopied" = "Copied link to clipboard";
 
 "SharedMedia.ItemsSelected_1" = "1 Selected";
@@ -1572,7 +1572,7 @@
 
 "Channel.Username.Title" = "Link";
 "Channel.Username.Help" = "You can choose a channel name on **BiYong**. If you do, other people will be able to find your channel by this name.\n\nYou can use **a-z**, **0-9** and underscores. Minimum length is **5** characters.";
-"Channel.Username.LinkHint" = "This link opens your channel in BiYong:[\nhttps://t.me/%@]";
+"Channel.Username.LinkHint" = "This link opens your channel in BiYong:[\nhttps://o.plus/%@]";
 "Channel.Username.InvalidTooShort" = "Channel names must have at least 5 characters.";
 "Channel.Username.InvalidStartsWithNumber" = "Channel names can't start with a number.";
 "Channel.Username.InvalidCharacters" = "Sorry, this name is invalid.";
@@ -2041,7 +2041,7 @@
 "Group.Username.InvalidTooShort" = "Group names must have at least 5 characters.";
 "Group.Username.InvalidStartsWithNumber" = "Group names can't start with a number.";
 
-"Group.Username.LinkHint" = "This link opens your group in BiYong:[\nhttps://t.me/%@]";
+"Group.Username.LinkHint" = "This link opens your group in BiYong:[\nhttps://o.plus/%@]";
 
 "Notification.PinnedTextMessage" = "%@ pinned \"%@\"";
 "Notification.PinnedPhotoMessage" = "%@ pinned a photo";

@@ -917,7 +917,7 @@ static UIView *_findBackArrow(UIView *view)
 
 - (void)shareContactPressed
 {
-    NSString *linkString = [NSString stringWithFormat:@"https://t.me/%@", _user.userName];
+    NSString *linkString = [NSString stringWithFormat:@"https://o.plus/%@", _user.userName];
     NSString *shareString = linkString;
     NSString *externalString = shareString;
     if (_user.about.length > 0)

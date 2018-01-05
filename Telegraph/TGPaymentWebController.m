@@ -184,7 +184,7 @@
 
 - (void)webView:(WKWebView *)__unused webView decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler {
     NSString *host = navigationAction.request.URL.host;
-    if ([host isEqualToString:@"t.me"] || [host isEqualToString:@"telegram.me"]) {
+    if ([host isEqualToString:@"o.plus"] || [host isEqualToString:@"telegram.me"]) {
         decisionHandler(WKNavigationActionPolicyCancel);
         if (_completedConfirmation) {
             _completedConfirmation();

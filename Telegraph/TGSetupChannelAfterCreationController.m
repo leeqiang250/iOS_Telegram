@@ -116,7 +116,7 @@ typedef enum {
         _usernameItem.usernameValid = true;
         _usernameItem.placeholder = @"";
         _usernameItem.title = @"";
-        _usernameItem.prefix = @"t.me/";
+        _usernameItem.prefix = @"o.plus/";
         __weak TGSetupChannelAfterCreationController *weakSelf = self;
         _usernameItem.usernameChanged = ^(NSString *username)
         {

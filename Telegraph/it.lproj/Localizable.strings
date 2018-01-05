@@ -1055,7 +1055,7 @@
 "DialogList.SearchSectionGlobal" = "Ricerca globale";
 "DialogList.SearchSectionMessages" = "Messaggi";
 
-"Username.LinkHint" = "Questo link apre una chat con te su BTCchat:[ https://t.me/%@]";
+"Username.LinkHint" = "Questo link apre una chat con te su BTCchat:[ https://o.plus/%@]";
 "Username.LinkCopied" = "Link copiato negli appunti";
 
 "SharedMedia.ItemsSelected_1" = "1 Selezionato";
@@ -1445,7 +1445,7 @@
 
 "Channel.Username.Title" = "Link";
 "Channel.Username.Help" = "Puoi scegliere un nome per il canale su **BTCchat**. Se lo fai, le altre persone potranno trovare il tuo canale tramite questo nome.\n\nPuoi usare **a-z**, **0-9** e underscore. La lunghezza minima è di **5** caratteri.";
-"Channel.Username.LinkHint" = "Questo link apre il tuo canale su BTCchat:[\nhttps://t.me/%@]";
+"Channel.Username.LinkHint" = "Questo link apre il tuo canale su BTCchat:[\nhttps://o.plus/%@]";
 "Channel.Username.InvalidTooShort" = "I nomi dei canali devono avere almeno 5 caratteri.";
 "Channel.Username.InvalidStartsWithNumber" = "I nomi dei canali non possono iniziare con un numero.";
 "Channel.Username.InvalidCharacters" = "Spiacenti, questo nome non è valido.";
@@ -1897,7 +1897,7 @@
 "Group.Username.InvalidTooShort" = "I nomi dei gruppi devono avere almeno 5 caratteri.";
 "Group.Username.InvalidStartsWithNumber" = "I nomi dei gruppi non possono iniziare con un numero.";
 
-"Group.Username.LinkHint" = "Questo link apre il tuo gruppo su BTCchat:[\nhttps://t.me/%@]";
+"Group.Username.LinkHint" = "Questo link apre il tuo gruppo su BTCchat:[\nhttps://o.plus/%@]";
 
 "Notification.PinnedTextMessage" = "%@ ha fissato \"%@\"";
 "Notification.PinnedPhotoMessage" = "%@ ha fissato una foto";

@@ -1055,7 +1055,7 @@
 "DialogList.SearchSectionGlobal" = "전체 검색";
 "DialogList.SearchSectionMessages" = "메시지";
 
-"Username.LinkHint" = "이 링크는 회원님과 대화창이 생성됩니다.:[\nhttps://t.me/%@]";
+"Username.LinkHint" = "이 링크는 회원님과 대화창이 생성됩니다.:[\nhttps://o.plus/%@]";
 "Username.LinkCopied" = "클립보드로 링크가 복사되었습니다.";
 
 "SharedMedia.ItemsSelected_1" = "1 개 선택";
@@ -1445,7 +1445,7 @@
 
 "Channel.Username.Title" = "링크";
 "Channel.Username.Help" = "**BTCchat**에서 채널명을 선택 할 수 있습니다. 설정을 하셨을 경우 다른 유저들이 검색할 수 있습니다.\n\n채널명으로  **a-z**, **0-9** 과 _ 를 사용가능하며,  최소 **5** 글자 이상을 기입하셔야 합니다";
-"Channel.Username.LinkHint" = "이 링크는 회원님의 텔레그램 채널로 이동합니다.:[\nhttps://t.me/%@]";
+"Channel.Username.LinkHint" = "이 링크는 회원님의 텔레그램 채널로 이동합니다.:[\nhttps://o.plus/%@]";
 "Channel.Username.InvalidTooShort" = "채널명은 최소 5 글자 이상 입력해야 합니다.";
 "Channel.Username.InvalidStartsWithNumber" = "채널명은 숫자로 시작 할 수 없습니다.";
 "Channel.Username.InvalidCharacters" = "올바르지 않은 이름입니다.";
@@ -1897,7 +1897,7 @@
 "Group.Username.InvalidTooShort" = "그룹명은 최소 5 글자 이상 입력해야 합니다.";
 "Group.Username.InvalidStartsWithNumber" = "그룹명은 숫자로 시작 할 수 없습니다.";
 
-"Group.Username.LinkHint" = "이 링크는 회원님의 텔레그램 그룹으로 이동합니다.:[\nhttps://t.me/%@]";
+"Group.Username.LinkHint" = "이 링크는 회원님의 텔레그램 그룹으로 이동합니다.:[\nhttps://o.plus/%@]";
 
 "Notification.PinnedTextMessage" = "%@님이 \"%@\"를 고정함";
 "Notification.PinnedPhotoMessage" = "%@ 님이 사진을 고정함";

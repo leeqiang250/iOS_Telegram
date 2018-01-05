@@ -164,9 +164,9 @@
         return true;
     }
     
-    if ([absolutePrefixString hasPrefix:@"http://t.me/addstickers/"])
+    if ([absolutePrefixString hasPrefix:@"http://o.plus/addstickers/"])
     {
-        NSString *stickerPackHash = [rawAbsoluteString substringFromIndex:@"http://t.me/addstickers/".length];
+        NSString *stickerPackHash = [rawAbsoluteString substringFromIndex:@"http://o.plus/addstickers/".length];
         NSString *internalUrl = [[NSString alloc] initWithFormat:@"tg://addstickers?set=%@", stickerPackHash];
         [(TGAppDelegate *)self.delegate handleOpenDocument:[NSURL URLWithString:internalUrl] animated:true];
         return true;
@@ -180,9 +180,9 @@
         return true;
     }
     
-    if ([absolutePrefixString hasPrefix:@"https://t.me/addstickers/"])
+    if ([absolutePrefixString hasPrefix:@"https://o.plus/addstickers/"])
     {
-        NSString *stickerPackHash = [rawAbsoluteString substringFromIndex:@"https://t.me/addstickers/".length];
+        NSString *stickerPackHash = [rawAbsoluteString substringFromIndex:@"https://o.plus/addstickers/".length];
         NSString *internalUrl = [[NSString alloc] initWithFormat:@"tg://addstickers?set=%@", stickerPackHash];
         [(TGAppDelegate *)self.delegate handleOpenDocument:[NSURL URLWithString:internalUrl] animated:true];
         return true;
@@ -209,9 +209,9 @@
         break;
     }*/
     
-    if ([absolutePrefixString hasPrefix:@"http://t.me/joinchat/"])
+    if ([absolutePrefixString hasPrefix:@"http://o.plus/joinchat/"])
     {
-        NSString *groupHash = [rawAbsoluteString substringFromIndex:@"http://t.me/joinchat/".length];
+        NSString *groupHash = [rawAbsoluteString substringFromIndex:@"http://o.plus/joinchat/".length];
         NSString *internalUrl = [[NSString alloc] initWithFormat:@"tg://join?invite=%@", groupHash];
         [(TGAppDelegate *)self.delegate handleOpenDocument:[NSURL URLWithString:internalUrl] animated:true keepStack:keepStack];
         return true;
@@ -225,17 +225,17 @@
         return true;
     }
     
-    if ([absolutePrefixString hasPrefix:@"https://t.me/joinchat/"])
+    if ([absolutePrefixString hasPrefix:@"https://o.plus/joinchat/"])
     {
-        NSString *groupHash = [rawAbsoluteString substringFromIndex:@"https://t.me/joinchat/".length];
+        NSString *groupHash = [rawAbsoluteString substringFromIndex:@"https://o.plus/joinchat/".length];
         NSString *internalUrl = [[NSString alloc] initWithFormat:@"tg://join?invite=%@", groupHash];
         [(TGAppDelegate *)self.delegate handleOpenDocument:[NSURL URLWithString:internalUrl] animated:true keepStack:keepStack];
         return true;
     }
     
-    if ([absolutePrefixString hasPrefix:@"t.me/joinchat/"])
+    if ([absolutePrefixString hasPrefix:@"o.plus/joinchat/"])
     {
-        NSString *groupHash = [rawAbsoluteString substringFromIndex:@"t.me/joinchat/".length];
+        NSString *groupHash = [rawAbsoluteString substringFromIndex:@"o.plus/joinchat/".length];
         NSString *internalUrl = [[NSString alloc] initWithFormat:@"tg://join?invite=%@", groupHash];
         [(TGAppDelegate *)self.delegate handleOpenDocument:[NSURL URLWithString:internalUrl] animated:true keepStack:keepStack];
         return true;
@@ -265,9 +265,9 @@
         return true;
     }
     
-    if ([absolutePrefixString hasPrefix:@"https://t.me/confirmphone?"])
+    if ([absolutePrefixString hasPrefix:@"https://o.plus/confirmphone?"])
     {
-        NSString *arguments = [rawAbsoluteString substringFromIndex:@"https://t.me/confirmphone?".length];
+        NSString *arguments = [rawAbsoluteString substringFromIndex:@"https://o.plus/confirmphone?".length];
         NSString *internalUrl = [[NSString alloc] initWithFormat:@"tg://confirmphone?%@", arguments];
         [(TGAppDelegate *)self.delegate handleOpenDocument:[NSURL URLWithString:internalUrl] animated:true];
         return true;

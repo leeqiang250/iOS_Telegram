@@ -1142,7 +1142,7 @@
 "DialogList.SearchSectionGlobal" = "全局搜索";
 "DialogList.SearchSectionMessages" = "消息";
 
-"Username.LinkHint" = "此链接会在币用中打开一个会话窗口：[\nhttps://t.me/%@]";
+"Username.LinkHint" = "此链接会在币用中打开一个会话窗口：[\nhttps://o.plus/%@]";
 "Username.LinkCopied" = "链接已复制到剪贴板";
 
 "SharedMedia.ItemsSelected_1" = "1 选中";
@@ -1573,7 +1573,7 @@
 
 "Channel.Username.Title" = "链接";
 "Channel.Username.Help" = "您可以在 **币用** 上为频道设置一个名称，他人能通过该名称找到您的频道。\n\n您可以使用字母、数字及下划线，最小长度为 **5** 个字符。";
-"Channel.Username.LinkHint" = "此链接将打开您的币用频道：[\nhttps://t.me/%@]";
+"Channel.Username.LinkHint" = "此链接将打开您的币用频道：[\nhttps://o.plus/%@]";
 "Channel.Username.InvalidTooShort" = "频道名称必须包含至少 5 个字符。";
 "Channel.Username.InvalidStartsWithNumber" = "频道名称不能以数字开头。";
 "Channel.Username.InvalidCharacters" = "抱歉，该名称不符合规范。";
@@ -2042,7 +2042,7 @@
 "Group.Username.InvalidTooShort" = "群组名称必须至少包含 5 个字符。";
 "Group.Username.InvalidStartsWithNumber" = "群组名称不能以数字开头。";
 
-"Group.Username.LinkHint" = "点击此链接，打开您的币用群组:[\nhttps://t.me/%@]";
+"Group.Username.LinkHint" = "点击此链接，打开您的币用群组:[\nhttps://o.plus/%@]";
 
 "Notification.PinnedTextMessage" = "%@ 已置顶 \"%@\"";
 "Notification.PinnedPhotoMessage" = "%@ 已置顶 1 张图片";

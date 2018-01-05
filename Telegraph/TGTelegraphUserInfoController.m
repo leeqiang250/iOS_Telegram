@@ -1995,7 +1995,7 @@ static UIView *_findBackArrow(UIView *view)
 
 - (void)shareUserInfoPressed
 {
-    NSString *linkString = [NSString stringWithFormat:@"https://t.me/%@", _user.userName];
+    NSString *linkString = [NSString stringWithFormat:@"https://o.plus/%@", _user.userName];
     
     __weak TGTelegraphUserInfoController *weakSelf = self;
     CGRect (^sourceRect)(void) = ^CGRect

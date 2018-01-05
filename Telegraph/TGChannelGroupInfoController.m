@@ -1212,7 +1212,7 @@ static inline NSString *subtitleStringForUser(TGUser *user, bool *subtitleActive
         
         NSString *linkText = @"";
         if (_conversation.username.length != 0) {
-            linkText = [@"https://t.me/" stringByAppendingString:_conversation.username];
+            linkText = [@"https://o.plus/" stringByAppendingString:_conversation.username];
         }
         if (!TGStringCompare(linkText, _linkItem.text)) {
             _linkItem.text = linkText;
@@ -1691,7 +1691,7 @@ static inline NSString *subtitleStringForUser(TGUser *user, bool *subtitleActive
     __weak TGChannelGroupInfoController *weakSelf = self;
     if (_conversation.username.length != 0)
     {
-        NSString *linkString = [NSString stringWithFormat:@"https://t.me/%@", _conversation.username];
+        NSString *linkString = [NSString stringWithFormat:@"https://o.plus/%@", _conversation.username];
         NSString *shareString = linkString;
 
         CGRect (^sourceRect)(void) = ^CGRect

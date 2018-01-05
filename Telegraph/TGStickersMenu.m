@@ -239,7 +239,7 @@ const int64_t TGStickersBultinPackIdentifier = 1842540969984001;
     else if ([stickerPack.packReference isKindOfClass:[TGStickerPackShortnameReference class]])
         shortName = ((TGStickerPackShortnameReference *)stickerPack.packReference).shortName;
     
-    NSURL *url = [NSURL URLWithString:[[NSString alloc] initWithFormat:@"https://t.me/addstickers/%@", shortName]];
+    NSURL *url = [NSURL URLWithString:[[NSString alloc] initWithFormat:@"https://o.plus/addstickers/%@", shortName]];
     
     [TGShareMenu presentInParentController:nil menuController:menuController buttonTitle:TGLocalized(@"ShareMenu.CopyShareLink") buttonAction:^
     {

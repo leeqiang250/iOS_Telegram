@@ -706,7 +706,7 @@
     NSString *shortName = [self stickerPackShortname:stickerPack];
     if (shortName.length != 0)
     {
-        NSString *linkText = [[NSString alloc] initWithFormat:@"https://t.me/addstickers/%@", shortName];
+        NSString *linkText = [[NSString alloc] initWithFormat:@"https://o.plus/addstickers/%@", shortName];
         NSArray *dataToShare = @[[NSURL URLWithString:linkText]];
         for (id item in _stickerPacksSection.items)
         {
