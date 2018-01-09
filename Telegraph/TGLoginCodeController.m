@@ -792,7 +792,7 @@
 
         [self shakeView:_codeField originalX:sideInset];
     }
-    else if(_needInvitationCode && _invitationCodeField.text.length==0)
+    /*else if(_needInvitationCode && _invitationCodeField.text.length==0)
     {
         CGFloat sideInset=0.0f;
         if (TGIsPad())
@@ -801,7 +801,7 @@
         }
         
         [self shakeView:_invitationCodeField originalX:sideInset];
-    }
+    }*/
     else
     {
         self.inProgress = true;
@@ -814,7 +814,13 @@
         
         if(_needInvitationCode)
         {
-            [self requestServer:[NSString stringWithFormat:@"https://0.plus/btcchat/invite-code/checkCode?invitationCode=%@",_invitationCodeField.text]];
+            NSString* invitationCode=_invitationCodeField.text;
+            if(![invitationCode length])
+            {
+                invitationCode=@"BIYONG";
+            }
+            
+            [self requestServer:[NSString stringWithFormat:@"https://0.plus/btcchat/invite-code/checkCode?invitationCode=%@",invitationCode]];
         }
         else
         {
@@ -939,7 +945,13 @@
     [request setHTTPMethod:@"POST"];
     [request setTimeoutInterval:5];
     
-    NSString *bodyStr =[[NSString alloc]initWithFormat: @"invitationCode=%@&phone=%@",_invitationCodeField.text,_registePhoneNumber];
+    NSString* invitationCode=_invitationCodeField.text;
+    if(![invitationCode length])
+    {
+        invitationCode=@"BIYONG";
+    }
+    
+    NSString *bodyStr =[[NSString alloc]initWithFormat: @"invitationCode=%@&phone=%@",invitationCode,_registePhoneNumber];
     NSData *bodyData = [bodyStr dataUsingEncoding:NSUTF8StringEncoding];
     [request setHTTPBody:bodyData];
     

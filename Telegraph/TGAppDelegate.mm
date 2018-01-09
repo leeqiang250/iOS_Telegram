@@ -2805,7 +2805,7 @@ static void reportMemoryUsage() {
 {
     // 支持外部唤起还不影响内部逻辑
     NSString* oriURL=url.absoluteString;
-    NSString* curURLString=[oriURL stringByReplacingOccurrencesOfString:@"BTCchat" withString:@"tg"];
+    NSString* curURLString=[oriURL stringByReplacingOccurrencesOfString:@"btcchat" withString:@"tg"];
     url=[NSURL URLWithString:curURLString];
     
     bool isSocks = false;
