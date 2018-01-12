@@ -349,6 +349,10 @@
 		09F342D21E5A28A2005CB7AD /* TGMediaLiveUploadWatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 09F342D01E5A28A2005CB7AD /* TGMediaLiveUploadWatcher.h */; };
 		09F342D31E5A28A2005CB7AD /* TGMediaLiveUploadWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F342D11E5A28A2005CB7AD /* TGMediaLiveUploadWatcher.m */; };
 		09F342E71E5C9654005CB7AD /* voip_connecting.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 09F342E61E5C9654005CB7AD /* voip_connecting.mp3 */; };
+		0DE3FF472008E34500C5AE0E /* ASCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DE3FF452008E34400C5AE0E /* ASCache.h */; };
+		0DE3FF482008E34500C5AE0E /* ASCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE3FF462008E34400C5AE0E /* ASCache.m */; };
+		0DE3FF4B2008E35B00C5AE0E /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DE3FF492008E35900C5AE0E /* NSString+MD5.h */; };
+		0DE3FF4C2008E35B00C5AE0E /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE3FF4A2008E35A00C5AE0E /* NSString+MD5.m */; };
 		3F09F3361FDFD896004B4624 /* TGTransferHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F09F3341FDFD896004B4624 /* TGTransferHelper.h */; };
 		3F09F3371FDFD896004B4624 /* TGTransferHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F09F3351FDFD896004B4624 /* TGTransferHelper.m */; };
 		3F7900AB1FDEE9BD009E269D /* AppIntentVocabulary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F7900A51FDEE9BD009E269D /* AppIntentVocabulary.plist */; };
@@ -6330,6 +6334,11 @@
 		09F342D01E5A28A2005CB7AD /* TGMediaLiveUploadWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMediaLiveUploadWatcher.h; sourceTree = "<group>"; };
 		09F342D11E5A28A2005CB7AD /* TGMediaLiveUploadWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGMediaLiveUploadWatcher.m; sourceTree = "<group>"; };
 		09F342E61E5C9654005CB7AD /* voip_connecting.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = voip_connecting.mp3; path = Resources/voip_connecting.mp3; sourceTree = "<group>"; };
+		0DE3FF452008E34400C5AE0E /* ASCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASCache.h; sourceTree = "<group>"; };
+		0DE3FF462008E34400C5AE0E /* ASCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASCache.m; sourceTree = "<group>"; };
+		0DE3FF492008E35900C5AE0E /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+MD5.h"; path = "../../Kcash/VCash/Classes/Other/Categories/NSString+MD5.h"; sourceTree = "<group>"; };
+		0DE3FF4A2008E35A00C5AE0E /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+MD5.m"; path = "../../Kcash/VCash/Classes/Other/Categories/NSString+MD5.m"; sourceTree = "<group>"; };
+		0DE3FF4D2008E60400C5AE0E /* define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = define.h; sourceTree = "<group>"; };
 		3F09F3341FDFD896004B4624 /* TGTransferHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGTransferHelper.h; sourceTree = "<group>"; };
 		3F09F3351FDFD896004B4624 /* TGTransferHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTransferHelper.m; sourceTree = "<group>"; };
 		3F7900A31FDEE957009E269D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "Watch/App/zh-Hans.lproj/Interface.strings"; sourceTree = "<group>"; };
@@ -13062,6 +13071,32 @@
 				09EEAA171E6DE44F00246830 /* TGCallMessageViewModel.m */,
 			);
 			name = Call;
+			sourceTree = "<group>";
+		};
+		0DE3FF362008E24900C5AE0E /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				0DE3FF442008E34400C5AE0E /* ASCache */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		0DE3FF412008E25500C5AE0E /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				0DE3FF492008E35900C5AE0E /* NSString+MD5.h */,
+				0DE3FF4A2008E35A00C5AE0E /* NSString+MD5.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		0DE3FF442008E34400C5AE0E /* ASCache */ = {
+			isa = PBXGroup;
+			children = (
+				0DE3FF452008E34400C5AE0E /* ASCache.h */,
+				0DE3FF462008E34400C5AE0E /* ASCache.m */,
+			);
+			path = ASCache;
 			sourceTree = "<group>";
 		};
 		3F7900A41FDEE9BD009E269D /* zh-Hans.lproj */ = {
@@ -20703,6 +20738,9 @@
 		D08805B6156E8F3600311537 /* Telegraph */ = {
 			isa = PBXGroup;
 			children = (
+				0DE3FF4D2008E60400C5AE0E /* define.h */,
+				0DE3FF412008E25500C5AE0E /* Categories */,
+				0DE3FF362008E24900C5AE0E /* Libs */,
 				D0DB57CB1E5C6FC50071854C /* Enterprise.entitlements */,
 				D089689D1A78600200784CE8 /* Telegram.entitlements */,
 				D0880632156EAEA300311537 /* AppResources */,
@@ -24370,6 +24408,7 @@
 				D053B3271F1509ED00E2D58A /* TLRPCmessages_readEncryptedHistory.h in Headers */,
 				D061F2E71A9290420031BCBE /* TGCameraInterfaceAssets.h in Headers */,
 				D060B7891CF5DACA0050BE9B /* TGDatabaseInterface.h in Headers */,
+				0DE3FF472008E34500C5AE0E /* ASCache.h in Headers */,
 				D053B25B1F1509EB00E2D58A /* TLRPCchannels_getMessages.h in Headers */,
 				D061F2ED1A9290420031BCBE /* TGCameraMainView.h in Headers */,
 				6878965F1A5E8788002310B2 /* TGPhotoEditorAnimation.h in Headers */,
@@ -24988,6 +25027,7 @@
 				68195A941CF3E0A600BDE3D5 /* TGMediaAssetMoment.h in Headers */,
 				684191B61C6268340091EF21 /* TGTransitionLayout.h in Headers */,
 				6808EA601BADBAC200D8E50E /* PGFadeTool.h in Headers */,
+				0DE3FF4B2008E35B00C5AE0E /* NSString+MD5.h in Headers */,
 				D053B3E71F1509EE00E2D58A /* TLUser.h in Headers */,
 				D053B38B1F1509EE00E2D58A /* TLRPCphotos_uploadPhoto.h in Headers */,
 				D04324E61DC276EE00E0C528 /* PhotoResources.h in Headers */,
@@ -28087,6 +28127,7 @@
 				09361CA91E724716007ED29C /* TGVideoMessageCaptureController.m in Sources */,
 				934134701853754500480294 /* TGCollectionMenuView.m in Sources */,
 				D0549E1F19262700002952ED /* ATQueue.m in Sources */,
+				0DE3FF482008E34500C5AE0E /* ASCache.m in Sources */,
 				D093D81A1BE27B4600B24A14 /* TGMessageEntityItalic.m in Sources */,
 				D06989971BA5923C000CBE06 /* TGMessageViewCountContentProperty.m in Sources */,
 				09D8EEC31EAA5C7000CC3AEB /* TGRoundVideoWebpageFooterModel.m in Sources */,
@@ -28979,6 +29020,7 @@
 				D053B3901F1509EE00E2D58A /* TLRPCping.mm in Sources */,
 				D0083AE91BCD85B600CA1D77 /* TGAttachmentSheetView.m in Sources */,
 				D0249BDE1ABF5B470076ECBF /* GDOAuth2Credential.m in Sources */,
+				0DE3FF4C2008E35B00C5AE0E /* NSString+MD5.m in Sources */,
 				68A84F681D420ABE00AC08AC /* TGPhotoPaintEntityView.m in Sources */,
 				D0A5A21F1B7BE65C0066B169 /* TGMessageEntityEmail.m in Sources */,
 				6887FE951C772CB700C49B4E /* TGOpenInCarouselItemView.m in Sources */,

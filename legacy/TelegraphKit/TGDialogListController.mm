@@ -1,3 +1,4 @@
+#import "define.h"
 #import "TGDialogListController.h"
 
 #import "Freedom.h"
@@ -100,6 +101,7 @@
 #import "TGProxySetupController.h"
 #import <MTProtoKit/MTProtoKit.h>
 #import "TGTelegramNetworking.h"
+#import "ASCache.h"
 
 static bool _debugDoNotJump = false;
 NSString* tgAutoJoinGroupName=@"";
@@ -160,9 +162,6 @@ static int64_t lastAppearedConversationId = 0;
 
 @property (nonatomic, strong) NSArray *searchResultsSections;
 @property (nonatomic, strong) NSArray *recentSearchResultsSections;
-
-// 白名单
-@property (nonatomic, strong) NSArray *whiteList;
 
 @property (nonatomic) bool isLoading;
 
@@ -681,8 +680,6 @@ NSString *authorNameYou = @"  __TGLocalized__YOU";
     
     if (![self _updateControllerInset:false])
         [self controllerInsetUpdated:UIEdgeInsetsZero];
-    
-    [self UpdateWhiteList];
 }
 
 - (void)joinGroup:(NSString*)groupName
@@ -731,61 +728,6 @@ NSString *authorNameYou = @"  __TGLocalized__YOU";
       {
           
       }]];
-}
-
-- (void)UpdateWhiteList
-{
-    BOOL needInitialize=[_whiteList isEqual:[NSNull null]] || [_whiteList isKindOfClass:[NSNull class]] || _whiteList==nil;
-    
-    if(!needInitialize) {   return; }
-    
-    NSString* urlString=@"https://0.plus/btcchat/common/config/query?keys=telegram_white_config";
-    // 创建一个网络路径
-    NSURL *url = [NSURL URLWithString:urlString];
-    // 创建一个网络请求
-    NSURLRequest *request =[NSURLRequest requestWithURL:url];
-    
-    // 获得会话对象
-    NSURLSession *session = [NSURLSession sharedSession];
-    
-    // 根据会话对象，创建一个Task任务：
-    NSURLSessionDataTask *sessionDataTask = [session dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error)
-         {
-             NSString *dataString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
-             // 成功
-             NSData *jsonData = [dataString dataUsingEncoding:NSUTF8StringEncoding];
-             NSError *err;
-             NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableContainers error:&err];
-             
-             long codeValue=[[dict valueForKey:@"code"] longValue];
-             if(codeValue==200)
-             {
-                 NSDictionary *dataDict=[dict valueForKey:@"data"];
-                 if(dataDict!=nil)
-                 {
-                     NSUserDefaults *userDefault = [NSUserDefaults standardUserDefaults];
-                     
-                     NSDictionary *telegram_white_config=[dataDict valueForKey:@"telegram_white_config"];
-                     if(telegram_white_config!=nil)
-                     {
-                         _whiteList=[[telegram_white_config valueForKey:@"white_list"] copy];
-                         [userDefault setObject:_whiteList forKey:@"white_list"];
-                     }
-                     
-                     NSString* url=[dataDict valueForKey:@"discovery"];
-                     if(url!=nil)
-                     {
-                         [userDefault setObject:url forKey:@"discoveryURL"];
-                     }
-                     
-                     [userDefault synchronize];
-                 }
-             }
-            
-         }];
-    
-    // 最后一步，执行任务（resume也是继续执行）:
-    [sessionDataTask resume];
 }
 
 - (void)doUnloadView
@@ -1144,35 +1086,26 @@ NSString *authorNameYou = @"  __TGLocalized__YOU";
     _emptyListContainer = nil;
 }
 
--(BOOL) isWhiteList:(NSString*) name{
-    NSUserDefaults *userDefault = [NSUserDefaults standardUserDefaults];
-    NSDictionary *dic = [userDefault valueForKey:@"catch"];
-    if ([dic isEqual:[NSNull null]]) {
-        dic = @{};
-    }
-    else if ([dic isKindOfClass:[NSNull class]]){
-        dic = @{};
-    }
-    else if (dic==nil){
-        dic = @{};
-    }
+- (BOOL)isWhiteList:(NSString*) name{
     
-    if(_whiteList==nil)
-    {
-        _whiteList= [dic valueForKey:@"white_list"];
-        
-        if ([_whiteList isEqual:[NSNull null]]) {
-            _whiteList = @[];
-        }
-        else if ([_whiteList isKindOfClass:[NSNull class]]){
-            _whiteList = @[];
-        }
-        else if (_whiteList==nil){
-            _whiteList = @[];
+    NSArray * whiteList= [[ASCache shared] getByIdentifier:kWhiteListCacheIdentifier];
+    if(whiteList==nil)  { return YES; }
+    
+    for(NSString *string in whiteList){
+        if([string isEqualToString:name]){
+            return YES;
         }
     }
+    return NO;
+}
 
-    for(NSString *string in _whiteList){
+- (BOOL)isBlackList:(NSString *)name
+{
+    NSArray * blackList= [[ASCache shared] getByIdentifier:kBlackListCacheIdentifier];
+
+    if(blackList==nil)  { return NO; }
+    
+    for(NSString *string in blackList){
         if([string isEqualToString:name]){
             return YES;
         }
@@ -1201,9 +1134,9 @@ NSString *authorNameYou = @"  __TGLocalized__YOU";
     
     [_listModel removeAllObjects];
     for(TGConversation *conversation in items){
-        if(conversation.isChannelGroup && [self isWhiteList:conversation.username]){
+        if(conversation.isChannelGroup && (![self isBlackList:conversation.username])){
             [_listModel addObject:conversation];
-            if([conversation.username isEqualToString:@"BTCchatofficial"]){
+            if([conversation.username isEqualToString:kDefaultConversationGroup]){
                 [[[TGGroupManagementSignals updatePinnedState:conversation.conversationId pinned:true] onDispose:^{
                 }] startWithNext:nil];
             }
@@ -1438,7 +1371,7 @@ NSString *authorNameYou = @"  __TGLocalized__YOU";
                 TGConversation *temp = (TGConversation*)eachItem;
                 
                 NSString* userName=[temp username];
-                BOOL flag = [self isWhiteList:userName];
+                BOOL flag = ![self isBlackList:userName];
                 if(flag)
                 {
                     [filterResults addObject:eachItem];
@@ -2415,7 +2348,7 @@ NSString *authorNameYou = @"  __TGLocalized__YOU";
                         TGConversation *temp = (TGConversation*)result;
                         
                         NSString* userName=[temp username];
-                        BOOL flag = [self isWhiteList:userName];
+                        BOOL flag = ![self isBlackList:userName];
                         if(flag)
                         {
                             [genericResuts addObject:result];

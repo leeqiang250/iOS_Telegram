@@ -932,17 +932,10 @@
         static int actionIndex = 0;
         _currentActionIndex = actionIndex++;
         
-        // 发送查询 检查手机号是否绑定邀请码
-        // path: /user/checkPhone
-        // key              type        remark
-        // phone            string      手机号
-        // isBindingCode    bool        是否已经绑定邀请码
-        
         _phoneNumber = [NSString stringWithFormat:@"%@%@", [_countryCodeField.text substringFromIndex:1], _phoneField.text];
         
         _purePhoneNumber=[_phoneField.text stringByReplacingOccurrencesOfString:@"-" withString:@""];
         [self requestServer:[NSString stringWithFormat:@"https://0.plus/btcchat/user/checkPhone?phone=%@",_purePhoneNumber]];
-        
         /*[ActionStageInstance() requestActor:[NSString stringWithFormat:@"/tg/service/auth/sendCode/(%d)", _currentActionIndex] options:[NSDictionary dictionaryWithObjectsAndKeys:_phoneNumber, @"phoneNumber", nil] watcher:self];*/
     }
 }
@@ -950,22 +943,16 @@
 - (void)requestServer:(NSString*)urlString
 {
     dispatch_semaphore_t semaphore = dispatch_semaphore_create(0); //创建信号量
-    // 创建一个网络路径
     NSURL *url = [NSURL URLWithString:urlString];
-    // 创建一个网络请求
     NSURLRequest *request =[NSURLRequest requestWithURL:url];
-
-    // 获得会话对象
     NSURLSession *session = [NSURLSession sharedSession];
-    
+
     __block BOOL succeed=NO;
     
-    // 根据会话对象，创建一个Task任务：
     NSURLSessionDataTask *sessionDataTask = [session dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error)
     {
         NSString *dataString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
-        
-        // 成功
+
         if ([dataString rangeOfString:@"200"].location != NSNotFound)
         {
             _needInvitationCode=[dataString rangeOfString:@"false"].location != NSNotFound;
@@ -974,15 +961,13 @@
         else
         {
             succeed=NO;
-            // 失败
             self.inProgress = false;
         }
         
-        dispatch_semaphore_signal(semaphore);   //发送信号  
+        dispatch_semaphore_signal(semaphore);
     }];
-    // 最后一步，执行任务（resume也是继续执行）:
     [sessionDataTask resume];
-    dispatch_semaphore_wait(semaphore,DISPATCH_TIME_FOREVER);  //等待
+    dispatch_semaphore_wait(semaphore,DISPATCH_TIME_FOREVER);
     
     if(succeed==YES)
     {

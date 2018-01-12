@@ -4,7 +4,8 @@
 //
 //  Created by brent on 2017/12/5.
 //
-
+#import "define.h"
+#import "ASCache.h"
 #import "TGWebViewController.h"
 #import "TGApplication.h"
 #import "TGFont.h"
@@ -126,34 +127,10 @@
     self.view.backgroundColor = [UIColor redColor];
     self.navigationItem.leftBarButtonItem = self.backItem;
     
-    NSUserDefaults *userDefault = [NSUserDefaults standardUserDefaults];
-    /*NSDictionary *dic = [userDefault valueForKey:@"catch"];
-    if ([dic isEqual:[NSNull null]]) {
-        dic = @{};
+    NSString *urlString = [[ASCache shared] getByIdentifier:kDiscoverURLCacheIdentifier];
+    if(!urlString){
+        urlString=@"https://www.biyong.io/client/";
     }
-    else if ([dic isKindOfClass:[NSNull class]]){
-        dic = @{};
-    }
-    else if (dic==nil){
-        dic = @{};
-    }
-    
-    NSString *string = [dic valueForKey:@"discovery"];
-    if ([string isEqual:[NSNull null]]) {
-        string = @"";
-    }
-    else if ([string isKindOfClass:[NSNull class]]){
-        string = @"";
-    }
-    else if (string==nil){
-        string = @"";
-    }*/
-    NSString *urlString = [userDefault valueForKey:@"discoveryURL"];
-    if(urlString==nil)
-    {
-        urlString=@"https://www.btcchat.io/client/";
-    }
-    
     _webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height - 44)];
     [self.view addSubview:_webView];
     NSURL *url = [NSURL URLWithString:urlString];

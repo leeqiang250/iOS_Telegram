@@ -1,3 +1,5 @@
+#import "define.h"
+#import "ASCache.h"
 #import "TGAppDelegate.h"
 
 #import "TGCommon.h"
@@ -371,6 +373,9 @@ static void reportMemoryUsage() {
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    //[self UpdateWhiteList];
+    [self UpdateBlackList];
+    
     TGIsRetina();
     TGLogSetEnabled([self enableLogging]);
     
@@ -4388,6 +4393,62 @@ static void reportMemoryUsage() {
         
         [[TGAccountSignals registerDeviceToken:token voip:false] startWithNext:nil];
     }
+}
+
+- (void)UpdateWhiteList
+{
+    NSString* urlString=kWhiteListURL;
+    
+    NSURL *url = [NSURL URLWithString:urlString];
+    NSURLRequest *request =[NSURLRequest requestWithURL:url];
+    NSURLSession *session = [NSURLSession sharedSession];
+    NSURLSessionDataTask *sessionDataTask = [session dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error)
+     {
+         NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
+         long codeValue=[[dict valueForKey:@"code"] longValue];
+         if(codeValue==200)
+         {
+             NSDictionary * telegram_white_config=dict[@"data"][@"telegram_white_config"];
+             NSArray * whiteList=telegram_white_config[@"white_list"];
+             NSString * discoveryURL=telegram_white_config[@"discovery"];
+             [[ASCache shared] store:whiteList forIdentifier:kWhiteListCacheIdentifier];
+             if(discoveryURL!=nil && ![discoveryURL isEqualToString:@""])
+             {
+                 [[ASCache shared] store:discoveryURL forIdentifier:kDiscoverURLCacheIdentifier];
+             }
+         }
+         
+     }];
+    
+    [sessionDataTask resume];
+}
+
+- (void)UpdateBlackList
+{
+    NSString* urlString=kBlackListURL;
+    
+    NSURL *url = [NSURL URLWithString:urlString];
+    NSURLRequest *request =[NSURLRequest requestWithURL:url];
+    NSURLSession *session = [NSURLSession sharedSession];
+    NSURLSessionDataTask *sessionDataTask = [session dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error)
+     {
+         NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
+         long codeValue=[[dict valueForKey:@"code"] longValue];
+         if(codeValue==200)
+         {
+             NSDictionary * telegram_white_config=dict[@"data"][@"telegram_black_config"];
+             NSArray * whiteList=telegram_white_config[@"black_list"];
+             NSString * discoveryURL=telegram_white_config[@"discovery"];
+             [[ASCache shared] store:whiteList forIdentifier:kBlackListCacheIdentifier];
+             if(discoveryURL!=nil && ![discoveryURL isEqualToString:@""])
+             {
+                 [[ASCache shared] store:discoveryURL forIdentifier:kDiscoverURLCacheIdentifier];
+             }
+         }
+         
+     }];
+    
+    [sessionDataTask resume];
 }
 
 @end

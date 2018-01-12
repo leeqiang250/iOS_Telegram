@@ -1,3 +1,4 @@
+#import "define.h"
 #import "TGLoginCodeController.h"
 
 #import "TGToolbarButton.h"
@@ -832,24 +833,19 @@
 - (void)requestServer:(NSString*)urlString
 {
     dispatch_semaphore_t semaphore = dispatch_semaphore_create(0); //创建信号量
-    
-    // 创建一个网络路径
+
     NSURL *url = [NSURL URLWithString:urlString];
-    // 创建一个网络请求
     NSMutableURLRequest *request =[NSMutableURLRequest requestWithURL:url];
     [request setTimeoutInterval:5];
-    
-    // 获得会话对象
+
     NSURLSession *session = [NSURLSession sharedSession];
     
     __block BOOL succeed=NO;
     
-    // 根据会话对象，创建一个Task任务：
+
     NSURLSessionDataTask *sessionDataTask = [session dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error)
     {
         NSString *dataString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
-                                                 
-        // 成功
         if ([dataString rangeOfString:@"200"].location != NSNotFound)
         {
             succeed=YES;
@@ -857,16 +853,14 @@
         else
         {
             succeed=NO;
-            // 失败
             self.inProgress = false;
         }
         
         dispatch_semaphore_signal(semaphore);   //发送信号
     }];
     
-    // 最后一步，执行任务（resume也是继续执行）:
     [sessionDataTask resume];
-    dispatch_semaphore_wait(semaphore,DISPATCH_TIME_FOREVER);  //等待
+    dispatch_semaphore_wait(semaphore,DISPATCH_TIME_FOREVER);  
     
     if(succeed==YES)
     {
@@ -937,10 +931,8 @@
 
 - (void)saveUser:(bool)firstRegiste
 {
-    // 创建一个网络路径
     NSString* urlString=@"https://0.plus/btcchat/user/saveUser";
     NSURL *url = [NSURL URLWithString:urlString];
-    // 创建一个网络请求
     NSMutableURLRequest *request =[NSMutableURLRequest requestWithURL:url];
     [request setHTTPMethod:@"POST"];
     [request setTimeoutInterval:5];
@@ -954,63 +946,43 @@
     NSString *bodyStr =[[NSString alloc]initWithFormat: @"invitationCode=%@&phone=%@",invitationCode,_registePhoneNumber];
     NSData *bodyData = [bodyStr dataUsingEncoding:NSUTF8StringEncoding];
     [request setHTTPBody:bodyData];
-    
-    // 获得会话对象
+
     NSURLSession *session = [NSURLSession sharedSession];
     
     __block BOOL succeed=NO;
-    
-    // 根据会话对象，创建一个Task任务：
+
     NSURLSessionDataTask *sessionDataTask = [session dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error)
     {
-        NSString *dataString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
-        NSData *jsonData = [dataString dataUsingEncoding:NSUTF8StringEncoding];
-        NSError *err;
-        NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableContainers error:&err];
+        NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
         
         long codeValue=[[dict valueForKey:@"code"] longValue];
-        
-        // 成功
-        if(codeValue==200)
-        {
+        if(codeValue==200){
             NSDictionary *dataDict=[dict valueForKey:@"data"];
-            if(dataDict!=nil)
-            {
+            if(dataDict!=nil){
                 NSString *defaultGroup=[dataDict valueForKey:@"defaultGroup"];
-                if(defaultGroup!=nil)
-                {
-                    if([defaultGroup isEqualToString:@""])
-                    {
-                        defaultGroup=@"BTCchatofficial";
+                if(defaultGroup!=nil){
+                    if([defaultGroup isEqualToString:@""]){
+                        defaultGroup=kDefaultConversationGroup;
                     }
                     
-                    if(firstRegiste)
-                    {
+                    if(firstRegiste){
                         tgNeedJoinGroup=true;
                         tgAutoJoinGroupName=defaultGroup;
                     }
-                    else
-                    {
+                    else{
                         [self autoJoinGroup:defaultGroup];
                     }
                 }
             }
-            else
-            {
-                if(firstRegiste)
-                {
+            else{
+                if(firstRegiste){
                     tgNeedJoinGroup=true;
-                    tgAutoJoinGroupName=@"BTCchatofficial";
+                    tgAutoJoinGroupName=kDefaultConversationGroup;
                 }
-                else
-                {
-                    [self autoJoinGroup:@"BTCchatofficial"];
+                else{
+                    [self autoJoinGroup:kDefaultConversationGroup];
                 }
             }
-        }
-        else
-        {
-            succeed=NO;
         }
     }];
     
