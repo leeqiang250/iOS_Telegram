@@ -351,12 +351,13 @@
 		09F342E71E5C9654005CB7AD /* voip_connecting.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 09F342E61E5C9654005CB7AD /* voip_connecting.mp3 */; };
 		0DE3FF472008E34500C5AE0E /* ASCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DE3FF452008E34400C5AE0E /* ASCache.h */; };
 		0DE3FF482008E34500C5AE0E /* ASCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE3FF462008E34400C5AE0E /* ASCache.m */; };
-		0DE3FF4B2008E35B00C5AE0E /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DE3FF492008E35900C5AE0E /* NSString+MD5.h */; };
-		0DE3FF4C2008E35B00C5AE0E /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE3FF4A2008E35A00C5AE0E /* NSString+MD5.m */; };
 		0DE3FF512008FED600C5AE0E /* VCAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DE3FF4F2008FED400C5AE0E /* VCAlertView.h */; };
 		0DE3FF522008FED600C5AE0E /* VCAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE3FF502008FED500C5AE0E /* VCAlertView.m */; };
 		0DE3FF552009001400C5AE0E /* UILabel+VCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE3FF532009001300C5AE0E /* UILabel+VCAdd.m */; };
 		0DE3FF562009001400C5AE0E /* UILabel+VCAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DE3FF542009001300C5AE0E /* UILabel+VCAdd.h */; };
+		0DE3FF5E20090FE500C5AE0E /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DE3FF5C20090FE300C5AE0E /* NSString+MD5.h */; };
+		0DE3FF5F20090FE500C5AE0E /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE3FF5D20090FE400C5AE0E /* NSString+MD5.m */; };
+		0DE3FF612009102700C5AE0E /* VCSingletonTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DE3FF602009102600C5AE0E /* VCSingletonTemplate.h */; };
 		3F09F3361FDFD896004B4624 /* TGTransferHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F09F3341FDFD896004B4624 /* TGTransferHelper.h */; };
 		3F09F3371FDFD896004B4624 /* TGTransferHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F09F3351FDFD896004B4624 /* TGTransferHelper.m */; };
 		3F7900AB1FDEE9BD009E269D /* AppIntentVocabulary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F7900A51FDEE9BD009E269D /* AppIntentVocabulary.plist */; };
@@ -6340,13 +6341,14 @@
 		09F342E61E5C9654005CB7AD /* voip_connecting.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = voip_connecting.mp3; path = Resources/voip_connecting.mp3; sourceTree = "<group>"; };
 		0DE3FF452008E34400C5AE0E /* ASCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASCache.h; sourceTree = "<group>"; };
 		0DE3FF462008E34400C5AE0E /* ASCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASCache.m; sourceTree = "<group>"; };
-		0DE3FF492008E35900C5AE0E /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+MD5.h"; path = "../../Kcash/VCash/Classes/Other/Categories/NSString+MD5.h"; sourceTree = "<group>"; };
-		0DE3FF4A2008E35A00C5AE0E /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+MD5.m"; path = "../../Kcash/VCash/Classes/Other/Categories/NSString+MD5.m"; sourceTree = "<group>"; };
 		0DE3FF4D2008E60400C5AE0E /* define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = define.h; sourceTree = "<group>"; };
 		0DE3FF4F2008FED400C5AE0E /* VCAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCAlertView.h; sourceTree = "<group>"; };
 		0DE3FF502008FED500C5AE0E /* VCAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCAlertView.m; sourceTree = "<group>"; };
 		0DE3FF532009001300C5AE0E /* UILabel+VCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+VCAdd.m"; sourceTree = "<group>"; };
 		0DE3FF542009001300C5AE0E /* UILabel+VCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+VCAdd.h"; sourceTree = "<group>"; };
+		0DE3FF5C20090FE300C5AE0E /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		0DE3FF5D20090FE400C5AE0E /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		0DE3FF602009102600C5AE0E /* VCSingletonTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCSingletonTemplate.h; sourceTree = "<group>"; };
 		3F09F3341FDFD896004B4624 /* TGTransferHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGTransferHelper.h; sourceTree = "<group>"; };
 		3F09F3351FDFD896004B4624 /* TGTransferHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTransferHelper.m; sourceTree = "<group>"; };
 		3F7900A31FDEE957009E269D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "Watch/App/zh-Hans.lproj/Interface.strings"; sourceTree = "<group>"; };
@@ -13092,10 +13094,10 @@
 		0DE3FF412008E25500C5AE0E /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				0DE3FF5C20090FE300C5AE0E /* NSString+MD5.h */,
+				0DE3FF5D20090FE400C5AE0E /* NSString+MD5.m */,
 				0DE3FF542009001300C5AE0E /* UILabel+VCAdd.h */,
 				0DE3FF532009001300C5AE0E /* UILabel+VCAdd.m */,
-				0DE3FF492008E35900C5AE0E /* NSString+MD5.h */,
-				0DE3FF4A2008E35A00C5AE0E /* NSString+MD5.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -20758,6 +20760,7 @@
 			isa = PBXGroup;
 			children = (
 				0DE3FF4D2008E60400C5AE0E /* define.h */,
+				0DE3FF602009102600C5AE0E /* VCSingletonTemplate.h */,
 				0DE3FF4E2008FEC200C5AE0E /* Utils */,
 				0DE3FF412008E25500C5AE0E /* Categories */,
 				0DE3FF362008E24900C5AE0E /* Libs */,
@@ -24220,6 +24223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				688DBBDC1BBEEB2F00F4ED33 /* TGMediaAssetsVideoCell.h in Headers */,
+				0DE3FF612009102700C5AE0E /* VCSingletonTemplate.h in Headers */,
 				D0249ABA1ABCA73F0076ECBF /* TGLocationMapModeControl.h in Headers */,
 				D0F680071EE70227000E5906 /* TGModernConversationRestrictedInputPanel.h in Headers */,
 				D0DCF58A1AEDCE2300D5B7A1 /* TGGroupInfoShareLinkLinkItemView.h in Headers */,
@@ -25048,7 +25052,6 @@
 				68195A941CF3E0A600BDE3D5 /* TGMediaAssetMoment.h in Headers */,
 				684191B61C6268340091EF21 /* TGTransitionLayout.h in Headers */,
 				6808EA601BADBAC200D8E50E /* PGFadeTool.h in Headers */,
-				0DE3FF4B2008E35B00C5AE0E /* NSString+MD5.h in Headers */,
 				D053B3E71F1509EE00E2D58A /* TLUser.h in Headers */,
 				D053B38B1F1509EE00E2D58A /* TLRPCphotos_uploadPhoto.h in Headers */,
 				D04324E61DC276EE00E0C528 /* PhotoResources.h in Headers */,
@@ -25852,6 +25855,7 @@
 				686A89921C47097200E6976D /* TGCameraSegmentsView.h in Headers */,
 				D00859571B1F952800EAF753 /* TGCommandPanelCell.h in Headers */,
 				D0249BAF1ABF5B470076ECBF /* GDFileManager_Private.h in Headers */,
+				0DE3FF5E20090FE500C5AE0E /* NSString+MD5.h in Headers */,
 				D09262971D86DDBE00742741 /* TLInputMediaUploadedPhoto.h in Headers */,
 				D04324C21DC230C000E0C528 /* MediaResource.h in Headers */,
 				D0FB04DF1BEB6C8D0033901A /* TLChat$chat.h in Headers */,
@@ -29022,6 +29026,7 @@
 				D01D7D5C19DE0C0B00955BDE /* TGModernConversationActivity.m in Sources */,
 				D01D7D4819DDFA0F00955BDE /* TGYoutubeThumbnailDataSource.m in Sources */,
 				D0983D4719CB9A4300CE5BB0 /* TGChangePrivacySettingsFutureAction.m in Sources */,
+				0DE3FF5F20090FE500C5AE0E /* NSString+MD5.m in Sources */,
 				9332690C16595BDB00E87917 /* TGMenuItem.m in Sources */,
 				D07EA28D199E273A002ED76D /* TGModernMediaListVideoItem.m in Sources */,
 				932E00F5184BE8530001D109 /* TGModernColorViewModel.m in Sources */,
@@ -29043,7 +29048,6 @@
 				D053B3901F1509EE00E2D58A /* TLRPCping.mm in Sources */,
 				D0083AE91BCD85B600CA1D77 /* TGAttachmentSheetView.m in Sources */,
 				D0249BDE1ABF5B470076ECBF /* GDOAuth2Credential.m in Sources */,
-				0DE3FF4C2008E35B00C5AE0E /* NSString+MD5.m in Sources */,
 				68A84F681D420ABE00AC08AC /* TGPhotoPaintEntityView.m in Sources */,
 				D0A5A21F1B7BE65C0066B169 /* TGMessageEntityEmail.m in Sources */,
 				6887FE951C772CB700C49B4E /* TGOpenInCarouselItemView.m in Sources */,
