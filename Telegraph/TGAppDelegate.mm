@@ -1,3 +1,4 @@
+#import "VCAlertView.h"
 #import "define.h"
 #import "ASCache.h"
 #import "TGAppDelegate.h"
@@ -375,7 +376,7 @@ static void reportMemoryUsage() {
 {
     //[self UpdateWhiteList];
     [self UpdateBlackList];
-    
+    [self checkUpVersion];
     TGIsRetina();
     TGLogSetEnabled([self enableLogging]);
     
@@ -4404,6 +4405,7 @@ static void reportMemoryUsage() {
     NSURLSession *session = [NSURLSession sharedSession];
     NSURLSessionDataTask *sessionDataTask = [session dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error)
      {
+         if(data==nil) { return ;}
          NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
          long codeValue=[[dict valueForKey:@"code"] longValue];
          if(codeValue==200)
@@ -4432,6 +4434,7 @@ static void reportMemoryUsage() {
     NSURLSession *session = [NSURLSession sharedSession];
     NSURLSessionDataTask *sessionDataTask = [session dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error)
      {
+         if(data==nil) { return ;}
          NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
          long codeValue=[[dict valueForKey:@"code"] longValue];
          if(codeValue==200)
@@ -4448,6 +4451,55 @@ static void reportMemoryUsage() {
          
      }];
     
+    [sessionDataTask resume];
+}
+
+- (void)checkUpVersion
+{
+    NSDictionary* infoDict=[[NSBundle mainBundle]infoDictionary];
+    NSString* appVersion=[infoDict objectForKey:@"CFBundleShortVersionString"];
+
+    NSString* urlString=[NSString stringWithFormat: @"https://0.plus/btcchat/app-version/check-update?currentVersion=%@&appType=IOS",appVersion];
+    NSURL *url = [NSURL URLWithString:urlString];
+    NSMutableURLRequest *request =[NSMutableURLRequest requestWithURL:url];
+    [request setTimeoutInterval:5];
+    NSURLSession *session = [NSURLSession sharedSession];
+
+    NSURLSessionDataTask *sessionDataTask = [session dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error)
+     {
+         if(data==nil) { return ;}
+         NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
+        
+         long codeValue=[[dict valueForKey:@"code"] longValue];
+         if(codeValue==200)
+         {
+             
+             NSDictionary *dataDict=[dict valueForKey:@"data"];
+             if(dataDict!=nil)
+             {
+                 BOOL needUpdate=[[dataDict valueForKey:@"needUpdate"] boolValue];
+                 NSString* serverVersion=[dataDict valueForKey:@"lastVersion"];
+                 NSString* downloadURL=[dataDict valueForKey:@"downloadUrl"];
+                 
+                 if(needUpdate)
+                 {
+                     dispatch_sync(dispatch_get_main_queue(), ^{
+                         NSString *formatString = TGLocalized(@"Update.UpdateTitle");
+                         NSString *messageString= [NSString stringWithFormat:TGLocalized(@"Update.UpdateTip"),serverVersion];
+                         VCAlertView * alertView = [[VCAlertView alloc] initWithTitle:formatString message:messageString cancelBtnTitle:TGLocalized(@"Update.Ignore") otherBtnTitle:TGLocalized(@"Update.Goto") clickIndexBlock:^(NSInteger clickIndex)
+                            {
+                                if(clickIndex==1)
+                                    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:downloadURL] options:@{}  completionHandler:nil];
+                            }];
+                         
+                         [alertView showAlertView];
+                     });
+                     
+                 }
+             }
+         }
+     }];
+
     [sessionDataTask resume];
 }
 

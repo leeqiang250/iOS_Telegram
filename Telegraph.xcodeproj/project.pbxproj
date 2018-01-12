@@ -353,6 +353,10 @@
 		0DE3FF482008E34500C5AE0E /* ASCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE3FF462008E34400C5AE0E /* ASCache.m */; };
 		0DE3FF4B2008E35B00C5AE0E /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DE3FF492008E35900C5AE0E /* NSString+MD5.h */; };
 		0DE3FF4C2008E35B00C5AE0E /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE3FF4A2008E35A00C5AE0E /* NSString+MD5.m */; };
+		0DE3FF512008FED600C5AE0E /* VCAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DE3FF4F2008FED400C5AE0E /* VCAlertView.h */; };
+		0DE3FF522008FED600C5AE0E /* VCAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE3FF502008FED500C5AE0E /* VCAlertView.m */; };
+		0DE3FF552009001400C5AE0E /* UILabel+VCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE3FF532009001300C5AE0E /* UILabel+VCAdd.m */; };
+		0DE3FF562009001400C5AE0E /* UILabel+VCAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DE3FF542009001300C5AE0E /* UILabel+VCAdd.h */; };
 		3F09F3361FDFD896004B4624 /* TGTransferHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F09F3341FDFD896004B4624 /* TGTransferHelper.h */; };
 		3F09F3371FDFD896004B4624 /* TGTransferHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F09F3351FDFD896004B4624 /* TGTransferHelper.m */; };
 		3F7900AB1FDEE9BD009E269D /* AppIntentVocabulary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F7900A51FDEE9BD009E269D /* AppIntentVocabulary.plist */; };
@@ -6339,6 +6343,10 @@
 		0DE3FF492008E35900C5AE0E /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+MD5.h"; path = "../../Kcash/VCash/Classes/Other/Categories/NSString+MD5.h"; sourceTree = "<group>"; };
 		0DE3FF4A2008E35A00C5AE0E /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+MD5.m"; path = "../../Kcash/VCash/Classes/Other/Categories/NSString+MD5.m"; sourceTree = "<group>"; };
 		0DE3FF4D2008E60400C5AE0E /* define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = define.h; sourceTree = "<group>"; };
+		0DE3FF4F2008FED400C5AE0E /* VCAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCAlertView.h; sourceTree = "<group>"; };
+		0DE3FF502008FED500C5AE0E /* VCAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCAlertView.m; sourceTree = "<group>"; };
+		0DE3FF532009001300C5AE0E /* UILabel+VCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+VCAdd.m"; sourceTree = "<group>"; };
+		0DE3FF542009001300C5AE0E /* UILabel+VCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+VCAdd.h"; sourceTree = "<group>"; };
 		3F09F3341FDFD896004B4624 /* TGTransferHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGTransferHelper.h; sourceTree = "<group>"; };
 		3F09F3351FDFD896004B4624 /* TGTransferHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGTransferHelper.m; sourceTree = "<group>"; };
 		3F7900A31FDEE957009E269D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "Watch/App/zh-Hans.lproj/Interface.strings"; sourceTree = "<group>"; };
@@ -13084,6 +13092,8 @@
 		0DE3FF412008E25500C5AE0E /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				0DE3FF542009001300C5AE0E /* UILabel+VCAdd.h */,
+				0DE3FF532009001300C5AE0E /* UILabel+VCAdd.m */,
 				0DE3FF492008E35900C5AE0E /* NSString+MD5.h */,
 				0DE3FF4A2008E35A00C5AE0E /* NSString+MD5.m */,
 			);
@@ -13097,6 +13107,15 @@
 				0DE3FF462008E34400C5AE0E /* ASCache.m */,
 			);
 			path = ASCache;
+			sourceTree = "<group>";
+		};
+		0DE3FF4E2008FEC200C5AE0E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0DE3FF4F2008FED400C5AE0E /* VCAlertView.h */,
+				0DE3FF502008FED500C5AE0E /* VCAlertView.m */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 		3F7900A41FDEE9BD009E269D /* zh-Hans.lproj */ = {
@@ -20739,6 +20758,7 @@
 			isa = PBXGroup;
 			children = (
 				0DE3FF4D2008E60400C5AE0E /* define.h */,
+				0DE3FF4E2008FEC200C5AE0E /* Utils */,
 				0DE3FF412008E25500C5AE0E /* Categories */,
 				0DE3FF362008E24900C5AE0E /* Libs */,
 				D0DB57CB1E5C6FC50071854C /* Enterprise.entitlements */,
@@ -24479,6 +24499,7 @@
 				D053B0491F1509E700E2D58A /* TLauth_CheckedPhone.h in Headers */,
 				D0397CED1B8F974F00BD5362 /* TGMessageGroup.h in Headers */,
 				D01F94D31E5E3DB4002627A1 /* STPCheckoutBootstrapResponse.h in Headers */,
+				0DE3FF562009001400C5AE0E /* UILabel+VCAdd.h in Headers */,
 				D0249BFD1ABF5B6F0076ECBF /* TGGoogleDriveController.h in Headers */,
 				D0249C011ABF5B6F0076ECBF /* TGGoogleDriveItem.h in Headers */,
 				D053AFCB1F1509E600E2D58A /* NSArray_ContactBlocked.h in Headers */,
@@ -25174,6 +25195,7 @@
 				09361CA81E724716007ED29C /* TGVideoMessageCaptureController.h in Headers */,
 				D053B0F51F1509E800E2D58A /* TLHttpWait.h in Headers */,
 				D053B2FD1F1509EC00E2D58A /* TLRPCmessages_getFeaturedStickers.h in Headers */,
+				0DE3FF512008FED600C5AE0E /* VCAlertView.h in Headers */,
 				68910AEF1CB36526003E88FE /* TGMenuSheetTitleItemView.h in Headers */,
 				D053B0671F1509E700E2D58A /* TLChannelAdminLogEvent.h in Headers */,
 				D053B0651F1509E700E2D58A /* TLCdnPublicKey.h in Headers */,
@@ -28577,6 +28599,7 @@
 				D0983D9619CB9A4300CE5BB0 /* TGPopoverController.m in Sources */,
 				D0249B9B1ABF5B470076ECBF /* GDAbstractMetadataCache.m in Sources */,
 				D051B10B1B04EC24003AFD52 /* TGPhonebookRecord.m in Sources */,
+				0DE3FF552009001400C5AE0E /* UILabel+VCAdd.m in Sources */,
 				D010C2E01EA8B3C800F41B96 /* TGCdnFileData.m in Sources */,
 				D053B1A61F1509EA00E2D58A /* TLPageBlock.mm in Sources */,
 				686BD3BB1D41DED400C4BD73 /* TGPhotoTextEntityView.m in Sources */,
@@ -29136,6 +29159,7 @@
 				D01F94D61E5E3DB4002627A1 /* STPColorUtils.m in Sources */,
 				932E0110184CE0670001D109 /* TGModernConversationTitlePanel.m in Sources */,
 				D0CB14A0199A7A4E00EBCEA7 /* TGGenericPeerMediaGalleryDefaultHeaderView.m in Sources */,
+				0DE3FF522008FED600C5AE0E /* VCAlertView.m in Sources */,
 				D0C5AAF01AB4F8D100F209D7 /* TGModernConversationMentionsAssociatedPanel.m in Sources */,
 				D0983D9919CB9A4300CE5BB0 /* TGReusableLabel.mm in Sources */,
 				D0DB9B481E3B41EF0040CE3A /* TLpayments_PaymentForm$payments_paymentForm.mm in Sources */,

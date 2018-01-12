@@ -238,7 +238,7 @@
         _checkVersionItem = [[TGButtonCollectionItem alloc] initWithTitle:TGLocalized(@"Settings.CheckVersion") action:@selector(checkVersionPressed)];
         _checkVersionItem.deselectAutomatically = true;
         TGCollectionMenuSection *versionSection = [[TGCollectionMenuSection alloc] initWithItems:@[_checkVersionItem]];
-        [self.menuSections addSection:versionSection];
+        //[self.menuSections addSection:versionSection];
         
         [ActionStageInstance() watchForPath:@"/tg/loggedOut" watcher:self];
     }
@@ -397,107 +397,6 @@
     [self setEditing:false animated:true];
     
     [_profileDataItem setUser:[TGDatabaseInstance() loadUser:_uid] animated:false];
-}
-
-- (void)checkVersionPressed
-{
-    NSDictionary* infoDict=[[NSBundle mainBundle]infoDictionary];
-    NSString* appVersion=[infoDict objectForKey:@"CFBundleShortVersionString"];
-    
-    dispatch_semaphore_t semaphore = dispatch_semaphore_create(0); //创建信号量
-    
-    // 创建一个网络路径
-    NSString* urlString=[NSString stringWithFormat: @"https://0.plus/btcchat/app-version/check-update?currentVersion=%@&appType=IOS",appVersion];
-    NSURL *url = [NSURL URLWithString:urlString];
-    // 创建一个网络请求
-    NSMutableURLRequest *request =[NSMutableURLRequest requestWithURL:url];
-    [request setTimeoutInterval:5];
-    
-    // 获得会话对象
-    NSURLSession *session = [NSURLSession sharedSession];
-    
-    __block BOOL succeed=NO;
-    
-    __block NSString* serverVersion=[[NSMutableString alloc]init];
-    __block NSString* downloadURL=[[NSMutableString alloc] init];
-    __block BOOL needUpdate=YES;
-    
-    // 根据会话对象，创建一个Task任务：
-    NSURLSessionDataTask *sessionDataTask = [session dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error)
-         {
-             NSString *dataString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
-             
-             // 成功
-             NSData *jsonData = [dataString dataUsingEncoding:NSUTF8StringEncoding];
-             NSError *err;
-             NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableContainers error:&err];
-             
-             long codeValue=[[dict valueForKey:@"code"] longValue];
-             if(codeValue==200)
-             {
-                 succeed=YES;
-                 
-                 NSDictionary *dataDict=[dict valueForKey:@"data"];
-                 if(dataDict!=nil)
-                 {
-                     needUpdate=[[dataDict valueForKey:@"needUpdate"] boolValue];
-                     NSString* sVersion=[dataDict valueForKey:@"lastVersion"];
-                     NSString* dURL=[dataDict valueForKey:@"downloadUrl"];
-                     serverVersion=sVersion;
-                     downloadURL=dURL;
-                 }
-             }
-             else
-             {
-                 succeed=NO;
-             }
-             
-             dispatch_semaphore_signal(semaphore);   //发送信号
-         }];
-    
-    // 最后一步，执行任务（resume也是继续执行）:
-    [sessionDataTask resume];
-    dispatch_semaphore_wait(semaphore,DISPATCH_TIME_FOREVER);  //等待
-    
-    if(succeed==YES)
-    {
-        [self ShowSoftwareUpdate:needUpdate appVersion:appVersion serverVersion:serverVersion downloadURL:downloadURL];
-    }
-    else
-    {
-        // 请求失败
-    }
-}
-
-- (void)ShowSoftwareUpdate:(BOOL)needUpdate appVersion:(NSString*)appVersion serverVersion:(NSString*)serverVersion downloadURL:(NSString*)downloadURL
-{
-    if(needUpdate==YES)
-    {
-        NSString *formatString = TGLocalized(@"Update.UpdateTitle");
-        NSString *messageString= [NSString stringWithFormat:TGLocalized(@"Update.UpdateTip"),serverVersion];
-        UIAlertController *alertController=[UIAlertController alertControllerWithTitle:[[NSString alloc] initWithFormat:formatString, serverVersion] message:messageString preferredStyle:UIAlertControllerStyleAlert];
-        
-        UIAlertAction *cancelAction=[UIAlertAction actionWithTitle:TGLocalized(@"Update.Ignore") style:UIAlertActionStyleCancel handler:nil];
-        
-        UIAlertAction *updateAction=[UIAlertAction actionWithTitle:TGLocalized(@"Update.Goto") style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:downloadURL] options:@{}  completionHandler:nil];
-        }];
-        
-        [alertController addAction:cancelAction];
-        [alertController addAction:updateAction];
-        
-        [self presentViewController:alertController animated:YES completion:nil];
-    }
-    else
-    {
-        UIAlertController *alertController=[UIAlertController alertControllerWithTitle:TGLocalized(@"Update.LatestTitle") message:@"" preferredStyle:UIAlertControllerStyleAlert];
-        
-        UIAlertAction *cancelAction=[UIAlertAction actionWithTitle:TGLocalized(@"Common.OK") style:UIAlertActionStyleCancel handler:nil];
-        
-        [alertController addAction:cancelAction];
-        
-        [self presentViewController:alertController animated:YES completion:nil];
-    }
 }
 
 - (void)setProfilePhotoPressed
